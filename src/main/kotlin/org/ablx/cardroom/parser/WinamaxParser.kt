@@ -4,11 +4,15 @@ import org.ablx.cardroom.commons.data.Hand
 import org.ablx.cardroom.commons.data.Player
 import org.ablx.cardroom.commons.enumeration.Action
 import org.ablx.cardroom.commons.enumeration.Card
+import org.ablx.cardroom.commons.enumeration.Currency
 import org.ablx.cardroom.commons.enumeration.GameType
 
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.util.*
+import com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER
+import java.awt.SystemColor.info
+
 
 class WinamaxParser : Parser, CardroomParser() {
 
@@ -91,7 +95,7 @@ class WinamaxParser : Parser, CardroomParser() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseBuyIn(chaine: String): Double? {
+    override fun parseBuyIn(chaine: String): Double {
         var startPosition = chaine.indexOf(BUY_IN) + BUY_IN.length
         var endPosition = chaine.indexOf(LEVEL)
 
@@ -114,7 +118,7 @@ class WinamaxParser : Parser, CardroomParser() {
         return 0.0
     }
 
-    override fun parseCurrency(chaine: String): Currency {
+    override fun parseCurrency(chaine: String): org.ablx.cardroom.commons.enumeration.Currency {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
@@ -122,8 +126,30 @@ class WinamaxParser : Parser, CardroomParser() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseFee(chaine: String): Double? {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
+    override fun parseFee(chaine: String): Double {
+        val tab = chaine.split(" - ".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+        var startPosition = tab[1].indexOf(BUY_IN) + BUY_IN.length
+        var endPosition = tab[1].indexOf(LEVEL)
+
+        var fee = tab[1].substring(startPosition, endPosition)
+        // Cas 1: 0,90eee+ 0,10e
+        // Cas 2: Ticket only
+        if (fee.contains(PLUS)) {
+            startPosition = fee.indexOf(PLUS_ESPACE) + PLUS_ESPACE.length
+            if (fee.contains(money.symbol)) {
+                endPosition = fee.lastIndexOf(money.symbol)
+
+            } else {
+                endPosition = fee.length
+
+            }
+
+            fee = fee.substring(startPosition, endPosition)
+            fee = fee.replace(VIRGULE, POINT)
+            return java.lang.Double.parseDouble(fee)
+        }
+        return 0.0
     }
 
     override fun parseGameIdSite(chaine: String): String {
@@ -227,9 +253,6 @@ class WinamaxParser : Parser, CardroomParser() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun setDevise(devise: Currency) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
 
     override fun stringToECards(card: String): Card {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
