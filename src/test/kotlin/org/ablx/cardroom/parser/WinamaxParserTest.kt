@@ -1,14 +1,26 @@
 package org.ablx.cardroom.parser
 
+import org.ablx.cardroom.commons.data.Cardroom
+import org.ablx.cardroom.commons.data.Player
 import org.ablx.cardroom.commons.enumeration.Currency
+import org.ablx.cardroom.commons.enumeration.Domain
+import org.ablx.cardroom.commons.enumeration.Operator
 import org.junit.Test
 import kotlin.test.assertEquals
 
 class WinamaxParserTest {
+
+
+    private fun createParser(): Parser {
+        val cardroom = Cardroom(1, Operator.WINAMAX, Domain.FR, "")
+        val parser: Parser = WinamaxParser(cardroom)
+        parser.setCurrency(Currency.EURO)
+        return parser
+    }
+
     @Test
     fun testBuyInTicketOnly() {
-        val parser: Parser = WinamaxParser()
-        parser.setCurrency(Currency.EURO)
+        val parser: Parser = createParser()
 
         val buyIn: Double = parser.parseBuyIn("Winamax Poker - Tournament \"Super Freeroll Stade 2\" buyIn: Ticket only level: 0 - HandId: #236883548206792705-2-1377708866 - Holdem no limit (10/20) - 2013/08/28 16:54:26 UTC")
         assertEquals(0.0, buyIn)
@@ -17,10 +29,9 @@ class WinamaxParserTest {
         assertEquals(0.0, fee)
     }
 
-
     @Test
     fun testRealBuyIn() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         val result: Double = parser.parseBuyIn("Winamax Poker - Tournament \"Super Freeroll Stade 2\" buyIn: 0.45€ + 0.05€ level: 0 - HandId: #236883548206792705-2-1377708866 - Holdem no limit (10/20) - 2013/08/28 16:54:26 UTC")
         assertEquals(0.45, result)
@@ -32,7 +43,7 @@ class WinamaxParserTest {
 
     @Test
     fun testHandId() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: String = parser.parseHandId("Winamax Poker - Tournament \"Super Freeroll Stade 2\" buyIn: 0.45€ + 0.05€ level: 0 - HandId: #236883548206792705-2-1377708866 - Holdem no limit (10/20) - 2013/08/28 16:54:26 UTC")
         assertEquals("236883548206792705-2", result)
@@ -46,7 +57,7 @@ class WinamaxParserTest {
 
     @Test
     fun testLevel() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: Int = parser.parseLevel("Winamax Poker - Tournament \"Super Freeroll Stade 2\" buyIn: 0.45€ + 0.05€ level: 0 - HandId: #236883548206792705-2-1377708866 - Holdem no limit (10/20) - 2013/08/28 16:54:26 UTC")
         assertEquals(0, result)
@@ -57,7 +68,7 @@ class WinamaxParserTest {
 
     @Test
     fun testSmallBlind() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: Double? = parser.parseSmallBlind("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC")
         assertEquals(50.0, result)
@@ -68,7 +79,7 @@ class WinamaxParserTest {
 
     @Test
     fun testBigBlind() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: Double? = parser.parseBigBlind("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC")
         assertEquals(100.0, result)
@@ -80,7 +91,7 @@ class WinamaxParserTest {
 
     @Test
     fun testCurrency() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: Currency = parser.parseCurrency("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC")
         assertEquals(Currency.EURO, result)
@@ -92,7 +103,7 @@ class WinamaxParserTest {
 
     @Test
     fun testGameIdCardroom() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         val result: String = parser.parseGameIdCardroom("20170722_Qualif. Ticket 5€(201796103)_real_holdem_no-limit.txt")
         assertEquals("201796103", result)
@@ -100,7 +111,7 @@ class WinamaxParserTest {
 
     @Test
     fun testNumberOfPalyersByTable() {
-        val parser: Parser = WinamaxParser()
+        val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: Int = parser.parseNumberOfPlayerByTable("Table: 'Qualif. Ticket 5€(201796103)#005' 9-max (real money) Seat #9 is the button")
         assertEquals(9, result)
@@ -110,4 +121,72 @@ class WinamaxParserTest {
 
     }
 
+
+    @Test
+    fun testPlayerSeat() {
+        val parser: Parser = createParser()
+        parser.setCurrency(Currency.EURO)
+        var player: Player = parser.parsePlayerSeat("Seat 1: Fletan67 (0.89€)")
+
+        assertEquals("Fletan67", player.name)
+        assertEquals(true, player.on)
+        assertEquals(1, player.seat)
+        assertEquals(0.89, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 2: Mikrethor (2€)")
+
+        assertEquals("Mikrethor", player.name)
+        assertEquals(true, player.on)
+        assertEquals(2, player.seat)
+        assertEquals(2.00, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 3: fab3523 (1.99€)")
+
+        assertEquals("fab3523", player.name)
+        assertEquals(true, player.on)
+        assertEquals(3, player.seat)
+        assertEquals(1.99, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 4: frappedemule (2€)")
+
+        assertEquals("frappedemule", player.name)
+        assertEquals(true, player.on)
+        assertEquals(4, player.seat)
+        assertEquals(2.00, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 5: indoaffaire3 (1.05€)")
+
+        assertEquals("indoaffaire3", player.name)
+        assertEquals(true, player.on)
+        assertEquals(5, player.seat)
+        assertEquals(1.05, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 6: Warou (2€)")
+
+        assertEquals("Warou", player.name)
+        assertEquals(true, player.on)
+        assertEquals(6, player.seat)
+        assertEquals(2.00, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 7: SCUMPI (2€)")
+
+        assertEquals("SCUMPI", player.name)
+        assertEquals(true, player.on)
+        assertEquals(7, player.seat)
+        assertEquals(2.00, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 8: mamiejoelle (1.99€)")
+
+        assertEquals("mamiejoelle", player.name)
+        assertEquals(true, player.on)
+        assertEquals(8, player.seat)
+        assertEquals(1.99, player.stack)
+
+        player = parser.parsePlayerSeat("Seat 9: Bystyc (2.01€)")
+
+        assertEquals("Bystyc", player.name)
+        assertEquals(true, player.on)
+        assertEquals(9, player.seat)
+        assertEquals(2.01, player.stack)
+    }
 }
