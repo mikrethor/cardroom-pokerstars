@@ -7,10 +7,15 @@ import org.ablx.cardroom.commons.enumeration.*
 import org.ablx.cardroom.commons.enumeration.Currency
 import java.nio.file.Files
 import java.nio.file.Paths
+import java.text.DateFormat
+import java.text.ParseException
+import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.collections.HashMap
+import jdk.nashorn.tools.ShellFunctions.input
 
 
-class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() {
+class WinamaxParser(override val cardroom: Cardroom, override val filePath: String) : Parser, CardroomParser() {
 
     override var operator: Operator = Operator.WINAMAX
     protected val ANTE_BLIND = "*** ANTE/BLINDS ***"
@@ -35,8 +40,8 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
     protected val SMALL = "small"
     protected val BUY_IN = "buyIn: "
     protected val LEVEL = "level:"
-    protected val LEVEL_ESPACE = LEVEL + ESPACE
-    protected val PLUS_ESPACE = PLUS + ESPACE
+    protected val LEVEL_SPACE = LEVEL + SPACE
+    protected val PLUS_SPACE = PLUS + SPACE
     protected val IS_THE_BUTTON = "is the button"
     protected val HANDID_HASHTAG = "HandId: #"
     protected val MINUS_HANDID = " - HandId:"
@@ -76,7 +81,23 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
     }
 
     override fun parse(): Map<String, Hand> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val content = readHandFile()
+        var map = HashMap<String, Hand>()
+        var hand: Hand
+        content.reader().forEachLine {
+
+
+            //Check each step
+            if (it.startsWith(NEW_HAND)) {
+
+
+                hand = Hand(1)
+
+                hand.players = HashMap<Int, Player>()
+            }
+        }
+        return map
+
     }
 
     override fun parseAntesAndBlinds(nextLine: String, input: Scanner, phase: String, nextPhases: Array<String>, hand: Hand): String {
@@ -128,7 +149,7 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
         return 0.0
     }
 
-    override fun parseCurrency(chaine: String): org.ablx.cardroom.commons.enumeration.Currency {
+    override fun parseCurrency(line: String): org.ablx.cardroom.commons.enumeration.Currency {
         //The Winamax currency is only euro
         return Currency.EURO
     }
@@ -138,8 +159,8 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
     }
 
 
-    override fun parseFee(chaine: String): Double {
-        val tab = chaine.split(" - ".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+    override fun parseFee(line: String): Double {
+        val tab = line.split(" - ".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         var startPosition = tab[1].indexOf(BUY_IN) + BUY_IN.length
         var endPosition = tab[1].indexOf(LEVEL)
 
@@ -147,7 +168,7 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
         // Cas 1: 0,90eee+ 0,10e
         // Cas 2: Ticket only
         if (fee.contains(PLUS)) {
-            startPosition = fee.indexOf(PLUS_ESPACE) + PLUS_ESPACE.length
+            startPosition = fee.indexOf(PLUS_SPACE) + PLUS_SPACE.length
             if (fee.contains(money.symbol)) {
                 endPosition = fee.lastIndexOf(money.symbol)
 
@@ -155,7 +176,6 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
                 endPosition = fee.length
 
             }
-
             fee = fee.substring(startPosition, endPosition)
             fee = fee.replace(VIRGULE, POINT)
             return java.lang.Double.parseDouble(fee)
@@ -170,7 +190,19 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
     }
 
     override fun parseHandDate(line: String): Date {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val startPosition = line.lastIndexOf(DASH) + 2
+        val endPosition = line.lastIndexOf(SPACE)
+
+        try {
+            //TODO Externalize date handling
+            val sdf: DateFormat = SimpleDateFormat("yyyy/MM/dd HH:mm:ss")
+            val date: Date = sdf.parse(line.substring(startPosition, endPosition))
+            return date
+        } catch (e: ParseException) {
+
+            return Date()
+        }
+
     }
 
     override fun parseHandId(line: String): String {
@@ -181,12 +213,12 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
     }
 
     override fun parseLevel(line: String): Int {
-        val startPosition = line.indexOf(LEVEL_ESPACE) + LEVEL_ESPACE.length
+        val startPosition = line.indexOf(LEVEL_SPACE) + LEVEL_SPACE.length
         val endPosition = line.indexOf(MINUS_HANDID)
         return Integer.parseInt(line.substring(startPosition, endPosition))
     }
 
-    override fun parseNewHandLine(nextLine: String, input: Scanner, phase: String, nextPhases: Array<String>, hand: Hand): String {
+    override fun parseNewHandLine(line: String, phase: String, nextPhases: Array<String>, hand: Hand): String {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
@@ -197,11 +229,13 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
     }
 
     override fun parsePlayerAccount(line: String): String {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val startPosition: Int = DEALT_TO.length
+        val endPosition: Int = line.lastIndexOf(CROCHETOUVRANT) - 1
+        return line.substring(startPosition, endPosition)
     }
 
     override fun parsePlayerSeat(line: String): Player {
-        val space = line.indexOf(ESPACE)
+        val space = line.indexOf(SPACE)
         val deuxpoints = line.indexOf(DEUXPOINTS)
         val parenthesegauche = line.indexOf(PARENTHESEGAUCHE)
         val parenthesedroite = line.indexOf(PARENTHESEDROITE)
@@ -247,7 +281,10 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
     }
 
     override fun parseTableId(line: String): String {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val startPosition = line.indexOf(HASHTAG) + 1
+        val endPosition = line.lastIndexOf(APOSTROPHE)
+
+        return line.substring(startPosition, endPosition)
     }
 
     override fun parseTableLine(nextLine: String, input: Scanner, phase: String, nextPhases: Array<String>, hand: Hand): String {
@@ -274,7 +311,7 @@ class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() 
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun readHandFile(filePath: String): String {
+    override fun readHandFile(): String {
         val encoded: ByteArray = Files.readAllBytes(Paths.get(filePath))
         return String(encoded, Charsets.UTF_8)
     }
