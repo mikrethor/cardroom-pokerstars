@@ -10,9 +10,9 @@ import java.nio.file.Paths
 import java.util.*
 
 
-class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
+class WinamaxParser(override val cardroom: Cardroom) : Parser, CardroomParser() {
 
-    override var operator: Operator? = Operator.WINAMAX
+    override var operator: Operator = Operator.WINAMAX
     protected val ANTE_BLIND = "*** ANTE/BLINDS ***"
     protected val PRE_FLOP = "*** PRE-FLOP ***"
     protected val FLOP = "*** FLOP ***"
@@ -83,10 +83,10 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseBigBlind(chaine: String): Double? {
-        var startPosition = chaine.indexOf(PARENTHESEGAUCHE) + 1
-        var endPosition = chaine.indexOf(PARENTHESEDROITE)
-        val blinds = chaine.substring(startPosition, endPosition)
+    override fun parseBigBlind(line: String): Double? {
+        var startPosition = line.indexOf(PARENTHESEGAUCHE) + 1
+        var endPosition = line.indexOf(PARENTHESEDROITE)
+        val blinds = line.substring(startPosition, endPosition)
 
         if (blinds.indexOf(SLASH) != blinds.lastIndexOf(SLASH)) {
             startPosition = blinds.lastIndexOf(SLASH) + 1
@@ -99,15 +99,17 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         return blinds.substring(startPosition, endPosition).toDoubleOrNull()
     }
 
-    override fun parseButtonSeat(chaine: String): Int? {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun parseButtonSeat(line: String): Int? {
+        val startPosition = line.lastIndexOf(HASHTAG) + 1
+        val endPosition = line.indexOf(IS_THE_BUTTON) - 1
+        return Integer.parseInt(line.substring(startPosition, endPosition))
     }
 
-    override fun parseBuyIn(chaine: String): Double {
-        var startPosition = chaine.indexOf(BUY_IN) + BUY_IN.length
-        var endPosition = chaine.indexOf(LEVEL)
+    override fun parseBuyIn(line: String): Double {
+        var startPosition = line.indexOf(BUY_IN) + BUY_IN.length
+        var endPosition = line.indexOf(LEVEL)
 
-        var buyIn = chaine.substring(startPosition, endPosition)
+        var buyIn = line.substring(startPosition, endPosition)
 
         // Cas 1: 0,90eee+ 0,10e
         // Cas 2: Ticket only
@@ -161,53 +163,53 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         return 0.0
     }
 
-    override fun parseGameIdCardroom(chaine: String): String {
-        val startPosition = chaine.indexOf(PARENTHESEGAUCHE) + 1
-        val endPosition = chaine.indexOf(PARENTHESEDROITE, startPosition)
-        return chaine.substring(startPosition, endPosition)
+    override fun parseGameIdCardroom(line: String): String {
+        val startPosition = line.indexOf(PARENTHESEGAUCHE) + 1
+        val endPosition = line.indexOf(PARENTHESEDROITE, startPosition)
+        return line.substring(startPosition, endPosition)
     }
 
-    override fun parseHandDate(chaine: String): Date {
+    override fun parseHandDate(line: String): Date {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseHandId(chaine: String): String {
-        val startPosition = chaine.indexOf(HANDID_HASHTAG) + HANDID_HASHTAG.length
-        val endPosition = chaine.indexOf(DASH, chaine.indexOf(DASH,
-                chaine.indexOf(HANDID_HASHTAG) + HANDID_HASHTAG.length) + 1)
-        return chaine.substring(startPosition, endPosition)
+    override fun parseHandId(line: String): String {
+        val startPosition = line.indexOf(HANDID_HASHTAG) + HANDID_HASHTAG.length
+        val endPosition = line.indexOf(DASH, line.indexOf(DASH,
+                line.indexOf(HANDID_HASHTAG) + HANDID_HASHTAG.length) + 1)
+        return line.substring(startPosition, endPosition)
     }
 
-    override fun parseLevel(chaine: String): Int {
-        val startPosition = chaine.indexOf(LEVEL_ESPACE) + LEVEL_ESPACE.length
-        val endPosition = chaine.indexOf(MINUS_HANDID)
-        return Integer.parseInt(chaine.substring(startPosition, endPosition))
+    override fun parseLevel(line: String): Int {
+        val startPosition = line.indexOf(LEVEL_ESPACE) + LEVEL_ESPACE.length
+        val endPosition = line.indexOf(MINUS_HANDID)
+        return Integer.parseInt(line.substring(startPosition, endPosition))
     }
 
     override fun parseNewHandLine(nextLine: String, input: Scanner, phase: String, nextPhases: Array<String>, hand: Hand): String {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseNumberOfPlayerByTable(chaine: String): Int {
-        val startPosition = chaine.lastIndexOf(APOSTROPHE) + 2
-        val endPosition = chaine.lastIndexOf(MAX) - 1
-        return chaine.substring(startPosition, endPosition).toInt()
+    override fun parseNumberOfPlayerByTable(line: String): Int {
+        val startPosition = line.lastIndexOf(APOSTROPHE) + 2
+        val endPosition = line.lastIndexOf(MAX) - 1
+        return line.substring(startPosition, endPosition).toInt()
     }
 
-    override fun parsePlayerAccount(chaine: String): String {
+    override fun parsePlayerAccount(line: String): String {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parsePlayerSeat(chaine: String): Player {
-        val space = chaine.indexOf(ESPACE)
-        val deuxpoints = chaine.indexOf(DEUXPOINTS)
-        val parenthesegauche = chaine.indexOf(PARENTHESEGAUCHE)
-        val parenthesedroite = chaine.indexOf(PARENTHESEDROITE)
+    override fun parsePlayerSeat(line: String): Player {
+        val space = line.indexOf(ESPACE)
+        val deuxpoints = line.indexOf(DEUXPOINTS)
+        val parenthesegauche = line.indexOf(PARENTHESEGAUCHE)
+        val parenthesedroite = line.indexOf(PARENTHESEDROITE)
 
-        val seat = chaine.substring(space + 1, deuxpoints)
-        val playerName = chaine.substring(deuxpoints + 2,
+        val seat = line.substring(space + 1, deuxpoints)
+        val playerName = line.substring(deuxpoints + 2,
                 parenthesegauche - 1)
-        var stack = chaine.substring(parenthesegauche + 1, parenthesedroite)
+        var stack = line.substring(parenthesegauche + 1, parenthesedroite)
         stack = stack.replace(money.symbol, VIDE)
         val player = Player(null, playerName, cardroom)
 
@@ -218,7 +220,7 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         return player
     }
 
-    override fun parseRake(chaine: String): Double? {
+    override fun parseRake(line: String): Double? {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
@@ -226,10 +228,10 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseSmallBlind(chaine: String): Double? {
-        var startPosition = chaine.indexOf(PARENTHESEGAUCHE) + 1
-        var endPosition = chaine.indexOf(PARENTHESEDROITE)
-        val blinds = chaine.substring(startPosition, endPosition)
+    override fun parseSmallBlind(line: String): Double? {
+        var startPosition = line.indexOf(PARENTHESEGAUCHE) + 1
+        var endPosition = line.indexOf(PARENTHESEDROITE)
+        val blinds = line.substring(startPosition, endPosition)
 
         if (blinds.indexOf(SLASH) != blinds.lastIndexOf(SLASH)) {
             startPosition = blinds.indexOf(SLASH) + 1
@@ -244,7 +246,7 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
 
     }
 
-    override fun parseTableId(chaine: String): String {
+    override fun parseTableId(line: String): String {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
@@ -252,7 +254,7 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseTotalPot(chaine: String): Double? {
+    override fun parseTotalPot(line: String): Double? {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
@@ -264,7 +266,7 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun readCards(chaine: String): Array<Card> {
+    override fun readCards(line: String): Array<Card> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
@@ -277,7 +279,7 @@ class WinamaxParser(val cardroom: Cardroom) : Parser, CardroomParser(cardroom) {
         return String(encoded, Charsets.UTF_8)
     }
 
-    override fun readPlayer(chaine: String, players: Map<String, Player>): Action {
+    override fun readPlayer(line: String, players: Map<String, Player>): Action {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 

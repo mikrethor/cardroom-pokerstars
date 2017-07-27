@@ -189,4 +189,14 @@ class WinamaxParserTest {
         assertEquals(9, player.seat)
         assertEquals(2.01, player.stack)
     }
+
+
+    @Test
+    fun testButtonSeat() {
+        val parser: Parser = createParser()
+
+        assertEquals(3, parser.parseButtonSeat("Table: 'Tokyo 02' 9-max (real money) Seat #3 is the button"))
+
+        assertEquals(5, parser.parseButtonSeat("Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #5 is the button"))
+    }
 }
