@@ -80,10 +80,11 @@ class WinamaxParser(override val cardroom: Cardroom, override val filePath: Stri
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parse(): Map<String, Hand> {
+    override fun parse(): MutableMap<String, Hand>? {
         val content = readHandFile()
-        var map = HashMap<String, Hand>()
+        var map: MutableMap<String, Hand>?= HashMap()
         var hand: Hand
+
         content.reader().forEachLine {
 
 
@@ -91,9 +92,18 @@ class WinamaxParser(override val cardroom: Cardroom, override val filePath: Stri
             if (it.startsWith(NEW_HAND)) {
 
 
-                hand = Hand(1)
+                hand = Hand(parseHandId(it))
 
                 hand.players = HashMap<Int, Player>()
+
+                hand.bigBlind = parseBigBlind(it)
+                hand.smallBlind = parseSmallBlind(it)
+                hand.handDate = parseHandDate(it)
+                hand.currency = parseCurrency(it)
+                hand.level = parseLevel(it)
+                hand.fee = parseFee(it)
+                hand.buyIn = parseBuyIn(it)
+                System.out.println("Hand : " + hand)
             }
         }
         return map
@@ -104,7 +114,7 @@ class WinamaxParser(override val cardroom: Cardroom, override val filePath: Stri
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseBigBlind(line: String): Double? {
+    override fun parseBigBlind(line: String): Double {
         var startPosition = line.indexOf(PARENTHESEGAUCHE) + 1
         var endPosition = line.indexOf(PARENTHESEDROITE)
         val blinds = line.substring(startPosition, endPosition)
@@ -117,7 +127,7 @@ class WinamaxParser(override val cardroom: Cardroom, override val filePath: Stri
             endPosition = blinds.length
         }
 
-        return blinds.substring(startPosition, endPosition).toDoubleOrNull()
+        return blinds.substring(startPosition, endPosition).toDouble()
     }
 
     override fun parseButtonSeat(line: String): Int? {
@@ -262,7 +272,7 @@ class WinamaxParser(override val cardroom: Cardroom, override val filePath: Stri
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun parseSmallBlind(line: String): Double? {
+    override fun parseSmallBlind(line: String): Double {
         var startPosition = line.indexOf(PARENTHESEGAUCHE) + 1
         var endPosition = line.indexOf(PARENTHESEDROITE)
         val blinds = line.substring(startPosition, endPosition)
@@ -276,7 +286,7 @@ class WinamaxParser(override val cardroom: Cardroom, override val filePath: Stri
         }
 
 
-        return blinds.substring(startPosition, endPosition).toDoubleOrNull()
+        return blinds.substring(startPosition, endPosition).toDouble()
 
     }
 

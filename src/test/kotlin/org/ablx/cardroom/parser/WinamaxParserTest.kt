@@ -6,14 +6,21 @@ import org.ablx.cardroom.commons.enumeration.Currency
 import org.ablx.cardroom.commons.enumeration.Domain
 import org.ablx.cardroom.commons.enumeration.Operator
 import org.junit.Test
+import java.io.File
+import java.util.*
 import kotlin.test.assertEquals
+
 
 class WinamaxParserTest {
 
 
     private fun createParser(): Parser {
         val cardroom = Cardroom(1, Operator.WINAMAX, Domain.FR, "")
-        val parser: Parser = WinamaxParser(cardroom)
+
+        val classLoader = javaClass.classLoader
+        val file = File(classLoader.getResource("HandTournamentTestFile.txt")!!.file)
+
+        val parser: Parser = WinamaxParser(cardroom, file.absolutePath)
         parser.setCurrency(Currency.EURO)
         return parser
     }
@@ -70,7 +77,7 @@ class WinamaxParserTest {
     fun testSmallBlind() {
         val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
-        var result: Double? = parser.parseSmallBlind("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC")
+        var result: Double = parser.parseSmallBlind("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC")
         assertEquals(50.0, result)
 
         result = parser.parseSmallBlind("Winamax Poker - Tournament \"Qualif . Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 9 - HandId: #866707662845247494-4-1500772425 - Holdem no limit (25/100/200) - 2017/07/23 01:13:45 UTC")
@@ -81,7 +88,7 @@ class WinamaxParserTest {
     fun testBigBlind() {
         val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
-        var result: Double? = parser.parseBigBlind("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC")
+        var result: Double = parser.parseBigBlind("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC")
         assertEquals(100.0, result)
 
         result = parser.parseBigBlind("Winamax Poker - Tournament \"Qualif . Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 9 - HandId: #866707662845247494-4-1500772425 - Holdem no limit (25/100/200) - 2017/07/23 01:13:45 UTC")
@@ -199,4 +206,32 @@ class WinamaxParserTest {
 
         assertEquals(5, parser.parseButtonSeat("Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #5 is the button"))
     }
+
+
+    @Test
+    fun testHandDate() {
+        val parser: Parser = createParser()
+        val calendar = GregorianCalendar(2017, 6, 23, 0, 54, 3)
+        assertEquals(calendar.time, parser.parseHandDate("Winamax Poker - Tournament \"Qualif. Ticket 5€\" buyIn: 0.45€ + 0.05€ level: 6 - HandId: #866707662845247492-25-1500771243 - Holdem no limit (12/50/100) - 2017/07/23 00:54:03 UTC"))
+    }
+
+    @Test
+    fun testPlayerAccount() {
+        val parser: Parser = createParser()
+        //TODO parse a player with card
+        assertEquals("Mikrethor", parser.parsePlayerAccount("Dealt to Mikrethor [Kc 3s]"))
+    }
+
+    @Test
+    fun testTableId() {
+        val parser: Parser = createParser()
+        assertEquals("0", parser.parseTableId("Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #5 is the button"))
+    }
+
+    @Test
+    fun testParse() {
+        val parser: Parser = createParser()
+        parser.parse()
+    }
+
 }
