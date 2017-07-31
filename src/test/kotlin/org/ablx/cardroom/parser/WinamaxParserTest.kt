@@ -2,6 +2,7 @@ package org.ablx.cardroom.parser
 
 import org.ablx.cardroom.commons.data.Cardroom
 import org.ablx.cardroom.commons.data.Player
+import org.ablx.cardroom.commons.enumeration.Action
 import org.ablx.cardroom.commons.enumeration.Currency
 import org.ablx.cardroom.commons.enumeration.Domain
 import org.ablx.cardroom.commons.enumeration.Operator
@@ -9,6 +10,8 @@ import org.junit.Test
 import java.io.File
 import java.util.*
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
 
 class WinamaxParserTest {
@@ -232,6 +235,24 @@ class WinamaxParserTest {
     fun testParse() {
         val parser: Parser = createParser()
         parser.parse()
+    }
+
+    @Test
+    fun testIsAction() {
+        val cardroom = Cardroom(1, Operator.WINAMAX, Domain.FR, "")
+        val parser= WinamaxParser(cardroom,"")
+        assertTrue(parser.isAction("calls"))
+        assertTrue(parser.isAction("folds"))
+        assertTrue(parser.isAction("raises"))
+        assertTrue(parser.isAction("checks"))
+        assertTrue(parser.isAction("collected"))
+        assertTrue(parser.isAction("bets"))
+        assertTrue(parser.isAction("shows"))
+
+        assertFalse(parser.isAction("false"))
+
+
+
     }
 
 }
