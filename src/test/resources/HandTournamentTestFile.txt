@@ -1,404 +1,3486 @@
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 0 - HandId: #236883548206792705-1-1377708812 - Holdem no limit (10/20) - 2013/08/28 16:53:32 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #6 is the button
-Seat 1: Mikrethor (1500)
-Seat 2: Boubinho25 (1500)
-Seat 3: jibecmoa84 (1500)
-Seat 4: SMOUZE (1500)
-Seat 5: phillippo (1500)
-Seat 6: pachou83 (1500)
-*** ANTE/BLINDS ***
-Mikrethor posts small blind 10
-Boubinho25 posts big blind 20
-Dealt to Mikrethor [Td 5d]
-*** PRE-FLOP *** 
-jibecmoa84 calls 20
-SMOUZE folds
-phillippo raises 40 to 60
-pachou83 folds
-Mikrethor folds
-Boubinho25 calls 40
-jibecmoa84 calls 40
-*** FLOP *** [9s 4d Tc]
-Boubinho25 checks
-jibecmoa84 checks
-phillippo bets 190
-Boubinho25 calls 190
-jibecmoa84 folds
-*** TURN *** [9s 4d Tc][2d]
-Boubinho25 checks
-phillippo bets 570
-Boubinho25 folds
-phillippo collected 1140 from pot
+PokerStars Hand #103356159434: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:01:28 CET [2013/08/28 16:01:28 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1500 in chips)
+Seat 2: Sirius369 (1500 in chips)
+Seat 3: acrisdu11 (1500 in chips)
+Seat 4: polo21544 (1500 in chips)
+Seat 5: backsidair (1500 in chips)
+Seat 6: nivekash (1500 in chips)
+Seat 7: mikrethor (1500 in chips)
+Seat 8: bakoly (1500 in chips)
+Seat 9: misterwill8 (1500 in chips) is sitting out
+Sirius369: posts small blind 10
+acrisdu11: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [7s 5s]
+polo21544: folds
+backsidair: folds
+misterwill8 has returned
+nivekash has timed out
+nivekash: folds
+nivekash is sitting out
+mikrethor: folds
+nivekash has returned
+bakoly: folds
+misterwill8: calls 20
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: checks
+*** FLOP *** [8c 8d Qd]
+acrisdu11: checks
+misterwill8: bets 40
+acrisdu11: folds
+Uncalled bet (40) returned to misterwill8
+misterwill8 collected 50 from pot
 *** SUMMARY ***
-Total pot 1140 | No rake
-Board: [9s 4d Tc 2d]
-Seat 5: phillippo won 1140
+Total pot 50 | Rake 0
+Board [8c 8d Qd]
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 2: Sirius369 (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) folded on the Flop
+Seat 4: polo21544 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly folded before Flop (didn't bet)
+Seat 9: misterwill8 collected (50)
 
 
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 0 - HandId: #236883548206792705-2-1377708866 - Holdem no limit (10/20) - 2013/08/28 16:54:26 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #1 is the button
-Seat 1: Mikrethor (1490)
-Seat 2: Boubinho25 (1250)
-Seat 3: jibecmoa84 (1440)
-Seat 4: SMOUZE (1500)
-Seat 5: phillippo (1820)
-Seat 6: pachou83 (1500)
-*** ANTE/BLINDS ***
-Boubinho25 posts small blind 10
-jibecmoa84 posts big blind 20
-Dealt to Mikrethor [9d Ah]
-*** PRE-FLOP *** 
-SMOUZE folds
-phillippo raises 60 to 80
-pachou83 calls 80
-Mikrethor folds
-Boubinho25 folds
-jibecmoa84 calls 60
-*** FLOP *** [Ac 2d Qh]
-jibecmoa84 checks
-phillippo checks
-pachou83 checks
-*** TURN *** [Ac 2d Qh][Jc]
-jibecmoa84 checks
-phillippo checks
-pachou83 checks
-*** RIVER *** [Ac 2d Qh Jc][Qs]
-jibecmoa84 bets 125
-phillippo folds
-pachou83 folds
-jibecmoa84 collected 375 from pot
-*** SUMMARY ***
-Total pot 375 | No rake
-Board: [Ac 2d Qh Jc Qs]
-Seat 3: jibecmoa84 (big blind) won 375
 
-
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 0 - HandId: #236883548206792705-3-1377708978 - Holdem no limit (10/20) - 2013/08/28 16:56:18 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #2 is the button
-Seat 1: Mikrethor (1490)
-Seat 2: Boubinho25 (1240)
-Seat 3: jibecmoa84 (1610)
-Seat 4: SMOUZE (1500)
-Seat 5: phillippo (1740)
-Seat 6: pachou83 (1420)
-*** ANTE/BLINDS ***
-jibecmoa84 posts small blind 10
-SMOUZE posts big blind 20
-Dealt to Mikrethor [5s 7c]
-*** PRE-FLOP *** 
-phillippo folds
-pachou83 raises 80 to 100
-Mikrethor folds
-Boubinho25 folds
-jibecmoa84 folds
-SMOUZE calls 80
-*** FLOP *** [As 2s 5h]
-SMOUZE checks
-pachou83 bets 210
-SMOUZE calls 210
-*** TURN *** [As 2s 5h][Jc]
-SMOUZE checks
-pachou83 bets 472
-SMOUZE folds
-pachou83 collected 1102 from pot
-*** SUMMARY ***
-Total pot 1102 | No rake
-Board: [As 2s 5h Jc]
-Seat 6: pachou83 won 1102
-
-
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 1 - HandId: #236883548206792705-4-1377709040 - Holdem no limit (15/30) - 2013/08/28 16:57:20 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #3 is the button
-Seat 1: Mikrethor (1490)
-Seat 2: Boubinho25 (1240)
-Seat 3: jibecmoa84 (1600)
-Seat 4: SMOUZE (1190)
-Seat 5: phillippo (1740)
-Seat 6: pachou83 (1740)
-*** ANTE/BLINDS ***
-SMOUZE posts small blind 15
-phillippo posts big blind 30
-Dealt to Mikrethor [Ks 2s]
-*** PRE-FLOP *** 
-pachou83 calls 30
-Mikrethor raises 60 to 90
-Boubinho25 calls 90
-jibecmoa84 calls 90
-SMOUZE raises 270 to 360
-phillippo folds
-pachou83 folds
-Mikrethor folds
-Boubinho25 folds
-jibecmoa84 raises 1240 to 1600 and is all-in
-SMOUZE calls 830 and is all-in
-*** FLOP *** [9s 8s Ts]
-*** TURN *** [9s 8s Ts][7h]
-*** RIVER *** [9s 8s Ts 7h][Ad]
+PokerStars Hand #103356237090: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:02:59 CET [2013/08/28 16:02:59 ET]
+Table '780452500 1' 9-max Seat #2 is the button
+Seat 1: dragoonnhead (1500 in chips)
+Seat 2: Sirius369 (1490 in chips)
+Seat 3: acrisdu11 (1480 in chips)
+Seat 4: polo21544 (1500 in chips)
+Seat 5: backsidair (1500 in chips)
+Seat 6: nivekash (1500 in chips)
+Seat 7: mikrethor (1500 in chips)
+Seat 8: bakoly (1500 in chips)
+Seat 9: misterwill8 (1530 in chips)
+acrisdu11: posts small blind 10
+polo21544: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [Th 6h]
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+bakoly: calls 20
+misterwill8: raises 60 to 80
+dragoonnhead: folds
+Sirius369: calls 80
+acrisdu11: folds
+polo21544: raises 100 to 180
+bakoly: folds
+misterwill8: calls 100
+Sirius369: folds
+*** FLOP *** [8s 9s Jh]
+polo21544: bets 1320 and is all-in
+misterwill8: calls 1320
+*** TURN *** [8s 9s Jh] [Ac]
+*** RIVER *** [8s 9s Jh Ac] [8d]
 *** SHOW DOWN ***
-SMOUZE shows [Ah Kh] (One pair : Aces)
-jibecmoa84 shows [Jc As] (Straight Jack high)
-jibecmoa84 collected 3030 from pot
+polo21544: shows [Qh Qs] (two pair, Queens and Eights)
+misterwill8: shows [Ah Jd] (two pair, Aces and Jacks)
+misterwill8 collected 3110 from pot
+polo21544 finished the tournament in 9th place
 *** SUMMARY ***
-Total pot 3030 | No rake
-Board: [9s 8s Ts 7h Ad]
-Seat 3: jibecmoa84 (button) showed [Jc As] and won 3030 with Straight Jack high
-Seat 4: SMOUZE (small blind) showed [Ah Kh] and lost with One pair : Aces
+Total pot 3110 | Rake 0
+Board [8s 9s Jh Ac 8d]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 (button) folded before Flop
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 4: polo21544 (big blind) showed [Qh Qs] and lost with two pair, Queens and Eights
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly folded before Flop
+Seat 9: misterwill8 showed [Ah Jd] and won (3110) with two pair, Aces and Jacks
 
 
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 1 - HandId: #236883548206792705-5-1377709102 - Holdem no limit (15/30) - 2013/08/28 16:58:22 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #4 is the button
-Seat 1: Mikrethor (1400)
-Seat 2: Boubinho25 (1150)
-Seat 3: jibecmoa84 (3030)
-Seat 5: phillippo (1710)
-Seat 6: pachou83 (1710)
-*** ANTE/BLINDS ***
-phillippo posts small blind 15
-pachou83 posts big blind 30
-Dealt to Mikrethor [5d 7c]
-*** PRE-FLOP *** 
-Mikrethor folds
-Boubinho25 folds
-jibecmoa84 calls 30
-phillippo calls 15
-pachou83 checks
-*** FLOP *** [5c 4s 6c]
-phillippo checks
-pachou83 checks
-jibecmoa84 checks
-*** TURN *** [5c 4s 6c][7d]
-phillippo checks
-pachou83 checks
-jibecmoa84 checks
-*** RIVER *** [5c 4s 6c 7d][Ac]
-phillippo checks
-pachou83 checks
-jibecmoa84 bets 30
-phillippo calls 30
-pachou83 folds
+
+PokerStars Hand #103356303426: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:04:13 CET [2013/08/28 16:04:13 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1500 in chips)
+Seat 2: Sirius369 (1410 in chips)
+Seat 3: acrisdu11 (1470 in chips)
+Seat 5: backsidair (1500 in chips)
+Seat 6: nivekash (1500 in chips)
+Seat 7: mikrethor (1500 in chips)
+Seat 8: bakoly (1480 in chips)
+Seat 9: misterwill8 (3140 in chips)
+backsidair: posts small blind 10
+nivekash: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [2c 4h]
+mikrethor: folds
+bakoly: folds
+misterwill8: calls 20
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: calls 20
+backsidair: calls 10
+nivekash: checks
+*** FLOP *** [5d 4d Jh]
+backsidair: bets 80
+nivekash: folds
+misterwill8: calls 80
+acrisdu11: folds
+*** TURN *** [5d 4d Jh] [8c]
+backsidair: bets 180
+misterwill8: folds
+Uncalled bet (180) returned to backsidair
+backsidair collected 240 from pot
+backsidair: doesn't show hand
+*** SUMMARY ***
+Total pot 240 | Rake 0
+Board [5d 4d Jh 8c]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded on the Flop
+Seat 5: backsidair (small blind) collected (240)
+Seat 6: nivekash (big blind) folded on the Flop
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly folded before Flop (didn't bet)
+Seat 9: misterwill8 folded on the Turn
+
+
+
+PokerStars Hand #103356372281: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:05:29 CET [2013/08/28 16:05:29 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1500 in chips)
+Seat 2: Sirius369 (1410 in chips)
+Seat 3: acrisdu11 (1450 in chips)
+Seat 5: backsidair (1640 in chips)
+Seat 6: nivekash (1480 in chips)
+Seat 7: mikrethor (1500 in chips)
+Seat 8: bakoly (1480 in chips)
+Seat 9: misterwill8 (3040 in chips)
+nivekash: posts small blind 10
+mikrethor: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [Td 5c]
+bakoly: folds
+misterwill8: folds
+dragoonnhead: raises 60 to 80
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: calls 70
+mikrethor: folds
+*** FLOP *** [4d Jd Qs]
+nivekash: bets 60
+dragoonnhead: raises 220 to 280
+nivekash: calls 220
+*** TURN *** [4d Jd Qs] [2s]
+nivekash: checks
+dragoonnhead: bets 240
+nivekash: folds
+Uncalled bet (240) returned to dragoonnhead
+dragoonnhead collected 740 from pot
+*** SUMMARY ***
+Total pot 740 | Rake 0
+Board [4d Jd Qs 2s]
+Seat 1: dragoonnhead collected (740)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) folded on the Turn
+Seat 7: mikrethor (big blind) folded before Flop
+Seat 8: bakoly folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103356446533: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:06:50 CET [2013/08/28 16:06:50 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1880 in chips)
+Seat 2: Sirius369 (1410 in chips)
+Seat 3: acrisdu11 (1450 in chips)
+Seat 5: backsidair (1640 in chips)
+Seat 6: nivekash (1120 in chips)
+Seat 7: mikrethor (1480 in chips)
+Seat 8: bakoly (1480 in chips)
+Seat 9: misterwill8 (3040 in chips)
+mikrethor: posts small blind 10
+bakoly: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [Js Jh]
+misterwill8: calls 20
+dragoonnhead: folds
+Sirius369: raises 40 to 60
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: calls 50
+bakoly: folds
+misterwill8: calls 40
+*** FLOP *** [Th 4c 3d]
+mikrethor: bets 200
+misterwill8: calls 200
+Sirius369: folds
+*** TURN *** [Th 4c 3d] [4h]
+mikrethor: bets 440
+misterwill8: folds
+Uncalled bet (440) returned to mikrethor
+mikrethor collected 600 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 600 | Rake 0
+Board [Th 4c 3d 4h]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded on the Flop
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) collected (600)
+Seat 8: bakoly (big blind) folded before Flop
+Seat 9: misterwill8 folded on the Turn
+
+
+
+PokerStars Hand #103356493800: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:07:42 CET [2013/08/28 16:07:42 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1880 in chips)
+Seat 2: Sirius369 (1350 in chips)
+Seat 3: acrisdu11 (1450 in chips)
+Seat 5: backsidair (1640 in chips)
+Seat 6: nivekash (1120 in chips)
+Seat 7: mikrethor (1820 in chips)
+Seat 8: bakoly (1460 in chips)
+Seat 9: misterwill8 (2780 in chips)
+bakoly: posts small blind 10
+misterwill8: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [7s 9c]
+dragoonnhead: folds
+Sirius369: calls 20
+acrisdu11: folds
+backsidair: folds
+nivekash: calls 20
+mikrethor: folds
+bakoly: folds
+misterwill8: checks
+*** FLOP *** [3c Ah Kh]
+misterwill8: checks
+Sirius369: checks
+nivekash: checks
+*** TURN *** [3c Ah Kh] [Qs]
+misterwill8: checks
+Sirius369: checks
+nivekash: checks
+*** RIVER *** [3c Ah Kh Qs] [3d]
+misterwill8: checks
+Sirius369: bets 40
+nivekash: calls 40
+misterwill8: folds
 *** SHOW DOWN ***
-phillippo shows [Jc 7s] (One pair : 7)
-jibecmoa84 shows [3s 3c] (Straight 7 high)
-jibecmoa84 collected 150 from pot
+Sirius369: shows [Qh Js] (two pair, Queens and Threes)
+nivekash: shows [Kd 5s] (two pair, Kings and Threes)
+nivekash collected 150 from pot
 *** SUMMARY ***
-Total pot 150 | No rake
-Board: [5c 4s 6c 7d Ac]
-Seat 3: jibecmoa84 showed [3s 3c] and won 150 with Straight 7 high
-Seat 5: phillippo (small blind) showed [Jc 7s] and lost with One pair : 7
+Total pot 150 | Rake 0
+Board [3c Ah Kh Qs 3d]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 showed [Qh Js] and lost with two pair, Queens and Threes
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash showed [Kd 5s] and won (150) with two pair, Kings and Threes
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 8: bakoly (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) folded on the River
 
 
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 1 - HandId: #236883548206792705-6-1377709149 - Holdem no limit (15/30) - 2013/08/28 16:59:09 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #5 is the button
-Seat 1: Mikrethor (1400)
-Seat 2: Boubinho25 (1150)
-Seat 3: jibecmoa84 (3120)
-Seat 5: phillippo (1650)
-Seat 6: pachou83 (1680)
-*** ANTE/BLINDS ***
-pachou83 posts small blind 15
-Mikrethor posts big blind 30
-Dealt to Mikrethor [Ks Qh]
-*** PRE-FLOP *** 
-Boubinho25 folds
-jibecmoa84 folds
-phillippo calls 30
-pachou83 calls 15
-Mikrethor raises 60 to 90
-phillippo calls 60
-pachou83 folds
-*** FLOP *** [5d Th 4d]
-Mikrethor bets 140
-phillippo folds
-Mikrethor collected 350 from pot
+
+PokerStars Hand #103356544161: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:08:37 CET [2013/08/28 16:08:37 ET]
+Table '780452500 1' 9-max Seat #8 is the button
+Seat 1: dragoonnhead (1880 in chips)
+Seat 2: Sirius369 (1290 in chips)
+Seat 3: acrisdu11 (1450 in chips)
+Seat 5: backsidair (1640 in chips)
+Seat 6: nivekash (1210 in chips)
+Seat 7: mikrethor (1820 in chips)
+Seat 8: bakoly (1450 in chips)
+Seat 9: misterwill8 (2760 in chips)
+misterwill8: posts small blind 10
+dragoonnhead: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [9d Kd]
+Sirius369 has timed out
+Sirius369: folds
+Sirius369 is sitting out
+acrisdu11: folds
+backsidair: folds
+nivekash: calls 20
+mikrethor: folds
+bakoly: folds
+misterwill8: calls 10
+nivekash said, "zzzzzzzzzzzzzzzzzzz"
+dragoonnhead: checks
+*** FLOP *** [Td Qc 3s]
+misterwill8: checks
+dragoonnhead: checks
+nivekash: checks
+*** TURN *** [Td Qc 3s] [8d]
+misterwill8: checks
+Sirius369 has returned
+dragoonnhead: bets 40
+nivekash: folds
+misterwill8: folds
+Uncalled bet (40) returned to dragoonnhead
+dragoonnhead collected 60 from pot
 *** SUMMARY ***
-Total pot 350 | No rake
-Board: [5d Th 4d]
-Seat 1: Mikrethor (big blind) won 350
+Total pot 60 | Rake 0
+Board [Td Qc 3s 8d]
+Seat 1: dragoonnhead (big blind) collected (60)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded on the Turn
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded on the Turn
 
 
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 2 - HandId: #236883548206792705-7-1377709180 - Holdem no limit (20/40) - 2013/08/28 16:59:40 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #6 is the button
-Seat 1: Mikrethor (1520)
-Seat 2: Boubinho25 (1150)
-Seat 3: jibecmoa84 (3120)
-Seat 5: phillippo (1560)
-Seat 6: pachou83 (1650)
-*** ANTE/BLINDS ***
-Mikrethor posts small blind 20
-Boubinho25 posts big blind 40
-Dealt to Mikrethor [9d Ts]
-*** PRE-FLOP *** 
-jibecmoa84 folds
-phillippo folds
-pachou83 folds
-Mikrethor raises 40 to 80
-Boubinho25 raises 160 to 240
-Mikrethor calls 160
-*** FLOP *** [7c 3h Qs]
-Mikrethor bets 240
-Boubinho25 raises 670 to 910 and is all-in
-Mikrethor folds
-Boubinho25 collected 1630 from pot
+
+PokerStars Hand #103356622293: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:10:05 CET [2013/08/28 16:10:05 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1920 in chips)
+Seat 2: Sirius369 (1290 in chips)
+Seat 3: acrisdu11 (1450 in chips)
+Seat 5: backsidair (1640 in chips)
+Seat 6: nivekash (1190 in chips)
+Seat 7: mikrethor (1820 in chips)
+Seat 8: bakoly (1450 in chips)
+Seat 9: misterwill8 (2740 in chips)
+dragoonnhead: posts small blind 10
+Sirius369: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [8d 5h]
+acrisdu11: folds
+backsidair: calls 20
+nivekash: folds
+mikrethor: folds
+bakoly: raises 40 to 60
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: calls 40
+backsidair: folds
+*** FLOP *** [Qh 8h 2c]
+Sirius369: checks
+bakoly: bets 60
+Sirius369: folds
+Uncalled bet (60) returned to bakoly
+bakoly collected 150 from pot
 *** SUMMARY ***
-Total pot 1630 | No rake
-Board: [7c 3h Qs]
-Seat 2: Boubinho25 (big blind) won 1630
+Total pot 150 | Rake 0
+Board [Qh 8h 2c]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 2: Sirius369 (big blind) folded on the Flop
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly collected (150)
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
 
 
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 2 - HandId: #236883548206792705-8-1377709229 - Holdem no limit (20/40) - 2013/08/28 17:00:29 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #1 is the button
-Seat 1: Mikrethor (1040)
-Seat 2: Boubinho25 (1630)
-Seat 3: jibecmoa84 (3120)
-Seat 5: phillippo (1560)
-Seat 6: pachou83 (1650)
-*** ANTE/BLINDS ***
-Boubinho25 posts small blind 20
-jibecmoa84 posts big blind 40
-Dealt to Mikrethor [9h 5d]
-*** PRE-FLOP *** 
-phillippo calls 40
-pachou83 calls 40
-Mikrethor folds
-Boubinho25 calls 20
-jibecmoa84 checks
-*** FLOP *** [Jd Qd 6h]
-Boubinho25 checks
-jibecmoa84 checks
-phillippo checks
-pachou83 checks
-*** TURN *** [Jd Qd 6h][4c]
-Boubinho25 checks
-jibecmoa84 checks
-phillippo checks
-pachou83 checks
-*** RIVER *** [Jd Qd 6h 4c][4h]
-Boubinho25 checks
-jibecmoa84 checks
-phillippo checks
-pachou83 bets 120
-Boubinho25 folds
-jibecmoa84 folds
-phillippo folds
-pachou83 collected 280 from pot
-*** SUMMARY ***
-Total pot 280 | No rake
-Board: [Jd Qd 6h 4c 4h]
-Seat 6: pachou83 won 280
 
-
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 2 - HandId: #236883548206792705-9-1377709321 - Holdem no limit (20/40) - 2013/08/28 17:02:01 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #2 is the button
-Seat 1: Mikrethor (1040)
-Seat 2: Boubinho25 (1590)
-Seat 3: jibecmoa84 (3080)
-Seat 5: phillippo (1520)
-Seat 6: pachou83 (1770)
-*** ANTE/BLINDS ***
-jibecmoa84 posts small blind 20
-phillippo posts big blind 40
-Dealt to Mikrethor [5h 9c]
-*** PRE-FLOP *** 
-pachou83 calls 40
-Mikrethor folds
-Boubinho25 calls 40
-jibecmoa84 calls 20
-phillippo raises 80 to 120
-pachou83 calls 80
-Boubinho25 calls 80
-jibecmoa84 calls 80
-*** FLOP *** [Kc Ts As]
-jibecmoa84 checks
-phillippo bets 480
-pachou83 calls 480
-Boubinho25 folds
-jibecmoa84 folds
-*** TURN *** [Kc Ts As][Ad]
-phillippo bets 920 and is all-in
-pachou83 calls 920
-*** RIVER *** [Kc Ts As Ad][7d]
+PokerStars Hand #103356681988: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:11:12 CET [2013/08/28 16:11:12 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1910 in chips)
+Seat 2: Sirius369 (1230 in chips)
+Seat 3: acrisdu11 (1450 in chips)
+Seat 5: backsidair (1620 in chips)
+Seat 6: nivekash (1190 in chips)
+Seat 7: mikrethor (1820 in chips)
+Seat 8: bakoly (1540 in chips)
+Seat 9: misterwill8 (2740 in chips)
+Sirius369: posts small blind 10
+acrisdu11: posts big blind 20
+*** HOLE CARDS ***
+Dealt to mikrethor [5h 2d]
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+bakoly: calls 20
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: raises 80 to 100
+bakoly: calls 80
+*** FLOP *** [Js Qc 6s]
+acrisdu11: checks
+bakoly: bets 80
+acrisdu11: raises 120 to 200
+bakoly: calls 120
+*** TURN *** [Js Qc 6s] [Kh]
+acrisdu11: bets 1150 and is all-in
+bakoly: calls 1150
+*** RIVER *** [Js Qc 6s Kh] [4d]
 *** SHOW DOWN ***
-phillippo shows [Qc Js] (Straight Ace high)
-pachou83 shows [Jh Qs] (Straight Ace high)
-pachou83 collected 1640 from pot
-phillippo collected 1640 from pot
+acrisdu11: shows [Ah Ad] (a pair of Aces)
+bakoly: shows [3s As] (high card Ace)
+acrisdu11 collected 2910 from pot
 *** SUMMARY ***
-Total pot 3280 | No rake
-Board: [Kc Ts As Ad 7d]
-Seat 5: phillippo (big blind) showed [Qc Js] and won 1640 with Straight Ace high
-Seat 6: pachou83 showed [Jh Qs] and won 1640 with Straight Ace high
+Total pot 2910 | Rake 0
+Board [Js Qc 6s Kh 4d]
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 2: Sirius369 (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) showed [Ah Ad] and won (2910) with a pair of Aces
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly showed [3s As] and lost with high card Ace
+Seat 9: misterwill8 folded before Flop (didn't bet)
 
 
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 3 - HandId: #236883548206792705-10-1377709384 - Holdem no limit (30/60) - 2013/08/28 17:03:04 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #3 is the button
-Seat 1: Mikrethor (1040)
-Seat 2: Boubinho25 (1470)
-Seat 3: jibecmoa84 (2960)
-Seat 5: phillippo (1640)
-Seat 6: pachou83 (1890)
-*** ANTE/BLINDS ***
-phillippo posts small blind 30
-pachou83 posts big blind 60
-Dealt to Mikrethor [8c 2d]
-*** PRE-FLOP *** 
-Mikrethor folds
-Boubinho25 folds
-jibecmoa84 calls 60
-phillippo calls 30
-pachou83 checks
-*** FLOP *** [Js 2s Ks]
-phillippo checks
-pachou83 bets 180
-jibecmoa84 folds
-phillippo calls 180
-*** TURN *** [Js 2s Ks][5d]
-phillippo checks
-pachou83 bets 540
-phillippo calls 540
-*** RIVER *** [Js 2s Ks 5d][5s]
-phillippo bets 860 and is all-in
-pachou83 folds
-phillippo collected 2480 from pot
+
+PokerStars Hand #103356763675: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:12:45 CET [2013/08/28 16:12:45 ET]
+Table '780452500 1' 9-max Seat #2 is the button
+Seat 1: dragoonnhead (1910 in chips)
+Seat 2: Sirius369 (1220 in chips)
+Seat 3: acrisdu11 (2910 in chips)
+Seat 5: backsidair (1620 in chips)
+Seat 6: nivekash (1190 in chips)
+Seat 7: mikrethor (1820 in chips)
+Seat 8: bakoly (90 in chips)
+Seat 9: misterwill8 (2740 in chips)
+acrisdu11: posts small blind 15
+backsidair: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [8h 2s]
+nivekash: folds
+mikrethor: folds
+bakoly: raises 60 to 90 and is all-in
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+Uncalled bet (60) returned to bakoly
+bakoly collected 75 from pot
 *** SUMMARY ***
-Total pot 2480 | No rake
-Board: [Js 2s Ks 5d 5s]
-Seat 5: phillippo (small blind) won 2480
+Total pot 75 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) folded before Flop
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly collected (75)
+Seat 9: misterwill8 folded before Flop (didn't bet)
 
 
-Winamax Poker - Tournament "Super Freeroll Stade 2" buyIn: Ticket only level: 3 - HandId: #236883548206792705-11-1377709450 - Holdem no limit (30/60) - 2013/08/28 17:04:10 UTC
-Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #5 is the button
-Seat 1: Mikrethor (1040)
-Seat 2: Boubinho25 (1470)
-Seat 3: jibecmoa84 (2900)
-Seat 5: phillippo (2480)
-Seat 6: pachou83 (1110)
-*** ANTE/BLINDS ***
-pachou83 posts small blind 30
-Mikrethor posts big blind 60
-Dealt to Mikrethor [Kc 3s]
-*** PRE-FLOP *** 
-Boubinho25 folds
-jibecmoa84 folds
-phillippo calls 60
-pachou83 calls 30
-Mikrethor checks
-*** FLOP *** [9h 4h Ks]
-pachou83 bets 60
-Mikrethor raises 180 to 240
-phillippo calls 240
-pachou83 folds
-*** TURN *** [9h 4h Ks][Ah]
-Mikrethor bets 740 and is all-in
-phillippo calls 740
-*** RIVER *** [9h 4h Ks Ah][Ad]
+
+PokerStars Hand #103356808077: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:13:35 CET [2013/08/28 16:13:35 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1910 in chips)
+Seat 2: Sirius369 (1220 in chips)
+Seat 3: acrisdu11 (2895 in chips)
+Seat 5: backsidair (1590 in chips)
+Seat 6: nivekash (1190 in chips)
+Seat 7: mikrethor (1820 in chips)
+Seat 8: bakoly (135 in chips)
+Seat 9: misterwill8 (2740 in chips)
+backsidair: posts small blind 15
+nivekash: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [7c 7s]
+mikrethor: calls 30
+bakoly: folds
+misterwill8: calls 30
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: raises 60 to 90
+nivekash: calls 60
+mikrethor: calls 60
+misterwill8: calls 60
+*** FLOP *** [5d 7d Jc]
+backsidair: checks
+nivekash: checks
+mikrethor: bets 270
+misterwill8: folds
+backsidair: calls 270
+nivekash: folds
+*** TURN *** [5d 7d Jc] [8s]
+backsidair: checks
+mikrethor: bets 720
+backsidair: folds
+Uncalled bet (720) returned to mikrethor
+mikrethor collected 900 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 900 | Rake 0
+Board [5d 7d Jc 8s]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) folded on the Turn
+Seat 6: nivekash (big blind) folded on the Flop
+Seat 7: mikrethor collected (900)
+Seat 8: bakoly folded before Flop (didn't bet)
+Seat 9: misterwill8 folded on the Flop
+
+
+
+PokerStars Hand #103356915113: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:15:37 CET [2013/08/28 16:15:37 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1910 in chips)
+Seat 2: Sirius369 (1220 in chips)
+Seat 3: acrisdu11 (2895 in chips)
+Seat 5: backsidair (1230 in chips)
+Seat 6: nivekash (1100 in chips)
+Seat 7: mikrethor (2360 in chips)
+Seat 8: bakoly (135 in chips)
+Seat 9: misterwill8 (2650 in chips)
+nivekash: posts small blind 15
+mikrethor: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [6h Ts]
+bakoly: folds
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: calls 15
+mikrethor: checks
+*** FLOP *** [Qd Kh 9d]
+nivekash: bets 60
+mikrethor: folds
+Uncalled bet (60) returned to nivekash
+nivekash collected 60 from pot
+nivekash: doesn't show hand
+*** SUMMARY ***
+Total pot 60 | Rake 0
+Board [Qd Kh 9d]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) collected (60)
+Seat 7: mikrethor (big blind) folded on the Flop
+Seat 8: bakoly folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103356959321: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:16:27 CET [2013/08/28 16:16:27 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1910 in chips)
+Seat 2: Sirius369 (1220 in chips)
+Seat 3: acrisdu11 (2895 in chips)
+Seat 5: backsidair (1230 in chips)
+Seat 6: nivekash (1130 in chips)
+Seat 7: mikrethor (2330 in chips)
+Seat 8: bakoly (135 in chips)
+Seat 9: misterwill8 (2650 in chips)
+mikrethor: posts small blind 15
+bakoly: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [9h As]
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: calls 30
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+bakoly: checks
+*** FLOP *** [Qs 4d 7c]
+bakoly: bets 30
+Sirius369: calls 30
+*** TURN *** [Qs 4d 7c] [Kc]
+bakoly: bets 75 and is all-in
+Sirius369: calls 75
+*** RIVER *** [Qs 4d 7c Kc] [6s]
 *** SHOW DOWN ***
-Mikrethor shows [Kc 3s] (Two pairs : Aces and Kings)
-phillippo shows [7h 6h] (Flush Ace high)
-phillippo collected 2200 from pot
+bakoly: shows [2c 7s] (a pair of Sevens)
+Sirius369: shows [Td Jd] (high card King)
+bakoly collected 285 from pot
 *** SUMMARY ***
-Total pot 2200 | No rake
-Board: [9h 4h Ks Ah Ad]
-Seat 1: Mikrethor (big blind) showed [Kc 3s] and lost with Two pairs : Aces and Kings
-Seat 5: phillippo (button) showed [7h 6h] and won 2200 with Flush Ace high
+Total pot 285 | Rake 0
+Board [Qs 4d 7c Kc 6s]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 showed [Td Jd] and lost with high card King
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 8: bakoly (big blind) showed [2c 7s] and won (285) with a pair of Sevens
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357025833: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:17:41 CET [2013/08/28 16:17:41 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1910 in chips)
+Seat 2: Sirius369 (1085 in chips)
+Seat 3: acrisdu11 (2895 in chips)
+Seat 5: backsidair (1230 in chips)
+Seat 6: nivekash (1130 in chips)
+Seat 7: mikrethor (2315 in chips)
+Seat 8: bakoly (285 in chips)
+Seat 9: misterwill8 (2650 in chips)
+bakoly: posts small blind 15
+misterwill8: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [6h 6c]
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: calls 30
+backsidair: folds
+nivekash: folds
+mikrethor: calls 30
+bakoly: folds
+misterwill8: checks
+*** FLOP *** [Kd Qh 4c]
+misterwill8: checks
+acrisdu11: checks
+mikrethor: checks
+*** TURN *** [Kd Qh 4c] [9h]
+misterwill8: checks
+acrisdu11: checks
+mikrethor: checks
+*** RIVER *** [Kd Qh 4c 9h] [Tc]
+misterwill8: checks
+acrisdu11: bets 90
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (90) returned to acrisdu11
+acrisdu11 collected 105 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 105 | Rake 0
+Board [Kd Qh 4c 9h Tc]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 collected (105)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded on the River
+Seat 8: bakoly (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) folded on the River
+
+
+
+PokerStars Hand #103357085928: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:18:48 CET [2013/08/28 16:18:48 ET]
+Table '780452500 1' 9-max Seat #8 is the button
+Seat 1: dragoonnhead (1910 in chips)
+Seat 2: Sirius369 (1085 in chips)
+Seat 3: acrisdu11 (2970 in chips)
+Seat 5: backsidair (1230 in chips)
+Seat 6: nivekash (1130 in chips)
+Seat 7: mikrethor (2285 in chips)
+Seat 8: bakoly (270 in chips)
+Seat 9: misterwill8 (2620 in chips)
+misterwill8: posts small blind 15
+dragoonnhead: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [2s Jh]
+Sirius369: folds
+acrisdu11: raises 60 to 90
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+bakoly: folds
+misterwill8: folds
+dragoonnhead: folds
+Uncalled bet (60) returned to acrisdu11
+acrisdu11 collected 75 from pot
+acrisdu11: shows [Ks Ac] (high card Ace)
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 1: dragoonnhead (big blind) folded before Flop
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 collected (75)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103357108875: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:19:14 CET [2013/08/28 16:19:14 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1880 in chips)
+Seat 2: Sirius369 (1085 in chips)
+Seat 3: acrisdu11 (3015 in chips)
+Seat 5: backsidair (1230 in chips)
+Seat 6: nivekash (1130 in chips)
+Seat 7: mikrethor (2285 in chips)
+Seat 8: bakoly (270 in chips)
+Seat 9: misterwill8 (2605 in chips)
+dragoonnhead: posts small blind 15
+Sirius369: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [Ad Ac]
+acrisdu11: folds
+backsidair: folds
+nivekash: calls 30
+mikrethor: raises 60 to 90
+bakoly: folds
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: folds
+nivekash: calls 60
+*** FLOP *** [7c 8c 6d]
+nivekash: bets 45
+mikrethor: raises 315 to 360
+nivekash: folds
+Uncalled bet (315) returned to mikrethor
+mikrethor collected 315 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 315 | Rake 0
+Board [7c 8c 6d]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 2: Sirius369 (big blind) folded before Flop
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded on the Flop
+Seat 7: mikrethor collected (315)
+Seat 8: bakoly folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357148910: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:19:59 CET [2013/08/28 16:19:59 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1865 in chips)
+Seat 2: Sirius369 (1055 in chips)
+Seat 3: acrisdu11 (3015 in chips)
+Seat 5: backsidair (1230 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (2465 in chips)
+Seat 8: bakoly (270 in chips)
+Seat 9: misterwill8 (2605 in chips)
+Sirius369: posts small blind 15
+acrisdu11: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [3c 5s]
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+bakoly: raises 60 to 90
+misterwill8: calls 90
+dragoonnhead has timed out
+dragoonnhead: folds
+dragoonnhead is sitting out
+dragoonnhead has returned
+Sirius369: calls 75
+acrisdu11: folds
+*** FLOP *** [8s 6h 4h]
+Sirius369: checks
+bakoly: bets 90
+misterwill8: calls 90
+Sirius369: folds
+*** TURN *** [8s 6h 4h] [Jd]
+bakoly: bets 90 and is all-in
+misterwill8: calls 90
+*** RIVER *** [8s 6h 4h Jd] [3s]
+*** SHOW DOWN ***
+bakoly: shows [Ks Ad] (high card Ace)
+misterwill8: shows [7h 8h] (a pair of Eights)
+misterwill8 collected 660 from pot
+bakoly finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 660 | Rake 0
+Board [8s 6h 4h Jd 3s]
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 2: Sirius369 (small blind) folded on the Flop
+Seat 3: acrisdu11 (big blind) folded before Flop
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 8: bakoly showed [Ks Ad] and lost with high card Ace
+Seat 9: misterwill8 showed [7h 8h] and won (660) with a pair of Eights
+
+
+
+PokerStars Hand #103357221319: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level II (15/30) - 2013/08/28 22:21:22 CET [2013/08/28 16:21:22 ET]
+Table '780452500 1' 9-max Seat #2 is the button
+Seat 1: dragoonnhead (1865 in chips)
+Seat 2: Sirius369 (965 in chips)
+Seat 3: acrisdu11 (2985 in chips)
+Seat 5: backsidair (1230 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (2465 in chips)
+Seat 9: misterwill8 (2995 in chips)
+acrisdu11: posts small blind 15
+backsidair: posts big blind 30
+*** HOLE CARDS ***
+Dealt to mikrethor [7s 4h]
+nivekash: folds
+mikrethor: folds
+misterwill8: raises 30 to 60
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: calls 30
+*** FLOP *** [3h Tc Kh]
+backsidair: checks
+misterwill8: bets 60
+backsidair: folds
+Uncalled bet (60) returned to misterwill8
+misterwill8 collected 135 from pot
+*** SUMMARY ***
+Total pot 135 | Rake 0
+Board [3h Tc Kh]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) folded on the Flop
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 collected (135)
+
+
+
+PokerStars Hand #103357268166: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:22:15 CET [2013/08/28 16:22:15 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1865 in chips)
+Seat 2: Sirius369 (965 in chips)
+Seat 3: acrisdu11 (2970 in chips)
+Seat 5: backsidair (1170 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (2465 in chips)
+Seat 9: misterwill8 (3070 in chips)
+backsidair: posts small blind 25
+nivekash: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [9s As]
+mikrethor: folds
+misterwill8: raises 50 to 100
+dragoonnhead: raises 150 to 250
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+misterwill8: calls 150
+*** FLOP *** [5c Ah 3h]
+misterwill8: bets 150
+dragoonnhead: folds
+Uncalled bet (150) returned to misterwill8
+misterwill8 collected 575 from pot
+*** SUMMARY ***
+Total pot 575 | Rake 0
+Board [5c Ah 3h]
+Seat 1: dragoonnhead folded on the Flop
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) folded before Flop
+Seat 6: nivekash (big blind) folded before Flop
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 collected (575)
+
+
+
+PokerStars Hand #103357309934: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:23:03 CET [2013/08/28 16:23:03 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1615 in chips)
+Seat 2: Sirius369 (965 in chips)
+Seat 3: acrisdu11 (2970 in chips)
+Seat 5: backsidair (1145 in chips)
+Seat 6: nivekash (945 in chips)
+Seat 7: mikrethor (2465 in chips)
+Seat 9: misterwill8 (3395 in chips)
+nivekash: posts small blind 25
+mikrethor: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [4s 5d]
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: raises 50 to 100
+mikrethor: folds
+Uncalled bet (50) returned to nivekash
+nivekash collected 100 from pot
+nivekash: doesn't show hand
+*** SUMMARY ***
+Total pot 100 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) collected (100)
+Seat 7: mikrethor (big blind) folded before Flop
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357327987: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:23:24 CET [2013/08/28 16:23:24 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1615 in chips)
+Seat 2: Sirius369 (965 in chips)
+Seat 3: acrisdu11 (2970 in chips)
+Seat 5: backsidair (1145 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (2415 in chips)
+Seat 9: misterwill8 (3395 in chips)
+mikrethor: posts small blind 25
+misterwill8: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [7h 6s]
+dragoonnhead: raises 100 to 150
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (100) returned to dragoonnhead
+dragoonnhead collected 125 from pot
+*** SUMMARY ***
+Total pot 125 | Rake 0
+Seat 1: dragoonnhead collected (125)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) folded before Flop
+
+
+
+PokerStars Hand #103357358074: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:23:58 CET [2013/08/28 16:23:58 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 2: Sirius369 (965 in chips)
+Seat 3: acrisdu11 (2970 in chips)
+Seat 5: backsidair (1145 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (2390 in chips)
+Seat 9: misterwill8 (3345 in chips)
+misterwill8: posts small blind 25
+dragoonnhead: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [Tc 8c]
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (25) returned to dragoonnhead
+dragoonnhead collected 50 from pot
+*** SUMMARY ***
+Total pot 50 | Rake 0
+Seat 1: dragoonnhead (big blind) collected (50)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103357372491: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:24:15 CET [2013/08/28 16:24:15 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1715 in chips)
+Seat 2: Sirius369 (965 in chips)
+Seat 3: acrisdu11 (2970 in chips)
+Seat 5: backsidair (1145 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (2390 in chips)
+Seat 9: misterwill8 (3320 in chips)
+dragoonnhead: posts small blind 25
+Sirius369: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [3s Ad]
+acrisdu11: folds
+backsidair: calls 50
+nivekash: folds
+mikrethor: folds
+misterwill8: calls 50
+dragoonnhead: folds
+Sirius369: checks
+*** FLOP *** [Kh 9c 5c]
+Sirius369: checks
+backsidair: checks
+misterwill8: bets 100
+Sirius369: folds
+backsidair: folds
+Uncalled bet (100) returned to misterwill8
+misterwill8 collected 175 from pot
+*** SUMMARY ***
+Total pot 175 | Rake 0
+Board [Kh 9c 5c]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 2: Sirius369 (big blind) folded on the Flop
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded on the Flop
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) collected (175)
+
+
+
+PokerStars Hand #103357406484: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:24:54 CET [2013/08/28 16:24:54 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 2: Sirius369 (915 in chips)
+Seat 3: acrisdu11 (2970 in chips)
+Seat 5: backsidair (1095 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (2390 in chips)
+Seat 9: misterwill8 (3445 in chips)
+Sirius369: posts small blind 25
+acrisdu11: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [Ah Qs]
+backsidair: folds
+nivekash: folds
+mikrethor: raises 83 to 133
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: raises 267 to 400
+mikrethor: calls 267
+*** FLOP *** [Ts Kh 9c]
+acrisdu11: checks
+mikrethor: checks
+*** TURN *** [Ts Kh 9c] [6d]
+acrisdu11: bets 200
+mikrethor: raises 250 to 450
+acrisdu11: raises 2120 to 2570 and is all-in
+mikrethor: folds
+Uncalled bet (2120) returned to acrisdu11
+acrisdu11 collected 1725 from pot
+acrisdu11: shows [As Ad] (a pair of Aces)
+*** SUMMARY ***
+Total pot 1725 | Rake 0
+Board [Ts Kh 9c 6d]
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 2: Sirius369 (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) collected (1725)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded on the Turn
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357458139: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:25:53 CET [2013/08/28 16:25:53 ET]
+Table '780452500 1' 9-max Seat #2 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 2: Sirius369 (890 in chips)
+Seat 3: acrisdu11 (3845 in chips)
+Seat 5: backsidair (1095 in chips)
+Seat 6: nivekash (995 in chips)
+Seat 7: mikrethor (1540 in chips)
+Seat 9: misterwill8 (3445 in chips)
+acrisdu11: posts small blind 25
+backsidair: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [Kh 2d]
+nivekash: raises 50 to 100
+mikrethor: folds
+misterwill8: calls 100
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+*** FLOP *** [Qh Qs Jc]
+nivekash: checks
+misterwill8: bets 100
+nivekash: calls 100
+*** TURN *** [Qh Qs Jc] [4h]
+nivekash: checks
+misterwill8: bets 100
+nivekash: calls 100
+*** RIVER *** [Qh Qs Jc 4h] [6h]
+nivekash: checks
+misterwill8: bets 400
+nivekash: folds
+Uncalled bet (400) returned to misterwill8
+misterwill8 collected 675 from pot
+*** SUMMARY ***
+Total pot 675 | Rake 0
+Board [Qh Qs Jc 4h 6h]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) folded before Flop
+Seat 6: nivekash folded on the River
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 collected (675)
+
+
+
+PokerStars Hand #103357504438: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:26:46 CET [2013/08/28 16:26:46 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 2: Sirius369 (890 in chips)
+Seat 3: acrisdu11 (3820 in chips)
+Seat 5: backsidair (1045 in chips)
+Seat 6: nivekash (695 in chips)
+Seat 7: mikrethor (1540 in chips)
+Seat 9: misterwill8 (3820 in chips)
+backsidair: posts small blind 25
+nivekash: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [5h 3c]
+mikrethor: folds
+misterwill8: raises 50 to 100
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: calls 100
+backsidair: folds
+nivekash: calls 50
+*** FLOP *** [Th 2s 4s]
+nivekash: checks
+misterwill8: bets 100
+acrisdu11: calls 100
+nivekash: folds
+*** TURN *** [Th 2s 4s] [Kc]
+misterwill8: bets 100
+acrisdu11: calls 100
+*** RIVER *** [Th 2s 4s Kc] [Ah]
+misterwill8: bets 250
+acrisdu11: raises 350 to 600
+misterwill8: calls 350
+*** SHOW DOWN ***
+acrisdu11: shows [Qc Js] (a straight, Ten to Ace)
+misterwill8: mucks hand
+acrisdu11 collected 1925 from pot
+*** SUMMARY ***
+Total pot 1925 | Rake 0
+Board [Th 2s 4s Kc Ah]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) showed [Qc Js] and won (1925) with a straight, Ten to Ace
+Seat 5: backsidair (small blind) folded before Flop
+Seat 6: nivekash (big blind) folded on the Flop
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 mucked [Td Ac]
+
+
+
+PokerStars Hand #103357541886: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:27:29 CET [2013/08/28 16:27:29 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 2: Sirius369 (890 in chips)
+Seat 3: acrisdu11 (4845 in chips)
+Seat 5: backsidair (1020 in chips)
+Seat 6: nivekash (595 in chips)
+Seat 7: mikrethor (1540 in chips)
+Seat 9: misterwill8 (2920 in chips)
+nivekash: posts small blind 25
+mikrethor: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [Ad Jc]
+misterwill8: raises 100 to 150
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: calls 100
+*** FLOP *** [8s Jh 2c]
+mikrethor: bets 300
+misterwill8: calls 300
+*** TURN *** [8s Jh 2c] [6s]
+mikrethor: bets 1090 and is all-in
+misterwill8: calls 1090
+*** RIVER *** [8s Jh 2c 6s] [7s]
+*** SHOW DOWN ***
+mikrethor: shows [Ad Jc] (a pair of Jacks)
+misterwill8: shows [Jd Qh] (a pair of Jacks - lower kicker)
+mikrethor collected 3105 from pot
+*** SUMMARY ***
+Total pot 3105 | Rake 0
+Board [8s Jh 2c 6s 7s]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) folded before Flop
+Seat 7: mikrethor (big blind) showed [Ad Jc] and won (3105) with a pair of Jacks
+Seat 9: misterwill8 showed [Jd Qh] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #103357580445: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:28:13 CET [2013/08/28 16:28:13 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 2: Sirius369 (890 in chips)
+Seat 3: acrisdu11 (4845 in chips)
+Seat 5: backsidair (1020 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (3105 in chips)
+Seat 9: misterwill8 (1380 in chips)
+mikrethor: posts small blind 25
+misterwill8: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [8h Ad]
+dragoonnhead: folds
+Sirius369: folds
+acrisdu11: folds
+backsidair: raises 150 to 200
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (150) returned to backsidair
+backsidair collected 125 from pot
+*** SUMMARY ***
+Total pot 125 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair collected (125)
+Seat 6: nivekash (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) folded before Flop
+
+
+
+PokerStars Hand #103357604763: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:28:41 CET [2013/08/28 16:28:41 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 2: Sirius369 (890 in chips)
+Seat 3: acrisdu11 (4845 in chips)
+Seat 5: backsidair (1095 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1330 in chips)
+misterwill8: posts small blind 25
+dragoonnhead: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [8h 7h]
+Sirius369: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: calls 50
+misterwill8: folds
+dragoonnhead: checks
+*** FLOP *** [2d 6h Ad]
+dragoonnhead: checks
+mikrethor: checks
+*** TURN *** [2d 6h Ad] [3d]
+dragoonnhead: checks
+mikrethor: bets 100
+dragoonnhead: raises 200 to 300
+mikrethor: folds
+Uncalled bet (200) returned to dragoonnhead
+dragoonnhead collected 325 from pot
+*** SUMMARY ***
+Total pot 325 | Rake 0
+Board [2d 6h Ad 3d]
+Seat 1: dragoonnhead (big blind) collected (325)
+Seat 2: Sirius369 folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded on the Turn
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103357655793: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:29:41 CET [2013/08/28 16:29:41 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1865 in chips)
+Seat 2: Sirius369 (890 in chips)
+Seat 3: acrisdu11 (4845 in chips)
+Seat 5: backsidair (1095 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (1305 in chips)
+dragoonnhead: posts small blind 25
+Sirius369: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [Qd 6c]
+acrisdu11: folds
+backsidair: calls 50
+nivekash: folds
+mikrethor: folds
+misterwill8: calls 50
+dragoonnhead: folds
+Sirius369: checks
+*** FLOP *** [6s 9s Qh]
+Sirius369: checks
+backsidair: checks
+misterwill8: checks
+*** TURN *** [6s 9s Qh] [2s]
+Sirius369: checks
+backsidair: checks
+misterwill8: checks
+*** RIVER *** [6s 9s Qh 2s] [Jd]
+Sirius369: checks
+backsidair: bets 250
+misterwill8: folds
+Sirius369: folds
+Uncalled bet (250) returned to backsidair
+backsidair collected 175 from pot
+backsidair: doesn't show hand
+*** SUMMARY ***
+Total pot 175 | Rake 0
+Board [6s 9s Qh 2s Jd]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 2: Sirius369 (big blind) folded on the River
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair collected (175)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) folded on the River
+
+
+
+PokerStars Hand #103357718613: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level III (25/50) - 2013/08/28 22:30:54 CET [2013/08/28 16:30:54 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 2: Sirius369 (840 in chips)
+Seat 3: acrisdu11 (4845 in chips)
+Seat 5: backsidair (1220 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (1255 in chips)
+Sirius369: posts small blind 25
+acrisdu11: posts big blind 50
+*** HOLE CARDS ***
+Dealt to mikrethor [Jc 2d]
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: raises 75 to 125
+Sirius369: folds
+acrisdu11: calls 75
+*** FLOP *** [5h Ks 6s]
+acrisdu11: checks
+dragoonnhead: checks
+*** TURN *** [5h Ks 6s] [Ts]
+acrisdu11: checks
+dragoonnhead: bets 100
+acrisdu11: folds
+Uncalled bet (100) returned to dragoonnhead
+dragoonnhead collected 275 from pot
+*** SUMMARY ***
+Total pot 275 | Rake 0
+Board [5h Ks 6s Ts]
+Seat 1: dragoonnhead (button) collected (275)
+Seat 2: Sirius369 (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) folded on the Turn
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357769543: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:31:53 CET [2013/08/28 16:31:53 ET]
+Table '780452500 1' 9-max Seat #2 is the button
+Seat 1: dragoonnhead (1990 in chips)
+Seat 2: Sirius369 (815 in chips)
+Seat 3: acrisdu11 (4720 in chips)
+Seat 5: backsidair (1220 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (1255 in chips)
+acrisdu11: posts small blind 50
+backsidair: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [Qh 4d]
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+Sirius369: raises 715 to 815 and is all-in
+acrisdu11: calls 765
+backsidair: folds
+*** FLOP *** [8s 6d 2h]
+*** TURN *** [8s 6d 2h] [8d]
+*** RIVER *** [8s 6d 2h 8d] [Jc]
+*** SHOW DOWN ***
+acrisdu11: shows [Ad Ac] (two pair, Aces and Eights)
+Sirius369: shows [Tc Kc] (a pair of Eights)
+acrisdu11 collected 1730 from pot
+Sirius369 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1730 | Rake 0
+Board [8s 6d 2h 8d Jc]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 2: Sirius369 (button) showed [Tc Kc] and lost with a pair of Eights
+Seat 3: acrisdu11 (small blind) showed [Ad Ac] and won (1730) with two pair, Aces and Eights
+Seat 5: backsidair (big blind) folded before Flop
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357794663: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:32:22 CET [2013/08/28 16:32:22 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1990 in chips)
+Seat 3: acrisdu11 (5635 in chips)
+Seat 5: backsidair (1120 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (1255 in chips)
+backsidair: posts small blind 50
+nivekash: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [Kd Ks]
+mikrethor: raises 300 to 400
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+Uncalled bet (300) returned to mikrethor
+mikrethor collected 250 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 250 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) folded before Flop
+Seat 6: nivekash (big blind) folded before Flop
+Seat 7: mikrethor collected (250)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357807518: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:32:37 CET [2013/08/28 16:32:37 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1990 in chips)
+Seat 3: acrisdu11 (5635 in chips)
+Seat 5: backsidair (1070 in chips)
+Seat 6: nivekash (470 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1255 in chips)
+nivekash: posts small blind 50
+mikrethor: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [Js 6s]
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+Uncalled bet (50) returned to mikrethor
+mikrethor collected 100 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 100 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) folded before Flop
+Seat 7: mikrethor (big blind) collected (100)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357817625: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:32:49 CET [2013/08/28 16:32:49 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1990 in chips)
+Seat 3: acrisdu11 (5635 in chips)
+Seat 5: backsidair (1070 in chips)
+Seat 6: nivekash (420 in chips)
+Seat 7: mikrethor (3130 in chips)
+Seat 9: misterwill8 (1255 in chips)
+mikrethor: posts small blind 50
+misterwill8: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [7h 9h]
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: raises 320 to 420 and is all-in
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (320) returned to nivekash
+nivekash collected 250 from pot
+nivekash: doesn't show hand
+*** SUMMARY ***
+Total pot 250 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash (button) collected (250)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) folded before Flop
+
+
+
+PokerStars Hand #103357830872: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:33:05 CET [2013/08/28 16:33:05 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1990 in chips)
+Seat 3: acrisdu11 (5635 in chips)
+Seat 5: backsidair (1070 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1155 in chips)
+misterwill8: posts small blind 50
+dragoonnhead: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [2s 7c]
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: calls 50
+dragoonnhead: checks
+*** FLOP *** [3s Ac Qs]
+misterwill8: checks
+dragoonnhead: checks
+*** TURN *** [3s Ac Qs] [9c]
+misterwill8: checks
+dragoonnhead: checks
+*** RIVER *** [3s Ac Qs 9c] [Kc]
+misterwill8: checks
+dragoonnhead: checks
+*** SHOW DOWN ***
+misterwill8: shows [Jd 4d] (high card Ace)
+dragoonnhead: mucks hand
+misterwill8 collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0
+Board [3s Ac Qs 9c Kc]
+Seat 1: dragoonnhead (big blind) mucked [6d 7s]
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) showed [Jd 4d] and won (200) with high card Ace
+
+
+
+PokerStars Hand #103357863645: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:33:43 CET [2013/08/28 16:33:43 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1890 in chips)
+Seat 3: acrisdu11 (5635 in chips)
+Seat 5: backsidair (1070 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1255 in chips)
+dragoonnhead: posts small blind 50
+acrisdu11: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [6h Ad]
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: raises 100 to 200
+dragoonnhead: folds
+acrisdu11: calls 100
+*** FLOP *** [9s Kc Ts]
+acrisdu11: checks
+misterwill8: bets 300
+acrisdu11: folds
+Uncalled bet (300) returned to misterwill8
+misterwill8 collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0
+Board [9s Kc Ts]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) folded on the Flop
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) collected (450)
+
+
+
+PokerStars Hand #103357884626: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:34:08 CET [2013/08/28 16:34:08 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (5435 in chips)
+Seat 5: backsidair (1070 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1505 in chips)
+acrisdu11: posts small blind 50
+backsidair: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [Kd Tc]
+nivekash: folds
+mikrethor: folds
+misterwill8: calls 100
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: checks
+*** FLOP *** [6h 6d Qd]
+backsidair: checks
+misterwill8: checks
+*** TURN *** [6h 6d Qd] [Ts]
+backsidair: bets 100
+misterwill8: folds
+Uncalled bet (100) returned to backsidair
+backsidair collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0
+Board [6h 6d Qd Ts]
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) collected (250)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded on the Turn
+
+
+
+PokerStars Hand #103357912578: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:34:41 CET [2013/08/28 16:34:41 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (5385 in chips)
+Seat 5: backsidair (1220 in chips)
+Seat 6: nivekash (570 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1405 in chips)
+backsidair: posts small blind 50
+nivekash: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [2h 7d]
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: calls 50
+nivekash: checks
+*** FLOP *** [8d 8c As]
+backsidair: bets 100
+nivekash: calls 100
+*** TURN *** [8d 8c As] [9h]
+backsidair: checks
+nivekash: checks
+*** RIVER *** [8d 8c As 9h] [7c]
+backsidair: bets 100
+nivekash: calls 100
+*** SHOW DOWN ***
+backsidair: shows [Kh 7h] (two pair, Eights and Sevens)
+nivekash: shows [Ad 3h] (two pair, Aces and Eights)
+nivekash collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0
+Board [8d 8c As 9h 7c]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) showed [Kh 7h] and lost with two pair, Eights and Sevens
+Seat 6: nivekash (big blind) showed [Ad 3h] and won (600) with two pair, Aces and Eights
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357946313: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:35:21 CET [2013/08/28 16:35:21 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (5385 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (870 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1405 in chips)
+nivekash: posts small blind 50
+mikrethor: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [Js 6d]
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+Uncalled bet (50) returned to mikrethor
+mikrethor collected 100 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 100 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) folded before Flop
+Seat 7: mikrethor (big blind) collected (100)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103357960807: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:35:39 CET [2013/08/28 16:35:39 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (5385 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (820 in chips)
+Seat 7: mikrethor (3130 in chips)
+Seat 9: misterwill8 (1405 in chips)
+mikrethor: posts small blind 50
+misterwill8: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [2d 4c]
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: calls 100
+mikrethor: folds
+misterwill8: checks
+*** FLOP *** [3d 3h 4h]
+misterwill8: bets 200
+nivekash: folds
+Uncalled bet (200) returned to misterwill8
+misterwill8 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0
+Board [3d 3h 4h]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash (button) folded on the Flop
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) collected (250)
+
+
+
+PokerStars Hand #103357984379: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:36:06 CET [2013/08/28 16:36:06 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (5385 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (720 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1555 in chips)
+misterwill8: posts small blind 50
+dragoonnhead: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [3h 8d]
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: raises 100 to 200
+dragoonnhead: folds
+Uncalled bet (100) returned to misterwill8
+misterwill8 collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0
+Seat 1: dragoonnhead (big blind) folded before Flop
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) collected (200)
+
+
+
+PokerStars Hand #103358011233: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:36:38 CET [2013/08/28 16:36:38 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1740 in chips)
+Seat 3: acrisdu11 (5385 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (720 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1655 in chips)
+dragoonnhead: posts small blind 50
+acrisdu11: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [2c 5s]
+backsidair: folds
+nivekash: raises 100 to 200
+mikrethor: folds
+misterwill8: calls 200
+dragoonnhead: folds
+acrisdu11: folds
+*** FLOP *** [Qs 8h 9s]
+nivekash: bets 520 and is all-in
+misterwill8: folds
+Uncalled bet (520) returned to nivekash
+nivekash collected 550 from pot
+nivekash: doesn't show hand
+*** SUMMARY ***
+Total pot 550 | Rake 0
+Board [Qs 8h 9s]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) folded before Flop
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash collected (550)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) folded on the Flop
+
+
+
+PokerStars Hand #103358036997: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:37:09 CET [2013/08/28 16:37:09 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5285 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (1070 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1455 in chips)
+acrisdu11: posts small blind 50
+backsidair: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [Ac 2s]
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+Uncalled bet (50) returned to backsidair
+backsidair collected 100 from pot
+*** SUMMARY ***
+Total pot 100 | Rake 0
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) collected (100)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358055694: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:37:32 CET [2013/08/28 16:37:32 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5235 in chips)
+Seat 5: backsidair (970 in chips)
+Seat 6: nivekash (1070 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1455 in chips)
+backsidair: posts small blind 50
+nivekash: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [5c 2c]
+mikrethor: folds
+misterwill8: raises 200 to 300
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+Uncalled bet (200) returned to misterwill8
+misterwill8 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) folded before Flop
+Seat 6: nivekash (big blind) folded before Flop
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 collected (250)
+
+
+
+PokerStars Hand #103358082098: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:38:03 CET [2013/08/28 16:38:03 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5235 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (970 in chips)
+Seat 7: mikrethor (3080 in chips)
+Seat 9: misterwill8 (1605 in chips)
+nivekash: posts small blind 50
+mikrethor: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [6h Jd]
+misterwill8: raises 100 to 200
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+Uncalled bet (100) returned to misterwill8
+misterwill8 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) folded before Flop
+Seat 7: mikrethor (big blind) folded before Flop
+Seat 9: misterwill8 collected (250)
+
+
+
+PokerStars Hand #103358110503: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:38:38 CET [2013/08/28 16:38:38 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5235 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (920 in chips)
+Seat 7: mikrethor (2980 in chips)
+Seat 9: misterwill8 (1755 in chips)
+mikrethor: posts small blind 50
+misterwill8: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [5h Ks]
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: raises 100 to 200
+mikrethor: folds
+misterwill8: calls 100
+*** FLOP *** [2d Qs Td]
+misterwill8: bets 300
+nivekash: raises 420 to 720 and is all-in
+misterwill8: calls 420
+*** TURN *** [2d Qs Td] [3s]
+*** RIVER *** [2d Qs Td 3s] [4h]
+*** SHOW DOWN ***
+misterwill8: shows [Qh 6h] (a pair of Queens)
+nivekash: shows [Ac Qd] (a pair of Queens - Ace kicker)
+nivekash collected 1890 from pot
+*** SUMMARY ***
+Total pot 1890 | Rake 0
+Board [2d Qs Td 3s 4h]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash (button) showed [Ac Qd] and won (1890) with a pair of Queens
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) showed [Qh 6h] and lost with a pair of Queens
+
+
+
+PokerStars Hand #103358148489: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:39:24 CET [2013/08/28 16:39:24 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5235 in chips)
+Seat 5: backsidair (920 in chips)
+Seat 6: nivekash (1890 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (835 in chips)
+misterwill8: posts small blind 50
+dragoonnhead: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [Js 7s]
+acrisdu11: folds
+backsidair: calls 100
+nivekash: calls 100
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: checks
+*** FLOP *** [Jd 8c As]
+dragoonnhead: checks
+backsidair: checks
+nivekash: checks
+*** TURN *** [Jd 8c As] [8s]
+dragoonnhead: checks
+backsidair: checks
+nivekash: checks
+*** RIVER *** [Jd 8c As 8s] [3s]
+dragoonnhead: checks
+backsidair: checks
+nivekash: checks
+*** SHOW DOWN ***
+dragoonnhead: shows [6h 6s] (two pair, Eights and Sixes)
+backsidair: shows [9h 9c] (two pair, Nines and Eights)
+nivekash: mucks hand
+backsidair collected 350 from pot
+*** SUMMARY ***
+Total pot 350 | Rake 0
+Board [Jd 8c As 8s 3s]
+Seat 1: dragoonnhead (big blind) showed [6h 6s] and lost with two pair, Eights and Sixes
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair showed [9h 9c] and won (350) with two pair, Nines and Eights
+Seat 6: nivekash mucked [Tc Qc]
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358199563: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:40:26 CET [2013/08/28 16:40:26 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1590 in chips)
+Seat 3: acrisdu11 (5235 in chips)
+Seat 5: backsidair (1170 in chips)
+Seat 6: nivekash (1790 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (785 in chips)
+dragoonnhead: posts small blind 50
+acrisdu11: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [5c 6s]
+backsidair: calls 100
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: checks
+*** FLOP *** [4h 7c 5s]
+acrisdu11: checks
+backsidair: checks
+*** TURN *** [4h 7c 5s] [As]
+acrisdu11: bets 100
+backsidair: folds
+Uncalled bet (100) returned to acrisdu11
+acrisdu11 collected 250 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 250 | Rake 0
+Board [4h 7c 5s As]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) collected (250)
+Seat 5: backsidair folded on the Turn
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358239587: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level IV (50/100) - 2013/08/28 22:41:15 CET [2013/08/28 16:41:15 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5385 in chips)
+Seat 5: backsidair (1070 in chips)
+Seat 6: nivekash (1790 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (785 in chips)
+acrisdu11: posts small blind 50
+backsidair: posts big blind 100
+*** HOLE CARDS ***
+Dealt to mikrethor [6c 3s]
+nivekash: folds
+mikrethor: folds
+misterwill8: calls 100
+dragoonnhead: folds
+acrisdu11: calls 50
+backsidair: checks
+*** FLOP *** [3h Ad Tc]
+acrisdu11: checks
+backsidair: checks
+misterwill8: checks
+*** TURN *** [3h Ad Tc] [8s]
+acrisdu11: checks
+backsidair: checks
+misterwill8: checks
+*** RIVER *** [3h Ad Tc 8s] [Qd]
+acrisdu11: checks
+backsidair: checks
+misterwill8: checks
+*** SHOW DOWN ***
+acrisdu11: shows [9c Kh] (high card Ace)
+backsidair: mucks hand
+misterwill8: mucks hand
+acrisdu11 collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0
+Board [3h Ad Tc 8s Qd]
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) showed [9c Kh] and won (300) with high card Ace
+Seat 5: backsidair (big blind) mucked [9d 5d]
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 mucked [6d Jd]
+
+
+
+PokerStars Hand #103358289934: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:42:16 CET [2013/08/28 16:42:16 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (970 in chips)
+Seat 6: nivekash (1790 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (685 in chips)
+backsidair: posts small blind 75
+nivekash: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [7h Ah]
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+Uncalled bet (75) returned to nivekash
+nivekash collected 150 from pot
+nivekash: doesn't show hand
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) folded before Flop
+Seat 6: nivekash (big blind) collected (150)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358305842: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:42:36 CET [2013/08/28 16:42:36 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (895 in chips)
+Seat 6: nivekash (1865 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (685 in chips)
+nivekash: posts small blind 75
+mikrethor: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [2c 9c]
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+Uncalled bet (75) returned to mikrethor
+mikrethor collected 150 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) folded before Flop
+Seat 7: mikrethor (big blind) collected (150)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358319846: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:42:53 CET [2013/08/28 16:42:53 ET]
+Table '780452500 1' 9-max Seat #6 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (895 in chips)
+Seat 6: nivekash (1790 in chips)
+Seat 7: mikrethor (3005 in chips)
+Seat 9: misterwill8 (685 in chips)
+mikrethor: posts small blind 75
+misterwill8: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Kd 2c]
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+Uncalled bet (75) returned to misterwill8
+misterwill8 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) collected (150)
+
+
+
+PokerStars Hand #103358332218: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:43:08 CET [2013/08/28 16:43:08 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (895 in chips)
+Seat 6: nivekash (1790 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (760 in chips)
+misterwill8: posts small blind 75
+dragoonnhead: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Jc Td]
+acrisdu11: folds
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (75) returned to dragoonnhead
+dragoonnhead collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead (big blind) collected (150)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358345049: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:43:24 CET [2013/08/28 16:43:24 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1615 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (895 in chips)
+Seat 6: nivekash (1790 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (685 in chips)
+dragoonnhead: posts small blind 75
+acrisdu11: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [4c Qh]
+backsidair: folds
+nivekash: folds
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+Uncalled bet (75) returned to acrisdu11
+acrisdu11 collected 150 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) collected (150)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 6: nivekash folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358363131: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:43:47 CET [2013/08/28 16:43:47 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5660 in chips)
+Seat 5: backsidair (895 in chips)
+Seat 6: nivekash (1790 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (685 in chips)
+acrisdu11: posts small blind 75
+backsidair: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Qs Ts]
+nivekash: calls 150
+mikrethor: folds
+misterwill8: raises 535 to 685 and is all-in
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: calls 535
+*** FLOP *** [3d Jh Jd]
+*** TURN *** [3d Jh Jd] [4d]
+*** RIVER *** [3d Jh Jd 4d] [6c]
+*** SHOW DOWN ***
+nivekash: shows [Tc Ks] (a pair of Jacks)
+misterwill8: shows [As 3s] (two pair, Jacks and Threes)
+misterwill8 collected 1595 from pot
+*** SUMMARY ***
+Total pot 1595 | Rake 0
+Board [3d Jh Jd 4d 6c]
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) folded before Flop
+Seat 6: nivekash showed [Tc Ks] and lost with a pair of Jacks
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 showed [As 3s] and won (1595) with two pair, Jacks and Threes
+
+
+
+PokerStars Hand #103358392141: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:44:22 CET [2013/08/28 16:44:22 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (745 in chips)
+Seat 6: nivekash (1105 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (1595 in chips)
+backsidair: posts small blind 75
+nivekash: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Ts 4s]
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+Uncalled bet (75) returned to nivekash
+nivekash collected 150 from pot
+nivekash: doesn't show hand
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) folded before Flop
+Seat 6: nivekash (big blind) collected (150)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358408114: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:44:42 CET [2013/08/28 16:44:42 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (670 in chips)
+Seat 6: nivekash (1180 in chips)
+Seat 7: mikrethor (2930 in chips)
+Seat 9: misterwill8 (1595 in chips)
+nivekash: posts small blind 75
+mikrethor: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [9c 4d]
+misterwill8: raises 150 to 300
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+nivekash: raises 150 to 450
+mikrethor: folds
+misterwill8: calls 150
+*** FLOP *** [8h 7s 7d]
+nivekash: bets 730 and is all-in
+misterwill8: calls 730
+*** TURN *** [8h 7s 7d] [4s]
+*** RIVER *** [8h 7s 7d 4s] [Jc]
+*** SHOW DOWN ***
+nivekash: shows [Kh Qd] (a pair of Sevens)
+misterwill8: shows [Ks Jd] (two pair, Jacks and Sevens)
+misterwill8 collected 2510 from pot
+nivekash finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 2510 | Rake 0
+Board [8h 7s 7d 4s Jc]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 6: nivekash (small blind) showed [Kh Qd] and lost with a pair of Sevens
+Seat 7: mikrethor (big blind) folded before Flop
+Seat 9: misterwill8 showed [Ks Jd] and won (2510) with two pair, Jacks and Sevens
+
+
+
+PokerStars Hand #103358432637: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:45:11 CET [2013/08/28 16:45:11 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (670 in chips)
+Seat 7: mikrethor (2780 in chips)
+Seat 9: misterwill8 (2925 in chips)
+misterwill8: posts small blind 75
+dragoonnhead: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [6c 3d]
+acrisdu11: folds
+backsidair: folds
+mikrethor: folds
+misterwill8: calls 75
+dragoonnhead: checks
+*** FLOP *** [4h 6s Ad]
+misterwill8: checks
+dragoonnhead: checks
+*** TURN *** [4h 6s Ad] [Th]
+misterwill8: checks
+dragoonnhead: checks
+*** RIVER *** [4h 6s Ad Th] [8h]
+misterwill8: checks
+dragoonnhead: checks
+*** SHOW DOWN ***
+misterwill8: shows [7s Qs] (high card Ace)
+dragoonnhead: mucks hand
+misterwill8 collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0
+Board [4h 6s Ad Th 8h]
+Seat 1: dragoonnhead (big blind) mucked [9c 3h]
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) showed [7s Qs] and won (300) with high card Ace
+
+
+
+PokerStars Hand #103358464776: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:45:50 CET [2013/08/28 16:45:50 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1390 in chips)
+Seat 3: acrisdu11 (5585 in chips)
+Seat 5: backsidair (670 in chips)
+Seat 7: mikrethor (2780 in chips)
+Seat 9: misterwill8 (3075 in chips)
+dragoonnhead: posts small blind 75
+acrisdu11: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [4s Ks]
+backsidair: folds
+mikrethor: raises 150 to 300
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: calls 150
+*** FLOP *** [Js Qs 9c]
+acrisdu11: checks
+mikrethor: checks
+*** TURN *** [Js Qs 9c] [6d]
+acrisdu11: bets 150
+mikrethor: calls 150
+*** RIVER *** [Js Qs 9c 6d] [Ah]
+acrisdu11: checks
+mikrethor: checks
+*** SHOW DOWN ***
+acrisdu11: shows [Kh 6h] (a pair of Sixes)
+mikrethor: mucks hand
+acrisdu11 collected 975 from pot
+*** SUMMARY ***
+Total pot 975 | Rake 0
+Board [Js Qs 9c 6d Ah]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) showed [Kh 6h] and won (975) with a pair of Sixes
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 7: mikrethor mucked [4s Ks]
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358499890: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:46:33 CET [2013/08/28 16:46:33 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1315 in chips)
+Seat 3: acrisdu11 (6110 in chips)
+Seat 5: backsidair (670 in chips)
+Seat 7: mikrethor (2330 in chips)
+Seat 9: misterwill8 (3075 in chips)
+acrisdu11: posts small blind 75
+backsidair: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [5c 5s]
+mikrethor: raises 300 to 450
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+Uncalled bet (300) returned to mikrethor
+mikrethor collected 375 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 375 | Rake 0
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) folded before Flop
+Seat 7: mikrethor collected (375)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358514179: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:46:51 CET [2013/08/28 16:46:51 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1315 in chips)
+Seat 3: acrisdu11 (6035 in chips)
+Seat 5: backsidair (520 in chips)
+Seat 7: mikrethor (2555 in chips)
+Seat 9: misterwill8 (3075 in chips)
+backsidair: posts small blind 75
+mikrethor: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Qh 3d]
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+Uncalled bet (75) returned to mikrethor
+mikrethor collected 150 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) folded before Flop
+Seat 7: mikrethor (big blind) collected (150)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358522083: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:47:01 CET [2013/08/28 16:47:01 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1315 in chips)
+Seat 3: acrisdu11 (6035 in chips)
+Seat 5: backsidair (445 in chips)
+Seat 7: mikrethor (2630 in chips)
+Seat 9: misterwill8 (3075 in chips)
+mikrethor: posts small blind 75
+misterwill8: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [8c Kh]
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+mikrethor: folds
+Uncalled bet (75) returned to misterwill8
+misterwill8 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) collected (150)
+
+
+
+PokerStars Hand #103358529873: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:47:10 CET [2013/08/28 16:47:10 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1315 in chips)
+Seat 3: acrisdu11 (6035 in chips)
+Seat 5: backsidair (445 in chips)
+Seat 7: mikrethor (2555 in chips)
+Seat 9: misterwill8 (3150 in chips)
+misterwill8: posts small blind 75
+dragoonnhead: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [8d 7h]
+acrisdu11: folds
+backsidair: folds
+mikrethor: folds
+misterwill8: calls 75
+dragoonnhead: checks
+*** FLOP *** [Kh 9c 5s]
+misterwill8: checks
+dragoonnhead: checks
+*** TURN *** [Kh 9c 5s] [Ts]
+misterwill8: checks
+dragoonnhead: checks
+*** RIVER *** [Kh 9c 5s Ts] [4d]
+misterwill8: bets 150
+dragoonnhead: folds
+Uncalled bet (150) returned to misterwill8
+misterwill8 collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0
+Board [Kh 9c 5s Ts 4d]
+Seat 1: dragoonnhead (big blind) folded on the River
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) collected (300)
+
+
+
+PokerStars Hand #103358560459: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:47:47 CET [2013/08/28 16:47:47 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1165 in chips)
+Seat 3: acrisdu11 (6035 in chips)
+Seat 5: backsidair (445 in chips)
+Seat 7: mikrethor (2555 in chips)
+Seat 9: misterwill8 (3300 in chips)
+dragoonnhead: posts small blind 75
+acrisdu11: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [4d Ah]
+backsidair: folds
+mikrethor: folds
+misterwill8: calls 150
+dragoonnhead: folds
+acrisdu11: checks
+*** FLOP *** [Tc 7d Kd]
+acrisdu11: checks
+misterwill8: bets 150
+acrisdu11: folds
+Uncalled bet (150) returned to misterwill8
+misterwill8 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0
+Board [Tc 7d Kd]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) folded on the Flop
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) collected (375)
+
+
+
+PokerStars Hand #103358590125: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:48:24 CET [2013/08/28 16:48:24 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1090 in chips)
+Seat 3: acrisdu11 (5885 in chips)
+Seat 5: backsidair (445 in chips)
+Seat 7: mikrethor (2555 in chips)
+Seat 9: misterwill8 (3525 in chips)
+acrisdu11: posts small blind 75
+backsidair: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [3d Jh]
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: raises 300 to 450
+acrisdu11: calls 375
+backsidair: folds
+*** FLOP *** [3h Kh 3s]
+acrisdu11: checks
+dragoonnhead: checks
+*** TURN *** [3h Kh 3s] [4d]
+acrisdu11: checks
+dragoonnhead: checks
+*** RIVER *** [3h Kh 3s 4d] [4s]
+acrisdu11: checks
+dragoonnhead: checks
+*** SHOW DOWN ***
+acrisdu11: shows [Qs Jd] (two pair, Fours and Threes)
+dragoonnhead: shows [6c Ad] (two pair, Fours and Threes - Ace kicker)
+dragoonnhead collected 1050 from pot
+*** SUMMARY ***
+Total pot 1050 | Rake 0
+Board [3h Kh 3s 4d 4s]
+Seat 1: dragoonnhead (button) showed [6c Ad] and won (1050) with two pair, Fours and Threes
+Seat 3: acrisdu11 (small blind) showed [Qs Jd] and lost with two pair, Fours and Threes
+Seat 5: backsidair (big blind) folded before Flop
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358623735: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:49:05 CET [2013/08/28 16:49:05 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5435 in chips)
+Seat 5: backsidair (295 in chips)
+Seat 7: mikrethor (2555 in chips)
+Seat 9: misterwill8 (3525 in chips)
+backsidair: posts small blind 75
+mikrethor: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [7c As]
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: raises 145 to 295 and is all-in
+mikrethor: calls 145
+*** FLOP *** [3h 5c Th]
+*** TURN *** [3h 5c Th] [9c]
+*** RIVER *** [3h 5c Th 9c] [7h]
+*** SHOW DOWN ***
+backsidair: shows [Td 8c] (a pair of Tens)
+mikrethor: shows [7c As] (a pair of Sevens)
+backsidair collected 590 from pot
+*** SUMMARY ***
+Total pot 590 | Rake 0
+Board [3h 5c Th 9c 7h]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) showed [Td 8c] and won (590) with a pair of Tens
+Seat 7: mikrethor (big blind) showed [7c As] and lost with a pair of Sevens
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358641558: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:49:27 CET [2013/08/28 16:49:27 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5435 in chips)
+Seat 5: backsidair (590 in chips)
+Seat 7: mikrethor (2260 in chips)
+Seat 9: misterwill8 (3525 in chips)
+mikrethor: posts small blind 75
+misterwill8: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Tc 8h]
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+mikrethor: folds
+Uncalled bet (75) returned to misterwill8
+misterwill8 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) collected (150)
+
+
+
+PokerStars Hand #103358654566: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:49:43 CET [2013/08/28 16:49:43 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1690 in chips)
+Seat 3: acrisdu11 (5435 in chips)
+Seat 5: backsidair (590 in chips)
+Seat 7: mikrethor (2185 in chips)
+Seat 9: misterwill8 (3600 in chips)
+misterwill8: posts small blind 75
+dragoonnhead: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Ad 2h]
+acrisdu11: folds
+backsidair: raises 440 to 590 and is all-in
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+Uncalled bet (440) returned to backsidair
+backsidair collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0
+Seat 1: dragoonnhead (big blind) folded before Flop
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair collected (375)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358665594: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:49:56 CET [2013/08/28 16:49:56 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1540 in chips)
+Seat 3: acrisdu11 (5435 in chips)
+Seat 5: backsidair (815 in chips)
+Seat 7: mikrethor (2185 in chips)
+Seat 9: misterwill8 (3525 in chips)
+dragoonnhead: posts small blind 75
+acrisdu11: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [Ts Kc]
+backsidair: folds
+mikrethor: raises 150 to 300
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: calls 150
+*** FLOP *** [6s 5c Ks]
+acrisdu11: checks
+mikrethor: bets 300
+acrisdu11: calls 300
+*** TURN *** [6s 5c Ks] [3d]
+acrisdu11: checks
+mikrethor: bets 450
+acrisdu11: calls 450
+*** RIVER *** [6s 5c Ks 3d] [Jc]
+acrisdu11: checks
+mikrethor: checks
+*** SHOW DOWN ***
+acrisdu11: shows [7s As] (high card Ace)
+mikrethor: shows [Ts Kc] (a pair of Kings)
+mikrethor collected 2175 from pot
+*** SUMMARY ***
+Total pot 2175 | Rake 0
+Board [6s 5c Ks 3d Jc]
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) showed [7s As] and lost with high card Ace
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 7: mikrethor showed [Ts Kc] and won (2175) with a pair of Kings
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358692381: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:50:30 CET [2013/08/28 16:50:30 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1465 in chips)
+Seat 3: acrisdu11 (4385 in chips)
+Seat 5: backsidair (815 in chips)
+Seat 7: mikrethor (3310 in chips)
+Seat 9: misterwill8 (3525 in chips)
+acrisdu11: posts small blind 75
+backsidair: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [9s 6s]
+mikrethor: folds
+misterwill8: calls 150
+dragoonnhead: raises 1315 to 1465 and is all-in
+acrisdu11: folds
+backsidair: folds
+misterwill8: folds
+Uncalled bet (1315) returned to dragoonnhead
+dragoonnhead collected 525 from pot
+*** SUMMARY ***
+Total pot 525 | Rake 0
+Seat 1: dragoonnhead (button) collected (525)
+Seat 3: acrisdu11 (small blind) folded before Flop
+Seat 5: backsidair (big blind) folded before Flop
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop
+
+
+
+PokerStars Hand #103358713494: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:50:55 CET [2013/08/28 16:50:55 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (4310 in chips)
+Seat 5: backsidair (665 in chips)
+Seat 7: mikrethor (3310 in chips)
+Seat 9: misterwill8 (3375 in chips)
+backsidair: posts small blind 75
+mikrethor: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [2s 8h]
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: raises 515 to 665 and is all-in
+mikrethor: folds
+Uncalled bet (515) returned to backsidair
+backsidair collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) collected (300)
+Seat 7: mikrethor (big blind) folded before Flop
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358724859: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:51:09 CET [2013/08/28 16:51:09 ET]
+Table '780452500 1' 9-max Seat #5 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (4310 in chips)
+Seat 5: backsidair (815 in chips)
+Seat 7: mikrethor (3160 in chips)
+Seat 9: misterwill8 (3375 in chips)
+mikrethor: posts small blind 75
+misterwill8: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [2c Ks]
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: folds
+mikrethor: folds
+Uncalled bet (75) returned to misterwill8
+misterwill8 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) collected (150)
+
+
+
+PokerStars Hand #103358732272: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level V (75/150) - 2013/08/28 22:51:18 CET [2013/08/28 16:51:18 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1840 in chips)
+Seat 3: acrisdu11 (4310 in chips)
+Seat 5: backsidair (815 in chips)
+Seat 7: mikrethor (3085 in chips)
+Seat 9: misterwill8 (3450 in chips)
+misterwill8: posts small blind 75
+dragoonnhead: posts big blind 150
+*** HOLE CARDS ***
+Dealt to mikrethor [3c 2d]
+acrisdu11: folds
+backsidair: raises 665 to 815 and is all-in
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: calls 665
+*** FLOP *** [Ac 6c Ah]
+*** TURN *** [Ac 6c Ah] [3s]
+*** RIVER *** [Ac 6c Ah 3s] [5h]
+*** SHOW DOWN ***
+dragoonnhead: shows [As Th] (three of a kind, Aces)
+backsidair: shows [Td Ad] (three of a kind, Aces)
+dragoonnhead collected 853 from pot
+backsidair collected 852 from pot
+*** SUMMARY ***
+Total pot 1705 | Rake 0
+Board [Ac 6c Ah 3s 5h]
+Seat 1: dragoonnhead (big blind) showed [As Th] and won (853) with three of a kind, Aces
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 5: backsidair showed [Td Ad] and won (852) with three of a kind, Aces
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358754570: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:51:46 CET [2013/08/28 16:51:46 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1878 in chips)
+Seat 3: acrisdu11 (4310 in chips)
+Seat 5: backsidair (852 in chips)
+Seat 7: mikrethor (3085 in chips)
+Seat 9: misterwill8 (3375 in chips)
+dragoonnhead: posts small blind 100
+acrisdu11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [2c Ac]
+backsidair: folds
+mikrethor: folds
+misterwill8: raises 200 to 400
+dragoonnhead: folds
+acrisdu11: folds
+Uncalled bet (200) returned to misterwill8
+misterwill8 collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0
+Seat 1: dragoonnhead (small blind) folded before Flop
+Seat 3: acrisdu11 (big blind) folded before Flop
+Seat 5: backsidair folded before Flop (didn't bet)
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) collected (500)
+
+
+
+PokerStars Hand #103358768831: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:52:04 CET [2013/08/28 16:52:04 ET]
+Table '780452500 1' 9-max Seat #1 is the button
+Seat 1: dragoonnhead (1778 in chips)
+Seat 3: acrisdu11 (4110 in chips)
+Seat 5: backsidair (852 in chips)
+Seat 7: mikrethor (3085 in chips)
+Seat 9: misterwill8 (3675 in chips)
+acrisdu11: posts small blind 100
+backsidair: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Kc 6d]
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: raises 1200 to 1400
+backsidair: folds
+Uncalled bet (1200) returned to acrisdu11
+acrisdu11 collected 400 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Seat 1: dragoonnhead (button) folded before Flop (didn't bet)
+Seat 3: acrisdu11 (small blind) collected (400)
+Seat 5: backsidair (big blind) folded before Flop
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358790002: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:52:29 CET [2013/08/28 16:52:29 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 1: dragoonnhead (1778 in chips)
+Seat 3: acrisdu11 (4310 in chips)
+Seat 5: backsidair (652 in chips)
+Seat 7: mikrethor (3085 in chips)
+Seat 9: misterwill8 (3675 in chips)
+backsidair: posts small blind 100
+mikrethor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [7c As]
+misterwill8: folds
+dragoonnhead: folds
+acrisdu11: folds
+backsidair: raises 452 to 652 and is all-in
+mikrethor: calls 452
+*** FLOP *** [3c 2c Qc]
+*** TURN *** [3c 2c Qc] [Qd]
+*** RIVER *** [3c 2c Qc Qd] [Jc]
+*** SHOW DOWN ***
+backsidair: shows [Kh Th] (a pair of Queens)
+mikrethor: shows [7c As] (a flush, Queen high)
+mikrethor collected 1304 from pot
+backsidair finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1304 | Rake 0
+Board [3c 2c Qc Qd Jc]
+Seat 1: dragoonnhead folded before Flop (didn't bet)
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 5: backsidair (small blind) showed [Kh Th] and lost with a pair of Queens
+Seat 7: mikrethor (big blind) showed [7c As] and won (1304) with a flush, Queen high
+Seat 9: misterwill8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358808051: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:52:51 CET [2013/08/28 16:52:51 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 1: dragoonnhead (1778 in chips)
+Seat 3: acrisdu11 (4310 in chips)
+Seat 7: mikrethor (3737 in chips)
+Seat 9: misterwill8 (3675 in chips)
+misterwill8: posts small blind 100
+dragoonnhead: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [9h 8h]
+acrisdu11: folds
+mikrethor: folds
+misterwill8: calls 100
+dragoonnhead: checks
+*** FLOP *** [2h 2c 7d]
+misterwill8: bets 200
+dragoonnhead: folds
+Uncalled bet (200) returned to misterwill8
+misterwill8 collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Board [2h 2c 7d]
+Seat 1: dragoonnhead (big blind) folded on the Flop
+Seat 3: acrisdu11 folded before Flop (didn't bet)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) collected (400)
+
+
+
+PokerStars Hand #103358825544: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:53:13 CET [2013/08/28 16:53:13 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 1: dragoonnhead (1578 in chips)
+Seat 3: acrisdu11 (4310 in chips)
+Seat 7: mikrethor (3737 in chips)
+Seat 9: misterwill8 (3875 in chips)
+dragoonnhead: posts small blind 100
+acrisdu11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [7c Th]
+mikrethor: folds
+misterwill8: folds
+dragoonnhead: raises 1378 to 1578 and is all-in
+acrisdu11: calls 1378
+*** FLOP *** [Jc 2s Kc]
+*** TURN *** [Jc 2s Kc] [5c]
+*** RIVER *** [Jc 2s Kc 5c] [6d]
+*** SHOW DOWN ***
+dragoonnhead: shows [Ah 4h] (high card Ace)
+acrisdu11: shows [2d Ks] (two pair, Kings and Deuces)
+acrisdu11 collected 3156 from pot
+dragoonnhead finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 3156 | Rake 0
+Board [Jc 2s Kc 5c 6d]
+Seat 1: dragoonnhead (small blind) showed [Ah 4h] and lost with high card Ace
+Seat 3: acrisdu11 (big blind) showed [2d Ks] and won (3156) with two pair, Kings and Deuces
+Seat 7: mikrethor folded before Flop (didn't bet)
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358843096: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:53:34 CET [2013/08/28 16:53:34 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 3: acrisdu11 (5888 in chips)
+Seat 7: mikrethor (3737 in chips)
+Seat 9: misterwill8 (3875 in chips)
+mikrethor: posts small blind 100
+misterwill8: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [8c 7h]
+acrisdu11: folds
+mikrethor: raises 400 to 600
+misterwill8: folds
+Uncalled bet (400) returned to mikrethor
+mikrethor collected 400 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) collected (400)
+Seat 9: misterwill8 (big blind) folded before Flop
+
+
+
+PokerStars Hand #103358852796: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:53:46 CET [2013/08/28 16:53:46 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 3: acrisdu11 (5888 in chips)
+Seat 7: mikrethor (3937 in chips)
+Seat 9: misterwill8 (3675 in chips)
+misterwill8: posts small blind 100
+acrisdu11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [2d Ah]
+mikrethor: folds
+misterwill8: calls 100
+acrisdu11: raises 400 to 600
+misterwill8: folds
+Uncalled bet (400) returned to acrisdu11
+acrisdu11 collected 400 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Seat 3: acrisdu11 (big blind) collected (400)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358864355: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:54:00 CET [2013/08/28 16:54:00 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 3: acrisdu11 (6088 in chips)
+Seat 7: mikrethor (3937 in chips)
+Seat 9: misterwill8 (3475 in chips)
+acrisdu11: posts small blind 100
+mikrethor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Jd 7h]
+misterwill8: folds
+acrisdu11: raises 200 to 400
+mikrethor: calls 200
+*** FLOP *** [5c Kc Qs]
+acrisdu11: checks
+mikrethor: checks
+*** TURN *** [5c Kc Qs] [Ad]
+acrisdu11: bets 200
+mikrethor: folds
+Uncalled bet (200) returned to acrisdu11
+acrisdu11 collected 800 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 800 | Rake 0
+Board [5c Kc Qs Ad]
+Seat 3: acrisdu11 (small blind) collected (800)
+Seat 7: mikrethor (big blind) folded on the Turn
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358882445: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:54:22 CET [2013/08/28 16:54:22 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 3: acrisdu11 (6488 in chips)
+Seat 7: mikrethor (3537 in chips)
+Seat 9: misterwill8 (3475 in chips)
+mikrethor: posts small blind 100
+misterwill8: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Ts 9s]
+acrisdu11: raises 400 to 600
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (400) returned to acrisdu11
+acrisdu11 collected 500 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 500 | Rake 0
+Seat 3: acrisdu11 (button) collected (500)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) folded before Flop
+
+
+
+PokerStars Hand #103358890497: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:54:32 CET [2013/08/28 16:54:32 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 3: acrisdu11 (6788 in chips)
+Seat 7: mikrethor (3437 in chips)
+Seat 9: misterwill8 (3275 in chips)
+misterwill8: posts small blind 100
+acrisdu11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Kd 5s]
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (100) returned to acrisdu11
+acrisdu11 collected 200 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 200 | Rake 0
+Seat 3: acrisdu11 (big blind) collected (200)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358897595: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:54:41 CET [2013/08/28 16:54:41 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 3: acrisdu11 (6888 in chips)
+Seat 7: mikrethor (3437 in chips)
+Seat 9: misterwill8 (3175 in chips)
+acrisdu11: posts small blind 100
+mikrethor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Th 8d]
+misterwill8: folds
+acrisdu11: calls 100
+mikrethor: raises 200 to 400
+acrisdu11: calls 200
+*** FLOP *** [Kh Tc 9s]
+acrisdu11: checks
+mikrethor: bets 600
+acrisdu11: folds [7d 6s]
+Uncalled bet (600) returned to mikrethor
+mikrethor collected 800 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 800 | Rake 0
+Board [Kh Tc 9s]
+Seat 3: acrisdu11 (small blind) folded on the Flop
+Seat 7: mikrethor (big blind) collected (800)
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358920284: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:55:10 CET [2013/08/28 16:55:10 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 3: acrisdu11 (6488 in chips)
+Seat 7: mikrethor (3837 in chips)
+Seat 9: misterwill8 (3175 in chips)
+mikrethor: posts small blind 100
+misterwill8: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [7d 8s]
+acrisdu11: folds
+mikrethor: raises 400 to 600
+misterwill8: calls 400
+*** FLOP *** [7c 3c Jh]
+mikrethor: bets 800
+misterwill8: folds
+Uncalled bet (800) returned to mikrethor
+mikrethor collected 1200 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 1200 | Rake 0
+Board [7c 3c Jh]
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) collected (1200)
+Seat 9: misterwill8 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #103358934030: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:55:34 CET [2013/08/28 16:55:34 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 3: acrisdu11 (6488 in chips)
+Seat 7: mikrethor (4437 in chips)
+Seat 9: misterwill8 (2575 in chips)
+misterwill8: posts small blind 100
+acrisdu11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Qc Ad]
+mikrethor: raises 600 to 800
+misterwill8: folds
+acrisdu11: folds
+Uncalled bet (600) returned to mikrethor
+mikrethor collected 500 from pot
+mikrethor: doesn't show hand
+*** SUMMARY ***
+Total pot 500 | Rake 0
+Seat 3: acrisdu11 (big blind) folded before Flop
+Seat 7: mikrethor (button) collected (500)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358943023: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:55:49 CET [2013/08/28 16:55:49 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 3: acrisdu11 (6288 in chips)
+Seat 7: mikrethor (4737 in chips)
+Seat 9: misterwill8 (2475 in chips)
+acrisdu11: posts small blind 100
+mikrethor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [2c 2s]
+misterwill8: calls 200
+acrisdu11: calls 100
+mikrethor: checks
+*** FLOP *** [Kc 4h 6d]
+acrisdu11: checks
+mikrethor: checks
+misterwill8: bets 200
+acrisdu11: calls 200
+mikrethor: folds
+*** TURN *** [Kc 4h 6d] [6s]
+acrisdu11: checks
+misterwill8: bets 600
+acrisdu11: folds
+Uncalled bet (600) returned to misterwill8
+misterwill8 collected 1000 from pot
+*** SUMMARY ***
+Total pot 1000 | Rake 0
+Board [Kc 4h 6d 6s]
+Seat 3: acrisdu11 (small blind) folded on the Turn
+Seat 7: mikrethor (big blind) folded on the Flop
+Seat 9: misterwill8 (button) collected (1000)
+
+
+
+PokerStars Hand #103358968818: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:56:33 CET [2013/08/28 16:56:33 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 3: acrisdu11 (5888 in chips)
+Seat 7: mikrethor (4537 in chips)
+Seat 9: misterwill8 (3075 in chips)
+mikrethor: posts small blind 100
+misterwill8: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [4s 8h]
+acrisdu11: folds
+mikrethor: folds
+Uncalled bet (100) returned to misterwill8
+misterwill8 collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) folded before Flop
+Seat 9: misterwill8 (big blind) collected (200)
+
+
+
+PokerStars Hand #103358973023: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:56:40 CET [2013/08/28 16:56:40 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 3: acrisdu11 (5888 in chips)
+Seat 7: mikrethor (4437 in chips)
+Seat 9: misterwill8 (3175 in chips)
+misterwill8: posts small blind 100
+acrisdu11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Ah 4d]
+mikrethor: folds
+misterwill8: folds
+Uncalled bet (100) returned to acrisdu11
+acrisdu11 collected 200 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 200 | Rake 0
+Seat 3: acrisdu11 (big blind) collected (200)
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #103358977443: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:56:48 CET [2013/08/28 16:56:48 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 3: acrisdu11 (5988 in chips)
+Seat 7: mikrethor (4437 in chips)
+Seat 9: misterwill8 (3075 in chips)
+acrisdu11: posts small blind 100
+mikrethor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [Js 6s]
+misterwill8: folds
+acrisdu11: raises 5788 to 5988 and is all-in
+mikrethor: folds
+Uncalled bet (5788) returned to acrisdu11
+acrisdu11 collected 400 from pot
+acrisdu11: doesn't show hand
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Seat 3: acrisdu11 (small blind) collected (400)
+Seat 7: mikrethor (big blind) folded before Flop
+Seat 9: misterwill8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #103358985635: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:57:01 CET [2013/08/28 16:57:01 ET]
+Table '780452500 1' 9-max Seat #3 is the button
+Seat 3: acrisdu11 (6188 in chips)
+Seat 7: mikrethor (4237 in chips)
+Seat 9: misterwill8 (3075 in chips)
+mikrethor: posts small blind 100
+misterwill8: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [5s 7s]
+acrisdu11: folds
+mikrethor: raises 400 to 600
+misterwill8: calls 400
+*** FLOP *** [5c Th 4d]
+mikrethor: bets 800
+misterwill8: raises 800 to 1600
+mikrethor: raises 2037 to 3637 and is all-in
+misterwill8: calls 875 and is all-in
+Uncalled bet (1162) returned to mikrethor
+*** TURN *** [5c Th 4d] [6s]
+*** RIVER *** [5c Th 4d 6s] [7d]
+*** SHOW DOWN ***
+mikrethor: shows [5s 7s] (two pair, Sevens and Fives)
+misterwill8: shows [6h 7h] (two pair, Sevens and Sixes)
+misterwill8 collected 6150 from pot
+*** SUMMARY ***
+Total pot 6150 | Rake 0
+Board [5c Th 4d 6s 7d]
+Seat 3: acrisdu11 (button) folded before Flop (didn't bet)
+Seat 7: mikrethor (small blind) showed [5s 7s] and lost with two pair, Sevens and Fives
+Seat 9: misterwill8 (big blind) showed [6h 7h] and won (6150) with two pair, Sevens and Sixes
+
+
+
+PokerStars Hand #103359004134: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:57:33 CET [2013/08/28 16:57:33 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 3: acrisdu11 (6188 in chips)
+Seat 7: mikrethor (1162 in chips)
+Seat 9: misterwill8 (6150 in chips)
+misterwill8: posts small blind 100
+acrisdu11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [6d 2s]
+mikrethor: folds
+misterwill8: calls 100
+acrisdu11: raises 200 to 400
+misterwill8: calls 200
+*** FLOP *** [8c 5c 2c]
+misterwill8: bets 800
+acrisdu11: folds
+Uncalled bet (800) returned to misterwill8
+misterwill8 collected 800 from pot
+*** SUMMARY ***
+Total pot 800 | Rake 0
+Board [8c 5c 2c]
+Seat 3: acrisdu11 (big blind) folded on the Flop
+Seat 7: mikrethor (button) folded before Flop (didn't bet)
+Seat 9: misterwill8 (small blind) collected (800)
+
+
+
+PokerStars Hand #103359016373: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:57:53 CET [2013/08/28 16:57:53 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 3: acrisdu11 (5788 in chips)
+Seat 7: mikrethor (1162 in chips)
+Seat 9: misterwill8 (6550 in chips)
+acrisdu11: posts small blind 100
+mikrethor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [4d 3s]
+misterwill8: raises 200 to 400
+acrisdu11: calls 300
+mikrethor: folds
+*** FLOP *** [4s 6c 7h]
+acrisdu11: bets 600
+misterwill8: calls 600
+*** TURN *** [4s 6c 7h] [5h]
+acrisdu11: bets 600
+misterwill8: raises 600 to 1200
+acrisdu11: calls 600
+*** RIVER *** [4s 6c 7h 5h] [As]
+acrisdu11: bets 3588 and is all-in
+misterwill8: calls 3588
+*** SHOW DOWN ***
+acrisdu11: shows [4c Ac] (two pair, Aces and Fours)
+misterwill8: shows [8c Ah] (a straight, Four to Eight)
+misterwill8 collected 11776 from pot
+acrisdu11 finished the tournament in 3rd place and received €1.60.
+*** SUMMARY ***
+Total pot 11776 | Rake 0
+Board [4s 6c 7h 5h As]
+Seat 3: acrisdu11 (small blind) showed [4c Ac] and lost with two pair, Aces and Fours
+Seat 7: mikrethor (big blind) folded before Flop
+Seat 9: misterwill8 (button) showed [8c Ah] and won (11776) with a straight, Four to Eight
+
+
+
+PokerStars Hand #103359039330: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:58:32 CET [2013/08/28 16:58:32 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 7: mikrethor (962 in chips)
+Seat 9: misterwill8 (12538 in chips)
+mikrethor: posts small blind 100
+misterwill8: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [4s 5s]
+mikrethor: raises 762 to 962 and is all-in
+misterwill8: calls 762
+*** FLOP *** [Tc 4d 9s]
+*** TURN *** [Tc 4d 9s] [3d]
+*** RIVER *** [Tc 4d 9s 3d] [Ts]
+*** SHOW DOWN ***
+misterwill8: shows [Qc 6c] (a pair of Tens)
+mikrethor: shows [4s 5s] (two pair, Tens and Fours)
+mikrethor collected 1924 from pot
+*** SUMMARY ***
+Total pot 1924 | Rake 0
+Board [Tc 4d 9s 3d Ts]
+Seat 7: mikrethor (button) (small blind) showed [4s 5s] and won (1924) with two pair, Tens and Fours
+Seat 9: misterwill8 (big blind) showed [Qc 6c] and lost with a pair of Tens
+
+
+
+PokerStars Hand #103359048283: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:58:48 CET [2013/08/28 16:58:48 ET]
+Table '780452500 1' 9-max Seat #9 is the button
+Seat 7: mikrethor (1924 in chips)
+Seat 9: misterwill8 (11576 in chips)
+misterwill8: posts small blind 100
+mikrethor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [3d Jh]
+misterwill8: calls 100
+mikrethor: checks
+*** FLOP *** [6d 6c 8h]
+mikrethor: checks
+misterwill8: bets 400
+mikrethor: folds
+Uncalled bet (400) returned to misterwill8
+misterwill8 collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Board [6d 6c 8h]
+Seat 7: mikrethor (big blind) folded on the Flop
+Seat 9: misterwill8 (button) (small blind) collected (400)
+
+
+
+PokerStars Hand #103359057960: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level VI (100/200) - 2013/08/28 22:59:04 CET [2013/08/28 16:59:04 ET]
+Table '780452500 1' 9-max Seat #7 is the button
+Seat 7: mikrethor (1724 in chips)
+Seat 9: misterwill8 (11776 in chips)
+mikrethor: posts small blind 100
+misterwill8: posts big blind 200
+*** HOLE CARDS ***
+Dealt to mikrethor [9d 9h]
+mikrethor: raises 400 to 600
+misterwill8: raises 400 to 1000
+mikrethor: raises 724 to 1724 and is all-in
+misterwill8: calls 724
+*** FLOP *** [5h 8h 2d]
+*** TURN *** [5h 8h 2d] [6c]
+*** RIVER *** [5h 8h 2d 6c] [Qc]
+*** SHOW DOWN ***
+misterwill8: shows [Qd Ah] (a pair of Queens)
+mikrethor: shows [9d 9h] (a pair of Nines)
+misterwill8 collected 3448 from pot
+mikrethor finished the tournament in 2nd place and received €2.40.
+misterwill8 wins the tournament and receives €4.01 - congratulations!
+*** SUMMARY ***
+Total pot 3448 | Rake 0
+Board [5h 8h 2d 6c Qc]
+Seat 7: mikrethor (button) (small blind) showed [9d 9h] and lost with a pair of Nines
+Seat 9: misterwill8 (big blind) showed [Qd Ah] and won (3448) with a pair of Queens
+
 
 
