@@ -9,8 +9,6 @@ import org.junit.Test
 import java.io.File
 import java.util.*
 import kotlin.test.assertEquals
-import kotlin.test.assertFalse
-import kotlin.test.assertTrue
 
 
 class PokerstarsParserTest {
@@ -31,10 +29,10 @@ class PokerstarsParserTest {
     fun testBuyInTicketOnly() {
         val parser: Parser = createParser()
 
-        val buyIn: Double = parser.parseBuyIn("PokerStars Hand #103356159434: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:01:28 CET [2013/08/28 16:01:28 ET]")
+        val buyIn: Double = parser.parseBuyIn("PokerStars Hand #173421589642: Tournament #1952630414, Freeroll  Hold'em No Limit - Level II (30/60) - 2017/07/23 17:12:53 ET")
         assertEquals(0.0, buyIn)
 
-        val fee: Double = parser.parseFee("PokerStars Hand #103356159434: Tournament #780452500, $0.89+$0.11 USD Hold'em No Limit - Level I (10/20) - 2015/12/12 20:09:03 ET")
+        val fee: Double = parser.parseFee("PokerStars Hand #173421589642: Tournament #1952630414, Freeroll  Hold'em No Limit - Level II (30/60) - 2017/07/23 17:12:53 ET")
         assertEquals(0.0, fee)
     }
 
@@ -114,7 +112,7 @@ class PokerstarsParserTest {
         val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         val result: String = parser.parseGameIdCardroom("HH20130828 T780452500 Hold'em No Limit 0,89 € + 0,11 €.txt")
-        assertEquals("T780452500", result)
+        assertEquals("780452500", result)
     }
 
     @Test
@@ -215,7 +213,7 @@ class PokerstarsParserTest {
     @Test
     fun testHandDate() {
         val parser: Parser = createParser()
-        val calendar = GregorianCalendar(2017, 6, 23, 0, 54, 3)
+        val calendar = GregorianCalendar(2015, 11, 12, 20, 9, 3)
         assertEquals(calendar.time, parser.parseHandDate("PokerStars Hand #103356159434: Tournament #780452500, $0.89+$0.11 USD Hold'em No Limit - Level I (10/20) - 2015/12/12 20:09:03 ET]"))
     }
 
