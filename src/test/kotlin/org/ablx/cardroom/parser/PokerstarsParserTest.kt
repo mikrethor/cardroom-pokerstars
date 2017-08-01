@@ -105,6 +105,9 @@ class PokerstarsParserTest {
 
         result = parser.parseCurrency("PokerStars Hand #103356159434: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:01:28 CET [2013/08/28 16:01:28 ET]")
         assertEquals(Currency.EURO, result)
+
+        result = parser.parseCurrency("PokerStars Hand #173421589642: Tournament #1952630414, Freeroll  Hold'em No Limit - Level II (30/60) - 2017/07/23 17:12:53 ET")
+        assertEquals(Currency.PLAY_MONEY, result)
     }
 
     @Test
@@ -233,7 +236,9 @@ class PokerstarsParserTest {
     @Test
     fun testParse() {
         val parser: Parser = createParser()
-        parser.parse()
+        val hands=parser.parse()
+
+       assertEquals(97, hands.values.size)
     }
 
 
