@@ -40,19 +40,17 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     override fun fileToMap(): Map<String, String> {
 
         var map = HashMap<String, String>()
-        val parts = readHandFile().split("PokerStars Hand")
+        val parts = readHandFile().split(NEW_HAND)
 
         var index = 0
         for (s in parts) {
             index++
             if (s != "") {
-                map.put(parseHandId(s), "PokerStars Hand" + s)
+                map.put(parseHandId(s), NEW_HAND+ s)
             }
         }
 
         return map
-
-
     }
 
     override fun getGameTypeFromFilename(fileName: String): GameType {
@@ -77,7 +75,7 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
 
         for (key in mapFilePart.keys) {
 
-            mapHands.put(key, textToHand(mapFilePart.get(key)!!))
+            mapHands.put(key, textToHand(mapFilePart[key]!!))
         }
         return mapHands
     }
