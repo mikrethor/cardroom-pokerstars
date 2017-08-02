@@ -4,6 +4,8 @@ import org.ablx.cardroom.commons.data.Cardroom
 import org.ablx.cardroom.commons.data.Hand
 import org.ablx.cardroom.commons.data.HandAction
 import org.ablx.cardroom.commons.data.Player
+import org.ablx.cardroom.commons.enumeration.*
+import org.ablx.cardroom.commons.enumeration.Currency
 import org.ablx.cardroom.commons.utils.RomanNumeralUtils
 import java.nio.file.Files
 import java.nio.file.Paths
@@ -11,17 +13,7 @@ import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 import java.util.regex.Pattern
-import com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER
-import jdk.nashorn.tools.ShellFunctions.input
-import com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER
-import com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER
-import jdk.nashorn.tools.ShellFunctions.input
-import org.ablx.cardroom.commons.enumeration.*
-import org.ablx.cardroom.commons.enumeration.Currency
-import jdk.nashorn.tools.ShellFunctions.input
-import com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER
 import kotlin.collections.HashMap
-import com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER
 
 
 class PokerstarsParser(override val cardroom: Cardroom, override val filePath: String) : Parser, CardroomParser() {
@@ -45,8 +37,22 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     override var operator: Operator = Operator.POKERSTARS
 
 
-    override fun fileToMap(): Map<String, StringBuffer> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun fileToMap(): Map<String, String> {
+
+        var map = HashMap<String, String>()
+        val parts = readHandFile().split("PokerStars Hand")
+
+        var index = 0
+        for (s in parts) {
+            index++
+            if (s != "") {
+                map.put(parseHandId(s), "PokerStars Hand" + s)
+            }
+        }
+
+        return map
+
+
     }
 
     override fun getGameTypeFromFilename(fileName: String): GameType {
@@ -65,63 +71,15 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun nextLine(scanner: Scanner): String {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
     override fun parse(): MutableMap<String, Hand> {
-        val content = readHandFile()
-        val map: MutableMap<String, Hand> = HashMap()
-        var hand: Hand = Hand("")
+        val mapHands: MutableMap<String, Hand> = HashMap()
+        val mapFilePart: Map<String, String> = fileToMap()
 
-        hand.actions = ArrayList<HandAction>()
-        //TODO put in the right phase
+        for (key in mapFilePart.keys) {
 
-        hand.preflopActions = ArrayList<HandAction>()
-        hand.flopActions = ArrayList<HandAction>()
-        hand.turnActions = ArrayList<HandAction>()
-        hand.riverActions = ArrayList<HandAction>()
-        hand.showdownActions = ArrayList<HandAction>()
-        hand.players = HashMap<Int, Player>()
-        hand.playersSeatByName = HashMap<String, Int>()
-        var currentLine = ""
-
-        content.reader().useLines {
-            val iter = it.iterator()
-            while (iter.hasNext()) {
-
-                if (currentLine.startsWith(NEW_HAND)) {
-
-                    currentLine = parseNewHandLine(currentLine, NEW_HAND, arrayOf(EMPTY), hand)
-                }
-                currentLine = iter.next()
-
-                currentLine = parseTableLine(currentLine, iter, TABLE, arrayOf(EMPTY), hand)
-                currentLine = iter.next()
-
-                currentLine = parseSeatLine(currentLine, iter, SEAT, arrayOf<String>(HOLE_CARDS), hand)
-
-                // Renommer cette methode
-                currentLine = parseDealer(currentLine, iter, HOLE_CARDS, arrayOf<String>(FLOP, SUMMARY), hand)
-
-                // Lecture des actions du coup
-                currentLine = readPreflop(currentLine, iter, hand)
-
-                currentLine = readFlop(currentLine, iter, hand)
-
-                currentLine = readTurn(currentLine, iter, hand)
-
-                currentLine = readRiver(currentLine, iter, hand)
-
-                currentLine = readShowdown(currentLine, iter, hand)
-
-                currentLine = readSummary(currentLine, iter, SUMMARY, arrayOf<String>(NEW_HAND), hand)
-
-                hand.cardroom = cardroom
-                map.put(hand.cardroomHandId, hand)
-            }
-            return map
+            mapHands.put(key, textToHand(mapFilePart.get(key)!!))
         }
+        return mapHands
     }
 
     override fun parseAntesAndBlinds(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand): String {
@@ -292,6 +250,10 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
 
     override fun parseNewHandLine(line: String, phase: String, nextPhases: Array<String>, hand: Hand): String {
         val nextL = line
+        hand.actions = ArrayList<HandAction>()
+        hand.players = HashMap<Int, Player>()
+        hand.playersSeatByName = HashMap<String, Int>()
+        hand.preflopActions = ArrayList<HandAction>()
         if (nextL.startsWith(phase)) {
 
             val tab = nextL.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
@@ -331,14 +293,14 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     }
 
     override fun parsePlayerSeat(line: String): Player {
-        val espace = line.indexOf(SPACE)
-        val deuxpoints = line.indexOf(COLON)
-        val parenthesegauche = line.indexOf(LEFT_PARENTHESIS)
+        val space = line.indexOf(SPACE)
+        val colon = line.indexOf(COLON)
+        val leftParenthesis = line.indexOf(LEFT_PARENTHESIS)
         val inchips = line.indexOf(" in chips)")
 
-        val seat = line.substring(espace + 1, deuxpoints)
-        val playerName = line.substring(deuxpoints + 2, parenthesegauche - 1)
-        var stack = line.substring(parenthesegauche + 1, inchips)
+        val seat = line.substring(space + 1, colon)
+        val playerName = line.substring(colon + 2, leftParenthesis - 1)
+        var stack = line.substring(leftParenthesis + 1, inchips)
         stack = stack.replace(money.symbol, EMPTY)
 
         val player = Player(0, playerName, cardroom)
@@ -359,14 +321,14 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     }
 
     override fun parseSeatLine(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand): String {
-        var nextL = currentLine
-        if (nextL.startsWith(SEAT)) {
+        var curLine = currentLine
+        if (curLine.startsWith(SEAT)) {
 
             while (iterator.hasNext()) {
-                if (nextL.startsWith(SEAT)) {
+                if (curLine.startsWith(SEAT)) {
 
 
-                    val playerInGame = parsePlayerSeat(nextL)
+                    val playerInGame = parsePlayerSeat(curLine)
                     hand.addPlayer(playerInGame)
 
 
@@ -374,32 +336,32 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
 
                         hand.dealerPlayer = playerInGame
                     }
-                    nextL = iterator.next()
+                    curLine = iterator.next()
                 }
-                if (nextL.contains("posts small blind")) {
-                    val smallBlindTab = nextL.split(SPACE.toRegex()).dropLastWhile({ it.isEmpty() }).toTypedArray()
+                if (curLine.contains("posts small blind")) {
+                    val smallBlindTab = curLine.split(SPACE.toRegex()).dropLastWhile({ it.isEmpty() }).toTypedArray()
                     val smallBlindPlayer = this.getPlayerBlind(smallBlindTab).replace(COLON, EMPTY)
                     val smallBlind = smallBlindTab[smallBlindTab.size - 1]
 
                     hand.smallBlindPlayer = hand.playersByName.get(smallBlindPlayer)
-                    nextL = iterator.next()
+                    curLine = iterator.next()
                 }
 
-                if (nextL.contains("posts big blind")) {
-                    val bigBlindTab = nextL.split(SPACE.toRegex()).dropLastWhile({ it.isEmpty() }).toTypedArray()
+                if (curLine.contains("posts big blind")) {
+                    val bigBlindTab = curLine.split(SPACE.toRegex()).dropLastWhile({ it.isEmpty() }).toTypedArray()
                     val bigBlindPlayer = this.getPlayerBlind(bigBlindTab).replace(COLON, EMPTY)
                     val bigBlind = bigBlindTab[bigBlindTab.size - 1]
                     hand.bigBlindPlayer = hand.playersByName.get(bigBlindPlayer)
 
-                    nextL = iterator.next()
+                    curLine = iterator.next()
                 }
-                if (nextL.startsWith(HOLE_CARDS)) {
+                if (curLine.startsWith(HOLE_CARDS)) {
 
                     break
                 }
             }
         }
-        return nextL
+        return curLine
     }
 
     override fun parseSmallBlind(line: String): Double {
@@ -419,14 +381,14 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
 
     override fun parseTableLine(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand): String {
 
-        val nextL = currentLine
+        val curLine = currentLine
 
-        if (nextL.startsWith(TABLE)) {
+        if (curLine.startsWith(TABLE)) {
 
-            val numeroTable = parseTableId(nextL)
+            val numeroTable = parseTableId(curLine)
 
-            val nombreJoueur = parseNumberOfPlayerByTable(nextL)
-            val buttonSeat = parseButtonSeat(nextL)
+            val nombreJoueur = parseNumberOfPlayerByTable(curLine)
+            val buttonSeat = parseButtonSeat(curLine)
             hand.buttonSeat = buttonSeat
 
 
@@ -435,7 +397,7 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
             hand.cardroomTableId = numeroTable
 
         }
-        return nextL
+        return curLine
     }
 
 
@@ -447,9 +409,6 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
         return java.lang.Double.parseDouble(totalPot)
     }
 
-    override fun parsing(): Map<String, Hand> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
 
     override fun readAction(line: String, players: Map<String, Player>): HandAction? {
 
@@ -505,13 +464,13 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     }
 
     override fun readActionsByPhase(currentLine: String, iterator: Iterator<String>, hand: Hand, phase: String, nextPhases: Array<String>, actions: MutableList<HandAction>?): String {
-        var nextL = currentLine
+        var curLine = currentLine
 
-        if (nextL.startsWith(phase)) {
+        if (curLine.startsWith(phase)) {
 
             while (iterator.hasNext()) {
-                nextL = iterator.next()
-                if (startsWith(nextL, nextPhases)) {
+                curLine = iterator.next()
+                if (startsWith(curLine, nextPhases)) {
                     break
                 } else {
                     var round: Round?
@@ -533,7 +492,7 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
                         SHOW_DOWN -> round = Round.SHOWDOWN
                         else -> round = null
                     }
-                    val action = this.readAction(nextL, hand.playersByName)
+                    val action = this.readAction(curLine, hand.playersByName)
 
                     if (action != null) {
                         action.round = round
@@ -542,10 +501,11 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
                 }
             }
         }
-        return nextL
+        return curLine
     }
 
     override fun readFlop(currentLine: String, iterator: Iterator<String>, hand: Hand): String {
+        hand.flopActions = ArrayList<HandAction>()
         return readActionsByPhase(currentLine, iterator, hand, FLOP, arrayOf(TURN, SUMMARY), hand.flopActions)
     }
 
@@ -559,10 +519,12 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     }
 
     override fun readRiver(currentLine: String, iterator: Iterator<String>, hand: Hand): String {
+        hand.riverActions = ArrayList<HandAction>()
         return readActionsByPhase(currentLine, iterator, hand, RIVER, arrayOf(SHOW_DOWN, SUMMARY), hand.riverActions)
     }
 
     override fun readShowdown(currentLine: String, iterator: Iterator<String>, hand: Hand): String {
+        hand.showdownActions = ArrayList<HandAction>()
         return readActionsByPhase(currentLine, iterator, hand, SHOW_DOWN, arrayOf(SUMMARY), hand.showdownActions)
     }
 
@@ -615,19 +577,63 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     }
 
     override fun readTurn(currentLine: String, iterator: Iterator<String>, hand: Hand): String {
+        hand.turnActions = ArrayList<HandAction>()
         return readActionsByPhase(currentLine, iterator, hand, TURN, arrayOf(RIVER, SUMMARY), hand.turnActions)
     }
 
-    override fun textToHand(text: StringBuffer): Hand {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
+    override fun textToHand(text: String): Hand {
+        var currentLine: String = ""
+        var firstIteration = true
+        val iter = text.lines().asIterable().iterator()
+        var hand: Hand = Hand("")
+
+
+        while (iter.hasNext()) {
+            currentLine = iter.next()
+            System.out.println(currentLine)
+            if (currentLine.startsWith(NEW_HAND)) {
+                System.out.println(NEW_HAND)
+                hand = Hand("")
+
+                currentLine = parseNewHandLine(currentLine, NEW_HAND, arrayOf(EMPTY), hand)
+            }
+            currentLine = iter.next()
+            System.out.println(currentLine)
+            currentLine = parseTableLine(currentLine, iter, TABLE, arrayOf(EMPTY), hand)
+            currentLine = iter.next()
+            System.out.println(currentLine)
+            currentLine = parseSeatLine(currentLine, iter, SEAT, arrayOf<String>(HOLE_CARDS), hand)
+
+            // Renommer cette methode
+            currentLine = parseDealer(currentLine, iter, HOLE_CARDS, arrayOf<String>(FLOP, SUMMARY), hand)
+
+            // Lecture des actions du coup
+            currentLine = readPreflop(currentLine, iter, hand)
+
+            currentLine = readFlop(currentLine, iter, hand)
+
+            currentLine = readTurn(currentLine, iter, hand)
+
+            currentLine = readRiver(currentLine, iter, hand)
+
+            currentLine = readShowdown(currentLine, iter, hand)
+
+            currentLine = readSummary(currentLine, iter, SUMMARY, arrayOf<String>(NEW_HAND), hand)
+
+            hand.cardroom = cardroom
+
+        }
+
+        return hand
     }
 
     fun parsePlayerSummary(line: String): Player {
-        val espace = line.indexOf(SPACE)
-        val deuxpoints = line.indexOf(COLON)
+        val space = line.indexOf(SPACE)
+        val colon = line.indexOf(COLON)
 
-        val seat = line.substring(espace + 1, deuxpoints)
-        val playerName = line.substring(deuxpoints + 2, line.indexOf(SPACE, deuxpoints + 2))
+        val seat = line.substring(space + 1, colon)
+        val playerName = line.substring(colon + 2, line.indexOf(SPACE, colon + 2))
         var cards: Array<Card?>?
         val player = Player(null, playerName, cardroom)
         if (line.indexOf(OPENNING_SQUARE_BRACKET) > 0) {
@@ -635,9 +641,6 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
             player.cards = cards
         }
         player.seat = Integer.parseInt(seat)
-
-
-
         return player
     }
 

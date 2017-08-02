@@ -236,9 +236,82 @@ class PokerstarsParserTest {
     @Test
     fun testParse() {
         val parser: Parser = createParser()
-        val hands=parser.parse()
+        val hands = parser.parse()
 
-       assertEquals(97, hands.values.size)
+        assertEquals(97, hands.values.size)
+    }
+
+    @Test
+    fun testTextToHand() {
+        val parser: Parser = createParser()
+        val handText = "PokerStars Hand #103356493800: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:07:42 CET [2013/08/28 16:07:42 ET]\n" +
+                "Table '780452500 1' 9-max Seat #7 is the button\n" +
+                "Seat 1: dragoonnhead (1880 in chips)\n" +
+                "Seat 2: Sirius369 (1350 in chips)\n" +
+                "Seat 3: acrisdu11 (1450 in chips)\n" +
+                "Seat 5: backsidair (1640 in chips)\n" +
+                "Seat 6: nivekash (1120 in chips)\n" +
+                "Seat 7: mikrethor (1820 in chips)\n" +
+                "Seat 8: bakoly (1460 in chips)\n" +
+                "Seat 9: misterwill8 (2780 in chips)\n" +
+                "bakoly: posts small blind 10\n" +
+                "misterwill8: posts big blind 20\n" +
+                "*** HOLE CARDS ***\n" +
+                "Dealt to mikrethor [7s 9c]\n" +
+                "dragoonnhead: folds\n" +
+                "Sirius369: calls 20\n" +
+                "acrisdu11: folds\n" +
+                "backsidair: folds\n" +
+                "nivekash: calls 20\n" +
+                "mikrethor: folds\n" +
+                "bakoly: folds\n" +
+                "misterwill8: checks\n" +
+                "*** FLOP *** [3c Ah Kh]\n" +
+                "misterwill8: checks\n" +
+                "Sirius369: checks\n" +
+                "nivekash: checks\n" +
+                "*** TURN *** [3c Ah Kh] [Qs]\n" +
+                "misterwill8: checks\n" +
+                "Sirius369: checks\n" +
+                "nivekash: checks\n" +
+                "*** RIVER *** [3c Ah Kh Qs] [3d]\n" +
+                "misterwill8: checks\n" +
+                "Sirius369: bets 40\n" +
+                "nivekash: calls 40\n" +
+                "misterwill8: folds\n" +
+                "*** SHOW DOWN ***\n" +
+                "Sirius369: shows [Qh Js] (two pair, Queens and Threes)\n" +
+                "nivekash: shows [Kd 5s] (two pair, Kings and Threes)\n" +
+                "nivekash collected 150 from pot\n" +
+                "*** SUMMARY ***\n" +
+                "Total pot 150 | Rake 0\n" +
+                "Board [3c Ah Kh Qs 3d]\n" +
+                "Seat 1: dragoonnhead folded before Flop (didn't bet)\n" +
+                "Seat 2: Sirius369 showed [Qh Js] and lost with two pair, Queens and Threes\n" +
+                "Seat 3: acrisdu11 folded before Flop (didn't bet)\n" +
+                "Seat 5: backsidair folded before Flop (didn't bet)\n" +
+                "Seat 6: nivekash showed [Kd 5s] and won (150) with two pair, Kings and Threes\n" +
+                "Seat 7: mikrethor (button) folded before Flop (didn't bet)\n" +
+                "Seat 8: bakoly (small blind) folded before Flop\n" +
+                "Seat 9: misterwill8 (big blind) folded on the River"
+        val hand = parser.textToHand(handText)
+
+        assertEquals("103356493800", hand.cardroomHandId)
+        assertEquals("mikrethor", hand.accountPlayer!!.name)
+    }
+
+    @Test
+    fun testSplit() {
+        val parser: Parser = createParser()
+        val map = parser.fileToMap()
+
+        assertEquals(97, map.values.size)
+
+        for (key in map.keys) {
+
+            System.out.println("ffffffff \n" + map.get(key))
+        }
+
     }
 
 
