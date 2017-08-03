@@ -4,6 +4,7 @@ import org.ablx.cardroom.commons.data.Cardroom
 import org.ablx.cardroom.commons.data.Player
 import org.ablx.cardroom.commons.enumeration.Currency
 import org.ablx.cardroom.commons.enumeration.Domain
+import org.ablx.cardroom.commons.enumeration.GameType
 import org.ablx.cardroom.commons.enumeration.Operator
 import org.junit.Test
 import java.io.File
@@ -300,18 +301,13 @@ class PokerstarsParserTest {
         assertEquals("mikrethor", hand.accountPlayer!!.name)
     }
 
+
     @Test
-    fun testSplit() {
+    fun testGameTypeFromFilename() {
         val parser: Parser = createParser()
-        val map = parser.fileToMap()
+        assertEquals(GameType.TOURNAMENT, parser.getGameTypeFromFilename("HH20140116 T850475657 Hold'em No Limit 2,68 € + 0,32 €.txt"))
 
-        assertEquals(97, map.values.size)
-
-        for (key in map.keys) {
-
-            System.out.println("ffffffff \n" + map.get(key))
-        }
-
+        assertEquals(GameType.CASH, parser.getGameTypeFromFilename("HH20151212 Tethys II - 0,01 \$-0,02 \$ - USD Hold'em No Limit.txt"))
     }
 
 

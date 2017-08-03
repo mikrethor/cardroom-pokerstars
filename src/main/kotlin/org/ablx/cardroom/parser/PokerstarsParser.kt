@@ -46,7 +46,7 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
         for (s in parts) {
             index++
             if (s != "") {
-                map.put(parseHandId(s), NEW_HAND+ s)
+                map.put(parseHandId(s), NEW_HAND + s)
             }
         }
 
@@ -54,12 +54,13 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
     }
 
     override fun getGameTypeFromFilename(fileName: String): GameType {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        if(fileName.contains(" $DASH ")){
+            return GameType.CASH
+        }else{
+            return GameType.TOURNAMENT
+        }
     }
 
-    override fun getTournamentId(): String {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
 
     override fun isHandFile(filePath: String): Boolean {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
@@ -641,6 +642,8 @@ class PokerstarsParser(override val cardroom: Cardroom, override val filePath: S
         player.seat = Integer.parseInt(seat)
         return player
     }
+
+
 
 
 }
