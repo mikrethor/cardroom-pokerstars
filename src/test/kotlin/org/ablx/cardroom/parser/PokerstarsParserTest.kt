@@ -12,10 +12,9 @@ import java.util.*
 import kotlin.test.assertEquals
 
 
-class PokerstarsParserTest {
+open class PokerstarsParserTest {
 
-
-    private fun createParser(): Parser {
+    open fun createParser(): Parser {
         val cardroom = Cardroom(1, Operator.POKERSTARS, Domain.COM, "")
 
         val classLoader = javaClass.classLoader
@@ -48,7 +47,6 @@ class PokerstarsParserTest {
         assertEquals(0.11, fee)
     }
 
-
     @Test
     fun testHandId() {
         val parser: Parser = createParser()
@@ -61,7 +59,6 @@ class PokerstarsParserTest {
 
 
     }
-
 
     @Test
     fun testLevel() {
@@ -131,11 +128,8 @@ class PokerstarsParserTest {
 
     }
 
-
     @Test
     fun testPlayerSeat() {
-
-
         val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var player: Player = parser.parsePlayerSeat("Seat 1: dragoonnhead (1500 in chips))")
@@ -203,7 +197,6 @@ class PokerstarsParserTest {
         assertEquals(1500.0, player.stack)
     }
 
-
     @Test
     fun testButtonSeat() {
         val parser: Parser = createParser()
@@ -212,7 +205,6 @@ class PokerstarsParserTest {
 
         assertEquals(9, parser.parseButtonSeat("Table '780452500 1' 9-max Seat #9 is the button"))
     }
-
 
     @Test
     fun testHandDate() {
@@ -301,7 +293,6 @@ class PokerstarsParserTest {
         assertEquals("mikrethor", hand.accountPlayer!!.name)
     }
 
-
     @Test
     fun testGameTypeFromFilename() {
         val parser: Parser = createParser()
@@ -309,6 +300,4 @@ class PokerstarsParserTest {
 
         assertEquals(GameType.CASH, parser.getGameTypeFromFilename("HH20151212 Tethys II - 0,01 \$-0,02 \$ - USD Hold'em No Limit.txt"))
     }
-
-
 }
