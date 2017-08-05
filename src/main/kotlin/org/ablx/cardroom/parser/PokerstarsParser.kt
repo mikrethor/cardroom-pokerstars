@@ -44,7 +44,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         var index = 0
         for (s in parts) {
             index++
-            if (s != "") {
+            if ("" != s && UTF8_BOM != s) {
                 map.put(parseHandId(s), NEW_HAND + s)
             }
         }
@@ -64,8 +64,21 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun isUselesLine(line: String): Boolean? {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun isUselessLine(line: String): Boolean {
+        System.out.println(line)
+        return (line.endsWith(PokerstarsActions.WILL_BE_ALLOWED_TO_PLAY_AFTER_THE_BUTTON.value)
+                || line.contains(PokerstarsActions.POSTS_SMALL_ET_BIG_BLINDS.value)
+                || line.contains(PokerstarsActions.POSTS_THE_ANTE.value) || line.endsWith(PokerstarsActions.SITS_OUT.value)
+                || line.endsWith(PokerstarsActions.LEAVES_THE_TABLE.value)
+                || line.endsWith(PokerstarsActions.IS_SITTING_OUT.value) || line.endsWith(PokerstarsActions.IS_DISCONNECTED.value)
+                || line.endsWith(PokerstarsActions.IS_CONNECTED.value) || line.contains(PokerstarsActions.SAID.value)
+                || line.endsWith(PokerstarsActions.HAS_TIMED_OUT.value)
+                || line.contains(PokerstarsActions.JOINS_THE_TABLE_AT_SEAT.value)
+                || line.contains(PokerstarsActions.UNCALLED_BET.value) || line.endsWith(PokerstarsActions.HAS_RETURNED.value)
+                || line.contains(PokerstarsActions.DOESNT_SHOW_HAND.value)
+                || line.endsWith(PokerstarsActions.WAS_REMOVED_FROM_THE_TABLE_FOR_FAILING_TO_POST.value)
+                || line.endsWith(PokerstarsActions.MUCKS_HAND.value)
+                || line.contains(PokerstarsActions.FINISHED_THE_TOURNAMENT_IN.value)) && (!line.startsWith("Seat"))
     }
 
     override fun parse(): MutableMap<String, Hand> {
@@ -73,7 +86,6 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         val mapFilePart: Map<String, String> = fileToMap()
 
         for (key in mapFilePart.keys) {
-
             mapHands.put(key, textToHand(mapFilePart[key]!!))
         }
         return mapHands
@@ -134,7 +146,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
 
             while (iterator.hasNext()) {
 
-                nextL = iterator.next()
+                nextL = getNextUseFulLine(iterator)
                 if (nextL.startsWith("Dealt")) {
 
                     val crochetouvrant = nextL.lastIndexOf(OPENNING_SQUARE_BRACKET)
@@ -145,7 +157,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                     //hand.getMapPlayerCards().put(joueur, cartes)
                     hand.accountPlayer = hand.playersByName.get(name)
 
-                    nextL = iterator.next()
+                    nextL = getNextUseFulLine(iterator)
                 }
                 if (nextL.startsWith(FLOP) || nextL.startsWith(SUMMARY)) {
                     break
@@ -319,7 +331,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
 
                         hand.dealerPlayer = playerInGame
                     }
-                    curLine = iterator.next()
+                    curLine = getNextUseFulLine(iterator)
                 }
                 if (curLine.contains("posts small blind")) {
                     val smallBlindTab = curLine.split(SPACE.toRegex()).dropLastWhile({ it.isEmpty() }).toTypedArray()
@@ -327,7 +339,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                     val smallBlind = smallBlindTab[smallBlindTab.size - 1]
 
                     hand.smallBlindPlayer = hand.playersByName.get(smallBlindPlayer)
-                    curLine = iterator.next()
+                    curLine = getNextUseFulLine(iterator)
                 }
 
                 if (curLine.contains("posts big blind")) {
@@ -336,7 +348,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                     val bigBlind = bigBlindTab[bigBlindTab.size - 1]
                     hand.bigBlindPlayer = hand.playersByName.get(bigBlindPlayer)
 
-                    curLine = iterator.next()
+                    curLine = getNextUseFulLine(iterator)
                 }
                 if (curLine.startsWith(HOLE_CARDS)) {
 
@@ -433,7 +445,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
             return null
         } else {
             return HandAction(players[playerName], Action.valueOf(action.toUpperCase()),
-                    java.lang.Double.parseDouble(amount), hand)
+                    amount.toDouble(), hand)
         }
     }
 
@@ -443,7 +455,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         if (curLine.startsWith(phase)) {
 
             while (iterator.hasNext()) {
-                curLine = iterator.next()
+                curLine = getNextUseFulLine(iterator)
                 if (startsWith(curLine, nextPhases)) {
                     break
                 } else {
@@ -523,7 +535,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                 if (startsWith(line, nextPhases)) {
                     break
                 } else {
-                    line = iterator.next()
+                    line = getNextUseFulLine(iterator)
                 }
 
                 if (line.startsWith(SEAT)) {
@@ -556,14 +568,14 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         var hand: Hand = Hand("")
 
         while (iter.hasNext()) {
-            currentLine = iter.next()
-             if (currentLine.startsWith(NEW_HAND)) {
-                 hand = Hand("")
+            currentLine = getNextUseFulLine(iter)
+            if (currentLine.startsWith(NEW_HAND)) {
+                hand = Hand("")
                 parseNewHandLine(currentLine, NEW_HAND, arrayOf(EMPTY), hand)
             }
-            currentLine = iter.next()
+            currentLine = getNextUseFulLine(iter)
             parseTableLine(currentLine, iter, TABLE, arrayOf(EMPTY), hand)
-            currentLine = iter.next()
+            currentLine = getNextUseFulLine(iter)
             currentLine = parseSeatLine(currentLine, iter, SEAT, arrayOf<String>(HOLE_CARDS), hand)
 
             // Renommer cette methode
@@ -603,6 +615,15 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         }
         player.seat = Integer.parseInt(seat)
         return player
+    }
+
+    override fun getNextUseFulLine(iterator: Iterator<String>): String {
+
+        var line = iterator.next()
+        while (isUselessLine(line)) {
+            line = iterator.next()
+        }
+        return line
     }
 
 

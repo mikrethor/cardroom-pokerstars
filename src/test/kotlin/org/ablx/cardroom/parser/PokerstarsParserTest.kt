@@ -2,14 +2,13 @@ package org.ablx.cardroom.parser
 
 import org.ablx.cardroom.commons.data.Cardroom
 import org.ablx.cardroom.commons.data.Player
+import org.ablx.cardroom.commons.enumeration.*
 import org.ablx.cardroom.commons.enumeration.Currency
-import org.ablx.cardroom.commons.enumeration.Domain
-import org.ablx.cardroom.commons.enumeration.GameType
-import org.ablx.cardroom.commons.enumeration.Operator
 import org.junit.Test
 import java.io.File
 import java.util.*
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 
 open class PokerstarsParserTest {
@@ -37,7 +36,7 @@ open class PokerstarsParserTest {
     }
 
     @Test
-    fun testRealBuyIn() {
+    open fun testRealBuyIn() {
         val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         val result: Double = parser.parseBuyIn("PokerStars Hand #103356159434: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:01:28 CET [2013/08/28 16:01:28 ET]")
@@ -72,7 +71,7 @@ open class PokerstarsParserTest {
     }
 
     @Test
-    fun testSmallBlind() {
+    open fun testSmallBlind() {
         val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: Double = parser.parseSmallBlind("PokerStars Hand #103356159434: Tournament #780452500, $0.89+$0.11 USD Hold'em No Limit - Level I (10/20) - 2015/12/12 20:09:03 ET]")
@@ -83,7 +82,7 @@ open class PokerstarsParserTest {
     }
 
     @Test
-    fun testBigBlind() {
+    open fun testBigBlind() {
         val parser: Parser = createParser()
         parser.setCurrency(Currency.EURO)
         var result: Double = parser.parseBigBlind("PokerStars Hand #103356159434: Tournament #780452500, $0.89+$0.11 USD Hold'em No Limit - Level I (10/20) - 2015/12/12 20:09:03 ET]")
@@ -221,13 +220,13 @@ open class PokerstarsParserTest {
     }
 
     @Test
-    fun testTableId() {
+    open fun testTableId() {
         val parser: Parser = createParser()
         assertEquals("Freeroll", parser.parseTableId("Table: 'Super Freeroll Stade 2(55153749)#0' 6-max (real money) Seat #5 is the button"))
     }
 
     @Test
-    fun testParse() {
+    open fun testParse() {
         val parser: Parser = createParser()
         val hands = parser.parse()
 
@@ -235,8 +234,9 @@ open class PokerstarsParserTest {
     }
 
     @Test
-    fun testTextToHand() {
+    open fun testTextToHand() {
         val parser: Parser = createParser()
+        parser.setCurrency(Currency.EURO)
         val handText = "PokerStars Hand #103356493800: Tournament #780452500, €0.89+€0.11 EUR Hold'em No Limit - Level I (10/20) - 2013/08/28 22:07:42 CET [2013/08/28 16:07:42 ET]\n" +
                 "Table '780452500 1' 9-max Seat #7 is the button\n" +
                 "Seat 1: dragoonnhead (1880 in chips)\n" +
@@ -299,5 +299,14 @@ open class PokerstarsParserTest {
         assertEquals(GameType.TOURNAMENT, parser.getGameTypeFromFilename("HH20140116 T850475657 Hold'em No Limit 2,68 € + 0,32 €.txt"))
 
         assertEquals(GameType.CASH, parser.getGameTypeFromFilename("HH20151212 Tethys II - 0,01 \$-0,02 \$ - USD Hold'em No Limit.txt"))
+    }
+
+    @Test
+    fun testIsUselessLine() {
+        val parser: Parser = createParser()
+        assertTrue("DoBrazil: sits out ".endsWith(PokerstarsActions.SITS_OUT.value))
+
+        assertEquals(true, parser.isUselessLine("DoBrazil: sits out "))
+
     }
 }

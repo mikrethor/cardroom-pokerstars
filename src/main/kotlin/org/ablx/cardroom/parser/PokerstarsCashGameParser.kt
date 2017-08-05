@@ -8,8 +8,7 @@ class PokerstarsCashGameParser(override val cardroom: Cardroom, override val fil
     override fun parseTableId(line: String): String {
         val startPosition = line.indexOf(APOSTROPHE) + 1
         val endPosition = line.lastIndexOf(APOSTROPHE)
-        val sousChaine = line.substring(startPosition, endPosition)
-        return sousChaine
+        return line.substring(startPosition, endPosition)
     }
 
 
