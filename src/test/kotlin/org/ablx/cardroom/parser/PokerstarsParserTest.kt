@@ -1,6 +1,7 @@
 package org.ablx.cardroom.parser
 
 import org.ablx.cardroom.commons.data.Cardroom
+import org.ablx.cardroom.commons.data.HandAction
 import org.ablx.cardroom.commons.data.Player
 import org.ablx.cardroom.commons.enumeration.*
 import org.ablx.cardroom.commons.enumeration.Currency
@@ -291,6 +292,105 @@ open class PokerstarsParserTest {
 
         assertEquals("103356493800", hand.cardroomHandId)
         assertEquals("mikrethor", hand.accountPlayer!!.name)
+        assertEquals(20.0, hand.bigBlind)
+        assertEquals(10.0, hand.smallBlind)
+        assertEquals(7, hand.buttonSeat)
+        assertEquals(1.00, hand.buyIn)
+        assertEquals(0.11, hand.fee)
+        assertEquals(8, hand.players.keys.size)
+
+        assertEquals("dragoonnhead", hand.players[1]!!.name)
+        assertEquals(0, hand.players[1]!!.id)
+        assertEquals(1880.0, hand.players[1]!!.stack)
+        assertEquals(1, hand.players[1]!!.seat)
+
+        assertPlayer(hand.players[1]!!, "dragoonnhead", 0, 1880.0, 1)
+        assertPlayer(hand.players[2]!!, "Sirius369", 0, 1350.0, 2)
+        assertPlayer(hand.players[3]!!, "acrisdu11", 0, 1450.0, 3)
+
+        assertPlayer(hand.players[5]!!, "backsidair", 0, 1640.0, 5)
+        assertPlayer(hand.players[6]!!, "nivekash", 0, 1120.0, 6)
+        assertPlayer(hand.players[7]!!, "mikrethor", 0, 1820.0, 7)
+        assertPlayer(hand.players[8]!!, "bakoly", 0, 1460.0, 8)
+        assertPlayer(hand.players[9]!!, "misterwill8", 0, 2780.0, 9)
+
+        assertHandAction(hand.preflopActions[0], Action.FOLDS, 0.0, "dragoonnhead", Round.PRE_FLOP, null)
+        assertHandAction(hand.preflopActions[1], Action.CALLS, 20.0, "Sirius369", Round.PRE_FLOP, null)
+        assertHandAction(hand.preflopActions[2], Action.FOLDS, 0.0, "acrisdu11", Round.PRE_FLOP, null)
+        assertHandAction(hand.preflopActions[3], Action.FOLDS, 0.0, "backsidair", Round.PRE_FLOP, null)
+        assertHandAction(hand.preflopActions[4], Action.CALLS, 20.0, "nivekash", Round.PRE_FLOP, null)
+        assertHandAction(hand.preflopActions[5], Action.FOLDS, 0.0, "mikrethor", Round.PRE_FLOP, null)
+        assertHandAction(hand.preflopActions[6], Action.FOLDS, 0.0, "bakoly", Round.PRE_FLOP, null)
+        assertHandAction(hand.preflopActions[7], Action.CHECKS, 0.0, "misterwill8", Round.PRE_FLOP, null)
+
+
+        assertHandAction(hand.flopActions[0], Action.CHECKS, 0.0, "misterwill8", Round.FLOP, null)
+        assertHandAction(hand.flopActions[1], Action.CHECKS, 0.0, "Sirius369", Round.FLOP, null)
+        assertHandAction(hand.flopActions[2], Action.CHECKS, 0.0, "nivekash", Round.FLOP, null)
+
+        assertHandAction(hand.turnActions[0], Action.CHECKS, 0.0, "misterwill8", Round.TURN, null)
+        assertHandAction(hand.turnActions[1], Action.CHECKS, 0.0, "Sirius369", Round.TURN, null)
+        assertHandAction(hand.turnActions[2], Action.CHECKS, 0.0, "nivekash", Round.TURN, null)
+
+
+        assertHandAction(hand.riverActions[0], Action.CHECKS, 0.0, "misterwill8", Round.RIVER, null)
+        assertHandAction(hand.riverActions[1], Action.BETS, 40.0, "Sirius369", Round.RIVER, null)
+        assertHandAction(hand.riverActions[2], Action.CALLS, 40.0, "nivekash", Round.RIVER, null)
+        assertHandAction(hand.riverActions[3], Action.FOLDS, 0.0, "misterwill8", Round.RIVER, null)
+
+        var cards = arrayOf(Card.C_QH, Card.C_JS)
+        assertHandAction(hand.showdownActions[0], Action.SHOWS, 0.0, "Sirius369", Round.SHOWDOWN, cards)
+        cards = arrayOf(Card.C_KD, Card.C_5S)
+        assertHandAction(hand.showdownActions[1], Action.SHOWS, 0.0, "nivekash", Round.SHOWDOWN, cards)
+        assertHandAction(hand.showdownActions[2], Action.COLLECTED, 150.0, "nivekash", Round.SHOWDOWN, null)
+
+        assertHandAction(hand.actions[0], Action.FOLDS, 0.0, "dragoonnhead", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[1], Action.CALLS, 20.0, "Sirius369", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[2], Action.FOLDS, 0.0, "acrisdu11", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[3], Action.FOLDS, 0.0, "backsidair", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[4], Action.CALLS, 20.0, "nivekash", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[5], Action.FOLDS, 0.0, "mikrethor", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[6], Action.FOLDS, 0.0, "bakoly", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[7], Action.CHECKS, 0.0, "misterwill8", Round.PRE_FLOP, null)
+        assertHandAction(hand.actions[8], Action.CHECKS, 0.0, "misterwill8", Round.FLOP, null)
+        assertHandAction(hand.actions[9], Action.CHECKS, 0.0, "Sirius369", Round.FLOP, null)
+        assertHandAction(hand.actions[10], Action.CHECKS, 0.0, "nivekash", Round.FLOP, null)
+        assertHandAction(hand.actions[11], Action.CHECKS, 0.0, "misterwill8", Round.TURN, null)
+        assertHandAction(hand.actions[12], Action.CHECKS, 0.0, "Sirius369", Round.TURN, null)
+        assertHandAction(hand.actions[13], Action.CHECKS, 0.0, "nivekash", Round.TURN, null)
+        assertHandAction(hand.actions[14], Action.CHECKS, 0.0, "misterwill8", Round.RIVER, null)
+        assertHandAction(hand.actions[15], Action.BETS, 40.0, "Sirius369", Round.RIVER, null)
+        assertHandAction(hand.actions[16], Action.CALLS, 40.0, "nivekash", Round.RIVER, null)
+        assertHandAction(hand.actions[17], Action.FOLDS, 0.0, "misterwill8", Round.RIVER, null)
+
+        cards = arrayOf(Card.C_QH, Card.C_JS)
+        assertHandAction(hand.actions[18], Action.SHOWS, 0.0, "Sirius369", Round.SHOWDOWN, cards)
+        cards = arrayOf(Card.C_KD, Card.C_5S)
+
+        assertHandAction(hand.actions[19], Action.SHOWS, 0.0, "nivekash", Round.SHOWDOWN, cards)
+        assertHandAction(hand.actions[20], Action.COLLECTED, 150.0, "nivekash", Round.SHOWDOWN, null)
+
+    }
+
+    private fun assertPlayer(player: Player, name: String, id: Long, stack: Double, seat: Int) {
+        assertEquals(name, player.name)
+        assertEquals(id, player.id)
+        assertEquals(stack, player.stack)
+        assertEquals(seat, player.seat)
+    }
+
+    private fun assertHandAction(handAction: HandAction, action: Action, amount: Double, name: String, round: Round, cards: Array<Card>?) {
+        assertEquals(action, handAction.action)
+        assertEquals(amount, handAction.amount)
+        handAction.cards
+        assertEquals(name, handAction.player!!.name)
+        assertEquals(round, handAction.round)
+        if (cards != null && handAction.cards != null) {
+            var card: Card? = handAction.cards!![0]
+            assertEquals(cards[0], card)
+            card = handAction.cards!![1]
+            assertEquals(cards[1], card)
+        }
     }
 
     @Test

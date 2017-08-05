@@ -65,7 +65,6 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     }
 
     override fun isUselessLine(line: String): Boolean {
-        System.out.println(line)
         return (line.endsWith(PokerstarsActions.WILL_BE_ALLOWED_TO_PLAY_AFTER_THE_BUTTON.value)
                 || line.contains(PokerstarsActions.POSTS_SMALL_ET_BIG_BLINDS.value)
                 || line.contains(PokerstarsActions.POSTS_THE_ANTE.value) || line.endsWith(PokerstarsActions.SITS_OUT.value)
@@ -193,7 +192,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         if (buyIn.contains(PLUS)) {
             val realBuyIn = buyIn.substring(startPosition, endPosition)
             val fee = buyIn.substring(buyIn.lastIndexOf(PLUS) + 2, buyIn.length)
-            return java.lang.Double.parseDouble(fee)
+            return fee.toDouble()
         }
         return 0.0
     }
@@ -274,6 +273,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
             hand.bigBlind = parseBigBlind(nextL)
             hand.smallBlind = parseSmallBlind(nextL)
             hand.currency = parseCurrency(nextL)
+            hand.buyIn = parseBuyIn(nextL)
+            hand.fee = parseFee(nextL)
 
         }
         return nextL
