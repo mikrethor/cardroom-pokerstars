@@ -18,6 +18,7 @@ import kotlin.collections.HashMap
 
 open class PokerstarsParser(override val cardroom: Cardroom, override val filePath: String) : Parser, CardroomParser() {
 
+    override val handDateFormat = " yyyy/MM/dd HH:mm:ss"
     protected val DEALT_TO = "Dealt to "
     val UTF8_BOM = "\uFEFF"
     val HOLE_CARDS = "*** HOLE CARDS ***"
@@ -221,9 +222,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
             endPosition = currentLine.lastIndexOf(OPENNING_SQUARE_BRACKET)
             currentLine = currentLine.substring(0, endPosition)
         }
-        val sdf: DateFormat = SimpleDateFormat(" yyyy/MM/dd HH:mm:ss")
-        val date: Date = sdf.parse(currentLine)
-        return date
+
+        return convertHandDate(currentLine)
     }
 
     override fun parseHandId(line: String): String {
@@ -402,21 +402,21 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         val tab = line.split(SPACE)
         var action = ""
         var playerName = ""
-        var between = ""
+        var between:String
         var amount = "0"
         var hand: Array<Card?>? = null
 
         for (i in tab.indices) {
-            if (Action.FOLDS.action==tab[i] || Action.CALLS.action==tab[i]
-                    || Action.RAISES.action==tab[i] || Action.CHECKS.action==tab[i]
-                    || Action.COLLECTED.action==tab[i] || Action.BETS.action==tab[i]
-                    || Action.SHOWS.action==tab[i] || "has" == tab[i]) {
+            if (Action.FOLDS.action == tab[i] || Action.CALLS.action == tab[i]
+                    || Action.RAISES.action == tab[i] || Action.CHECKS.action == tab[i]
+                    || Action.COLLECTED.action == tab[i] || Action.BETS.action == tab[i]
+                    || Action.SHOWS.action == tab[i] || "has" == tab[i]) {
                 playerName = ""
 
                 action = tab[i]
 
-                if (Action.CALLS.action==tab[i] || Action.RAISES.action==tab[i]
-                        || Action.COLLECTED.action==tab[i] || Action.BETS.action==tab[i]) {
+                if (Action.CALLS.action == tab[i] || Action.RAISES.action == tab[i]
+                        || Action.COLLECTED.action == tab[i] || Action.BETS.action == tab[i]) {
                     amount = tab[i + 1]
                     amount = amount.replace(money.symbol, EMPTY)
                 }
@@ -430,7 +430,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                     playerName = playerName + between + tab[j]
 
                 }
-                if (Action.SHOWS.action==tab[i]) {
+                if (Action.SHOWS.action == tab[i]) {
                     hand = readCards(line)
                 }
 
@@ -559,8 +559,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
 
 
     override fun textToHand(text: String): Hand {
-        var currentLine: String = ""
-        var firstIteration = true
+        var currentLine: String
+       
         val iter = text.lines().asIterable().iterator()
         var hand: Hand = Hand("")
 
