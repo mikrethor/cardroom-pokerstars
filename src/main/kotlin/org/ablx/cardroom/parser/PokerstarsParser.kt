@@ -42,8 +42,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         val map = HashMap<String, String>()
         val parts = readHandFile().split(NEW_HAND)
 
-        parts
-                .asSequence()
+        parts.asSequence()
                 .filter { "" != it && UTF8_BOM != it }
                 .forEach { map.put(parseHandId(it), NEW_HAND + it) }
 
@@ -96,13 +95,13 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         val startPosition = line.indexOf(SLASH) + 1
         val endPosition = line.indexOf(RIGHT_PARENTHESIS)
         val bigBlind = line.substring(startPosition, endPosition)
-        return java.lang.Double.parseDouble(bigBlind)
+        return bigBlind.toDouble()
     }
 
     override fun parseButtonSeat(line: String): Int {
         val startPosition = line.indexOf(HASHTAG) + 1
         val endPosition = line.indexOf("is the button") - 1
-        return Integer.parseInt(line.substring(startPosition, endPosition))
+        return line.substring(startPosition, endPosition).toInt()
     }
 
     override fun parseBuyIn(line: String): Double {
@@ -123,9 +122,9 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
             val realBuyIn = buyIn.substring(startPosition, endPosition)
             val fee = buyIn.substring(buyIn.lastIndexOf(PLUS) + 2, buyIn.length)
 
-            return java.lang.Double.parseDouble(realBuyIn) + java.lang.Double.parseDouble(fee)
+            return realBuyIn.toDouble() + fee.toDouble()
         }
-        return java.lang.Double.parseDouble(buyIn)
+        return buyIn.toDouble()
     }
 
     override fun parseCurrency(line: String): Currency {
@@ -402,15 +401,15 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         val tab = line.split(SPACE)
         var action = ""
         var playerName = ""
-        var between:String
+        var between: String
         var amount = "0"
         var hand: Array<Card?>? = null
 
         for (i in tab.indices) {
-            if (Action.FOLDS.action == tab[i] || Action.CALLS.action == tab[i]
-                    || Action.RAISES.action == tab[i] || Action.CHECKS.action == tab[i]
-                    || Action.COLLECTED.action == tab[i] || Action.BETS.action == tab[i]
-                    || Action.SHOWS.action == tab[i] || "has" == tab[i]) {
+            if (tab[i] in arrayOf(Action.FOLDS.action, Action.CALLS.action,
+                    Action.RAISES.action, Action.CHECKS.action,
+                    Action.COLLECTED.action, Action.BETS.action,
+                    Action.SHOWS.action, "has")) {
                 playerName = ""
 
                 action = tab[i]
@@ -560,7 +559,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
 
     override fun textToHand(text: String): Hand {
         var currentLine: String
-       
+
         val iter = text.lines().asIterable().iterator()
         var hand: Hand = Hand("")
 
