@@ -299,8 +299,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         stack = stack.replace(money.symbol, EMPTY)
 
         val player = Player(0, playerName, cardroom)
-        player.stack = java.lang.Double.parseDouble(stack)
-        player.seat = Integer.parseInt(seat)
+        player.stack = stack.toDouble()
+        player.seat = seat.toInt()
         player.on = true
 
         return player
@@ -312,7 +312,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         var rake = line.substring(startPosition, endPosition)
         rake = rake.replace(money.symbol, EMPTY)
 
-        return java.lang.Double.parseDouble(rake)
+        return rake.toDouble()
     }
 
     override fun parseSeatLine(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand): String {
@@ -359,7 +359,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         val startPosition = line.indexOf(LEFT_PARENTHESIS) + 1
         val endPosition = line.indexOf(SLASH)
         val smallBlind = line.substring(startPosition, endPosition)
-        return java.lang.Double.parseDouble(smallBlind)
+        return smallBlind.toDouble()
     }
 
     override fun parseTableId(line: String): String {
@@ -393,7 +393,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         var totalPot = tabTotalPot[2].replace(money.symbol, EMPTY)
         totalPot = totalPot.replace(money.symbol, EMPTY)
 
-        return java.lang.Double.parseDouble(totalPot)
+        return totalPot.toDouble()
     }
 
     override fun readAction(line: String, players: Map<String, Player>): HandAction? {
