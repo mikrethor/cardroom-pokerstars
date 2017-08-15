@@ -40,9 +40,12 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     val SEAT = "Seat"
     val BOARD = "Board"
     val CASH_GAME = "CashGame"
+    val FREEROLL = "Freeroll"
 
     val TABLE = "Table"
     val ENCODING = "UTF8"
+    val REGEX_FILE = "HH[0-9]{8} T[0-9]{8}"
+    val PATTERN_FILE = Pattern.compile(REGEX_FILE)
 
     override var operator: Operator = Operator.POKERSTARS
 
@@ -124,7 +127,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
             startPosition = 0
         }
 
-        if ("Freeroll" == buyIn) {
+        if (FREEROLL == buyIn) {
             return 0.0
         }
         if (buyIn.contains(PLUS)) {
@@ -192,7 +195,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         } else {
             startPosition = 0
         }
-        if ("Freeroll" == buyIn) {
+        if (FREEROLL == buyIn) {
             return 0.0
         }
         if (buyIn.contains(PLUS)) {
@@ -205,8 +208,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
 
     override fun parseGameIdCardroom(fileName: String): String {
 
-        val pattern = Pattern.compile("HH[0-9]{8} T[0-9]{8}")
-        val matcher = pattern.matcher(fileName)
+
+        val matcher = PATTERN_FILE.matcher(fileName)
 
         var temp: String = fileName
 
@@ -555,7 +558,6 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
             hand.actions.addAll(hand.turnActions)
             hand.actions.addAll(hand.riverActions)
             hand.actions.addAll(hand.showdownActions)
-            // game.addHand(hand);
         }
         return line
     }
@@ -569,38 +571,37 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     override fun textToHand(text: String): Hand {
         var currentLine: String
 
-        val iter = text.lines().asIterable().iterator()
+        val lineIterator = text.lines().asIterable().iterator()
         var hand: Hand = Hand("")
 
-        while (iter.hasNext()) {
-            currentLine = getNextUseFulLine(iter)
+        while (lineIterator.hasNext()) {
+            currentLine = getNextUseFulLine(lineIterator)
             if (currentLine.startsWith(NEW_HAND)) {
                 hand = Hand("")
                 parseNewHandLine(currentLine, NEW_HAND, arrayOf(EMPTY), hand)
             }
-            currentLine = getNextUseFulLine(iter)
-            parseTableLine(currentLine, iter, TABLE, arrayOf(EMPTY), hand)
-            currentLine = getNextUseFulLine(iter)
-            currentLine = parseSeatLine(currentLine, iter, SEAT, arrayOf(HOLE_CARDS), hand)
+            currentLine = getNextUseFulLine(lineIterator)
+            parseTableLine(currentLine, lineIterator, TABLE, arrayOf(EMPTY), hand)
+            currentLine = getNextUseFulLine(lineIterator)
+            currentLine = parseSeatLine(currentLine, lineIterator, SEAT, arrayOf(HOLE_CARDS), hand)
 
             // Renommer cette methode
-            currentLine = parseDealer(currentLine, iter, HOLE_CARDS, arrayOf(FLOP, SUMMARY), hand)
+            currentLine = parseDealer(currentLine, lineIterator, HOLE_CARDS, arrayOf(FLOP, SUMMARY), hand)
 
             // Lecture des actions du coup
-            currentLine = readPreflop(currentLine, iter, hand)
+            currentLine = readPreflop(currentLine, lineIterator, hand)
 
-            currentLine = readFlop(currentLine, iter, hand)
+            currentLine = readFlop(currentLine, lineIterator, hand)
 
-            currentLine = readTurn(currentLine, iter, hand)
+            currentLine = readTurn(currentLine, lineIterator, hand)
 
-            currentLine = readRiver(currentLine, iter, hand)
+            currentLine = readRiver(currentLine, lineIterator, hand)
 
-            currentLine = readShowdown(currentLine, iter, hand)
+            currentLine = readShowdown(currentLine, lineIterator, hand)
 
-            readSummary(currentLine, iter, SUMMARY, arrayOf(NEW_HAND), hand)
+            readSummary(currentLine, lineIterator, SUMMARY, arrayOf(NEW_HAND), hand)
 
             hand.cardroom = cardroom
-
         }
 
         return hand
