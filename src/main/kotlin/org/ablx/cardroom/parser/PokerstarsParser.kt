@@ -426,8 +426,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
 
                 action = tab[i]
 
-                if (Action.CALLS.action == tab[i] || Action.RAISES.action == tab[i]
-                        || Action.COLLECTED.action == tab[i] || Action.BETS.action == tab[i]) {
+                if (tab[i] in arrayOf(Action.CALLS.action, Action.RAISES.action, Action.COLLECTED.action, Action.BETS.action)) {
+
                     amount = tab[i + 1]
                     amount = amount.replace(money.symbol, EMPTY)
                 }
