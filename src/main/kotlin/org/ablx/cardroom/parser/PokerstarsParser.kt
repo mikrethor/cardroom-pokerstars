@@ -149,29 +149,29 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     }
 
     override fun parseDealer(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand): String {
-        var nextL = currentLine
-        if (nextL.startsWith(HOLE_CARDS)) {
+        var nextLine = currentLine
+        if (nextLine.startsWith(HOLE_CARDS)) {
 
             while (iterator.hasNext()) {
 
-                nextL = getNextUseFulLine(iterator)
-                if (nextL.startsWith("Dealt")) {
+                nextLine = getNextUseFulLine(iterator)
+                if (nextLine.startsWith("Dealt")) {
 
-                    val crochetouvrant = nextL.lastIndexOf(OPENNING_SQUARE_BRACKET)
+                    val crochetouvrant = nextLine.lastIndexOf(OPENNING_SQUARE_BRACKET)
 
-                    val name = nextL.substring("Dealt to ".length, crochetouvrant - 1)
+                    val name = nextLine.substring("Dealt to ".length, crochetouvrant - 1)
 
-                    val cards = readCards(nextL)
+                    val cards = readCards(nextLine)
                     //hand.getMapPlayerCards().put(joueur, cartes)
                     hand.accountPlayer = hand.playersByName[name]
 
-                    nextL = getNextUseFulLine(iterator)
+                    nextLine = getNextUseFulLine(iterator)
                 }
-                if (nextL.startsWith(FLOP) || nextL.startsWith(SUMMARY)) {
+                if (nextLine.startsWith(FLOP) || nextLine.startsWith(SUMMARY)) {
                     break
                 } else {
 
-                    val action = this.readAction(nextL, hand.playersByName)
+                    val action = this.readAction(nextLine, hand.playersByName)
 
                     if (action != null) {
                         action.round = Round.PRE_FLOP
@@ -181,7 +181,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                 }
             }
         }
-        return nextL
+        return nextLine
     }
 
     override fun parseFee(line: String): Double {
@@ -256,35 +256,34 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     }
 
     override fun parseNewHandLine(line: String, phase: String, nextPhases: Array<String>, hand: Hand): String {
-        val nextL = line
         hand.actions = ArrayList<HandAction>()
         hand.players = HashMap<Int, Player>()
         hand.playersSeatByName = HashMap<String, Int>()
         hand.preflopActions = ArrayList<HandAction>()
-        if (nextL.startsWith(phase)) {
+        if (line.startsWith(phase)) {
 
-            val tab = nextL.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+            val tab = line.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
             var gameType = GameType.CASH
             if (GameType.TOURNAMENT.type == tab[3]) {
                 gameType = GameType.TOURNAMENT
             }
 
             if (GameType.TOURNAMENT == gameType) {
-                hand.level = parseLevel(nextL)
-                hand.handDate = parseHandDate(nextL)
+                hand.level = parseLevel(line)
+                hand.handDate = parseHandDate(line)
             }
 
-            hand.cardroomHandId = parseHandId(nextL)
+            hand.cardroomHandId = parseHandId(line)
 
-            hand.handDate = parseHandDate(nextL)
-            hand.bigBlind = parseBigBlind(nextL)
-            hand.smallBlind = parseSmallBlind(nextL)
-            hand.currency = parseCurrency(nextL)
-            hand.buyIn = parseBuyIn(nextL)
-            hand.fee = parseFee(nextL)
+            hand.handDate = parseHandDate(line)
+            hand.bigBlind = parseBigBlind(line)
+            hand.smallBlind = parseSmallBlind(line)
+            hand.currency = parseCurrency(line)
+            hand.buyIn = parseBuyIn(line)
+            hand.fee = parseFee(line)
 
         }
-        return nextL
+        return line
     }
 
     override fun parseNumberOfPlayerByTable(line: String): Int {
@@ -387,14 +386,14 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         val curLine = currentLine
 
         if (curLine.startsWith(TABLE)) {
-            val numeroTable = parseTableId(curLine)
+            val tableNumber = parseTableId(curLine)
 
-            val nombreJoueur = parseNumberOfPlayerByTable(curLine)
+            val numberOfPlayers = parseNumberOfPlayerByTable(curLine)
             val buttonSeat = parseButtonSeat(curLine)
             hand.buttonSeat = buttonSeat
 
-            hand.numberOfPlayerByTable = nombreJoueur
-            hand.cardroomTableId = numeroTable
+            hand.numberOfPlayerByTable = numberOfPlayers
+            hand.cardroomTableId = tableNumber
 
         }
         return curLine
@@ -417,31 +416,31 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         var amount = "0"
         var hand: Array<Card?>? = null
 
-        for (i in tab.indices) {
-            if (tab[i] in arrayOf(Action.FOLDS.action, Action.CALLS.action,
+        for (indice in tab.indices) {
+            if (tab[indice] in arrayOf(Action.FOLDS.action, Action.CALLS.action,
                     Action.RAISES.action, Action.CHECKS.action,
                     Action.COLLECTED.action, Action.BETS.action,
                     Action.SHOWS.action, "has")) {
                 playerName = ""
 
-                action = tab[i]
+                action = tab[indice]
 
-                if (tab[i] in arrayOf(Action.CALLS.action, Action.RAISES.action, Action.COLLECTED.action, Action.BETS.action)) {
+                if (tab[indice] in arrayOf(Action.CALLS.action, Action.RAISES.action, Action.COLLECTED.action, Action.BETS.action)) {
 
-                    amount = tab[i + 1]
+                    amount = tab[indice + 1]
                     amount = amount.replace(money.symbol, EMPTY)
                 }
 
-                for (j in 0..i - 1) {
-                    if (j == 0) {
+                for (subIndice in 0..indice - 1) {
+                    if (subIndice == 0) {
                         between = ""
                     } else {
                         between = SPACE
                     }
-                    playerName = playerName + between + tab[j]
+                    playerName = playerName + between + tab[subIndice]
 
                 }
-                if (Action.SHOWS.action == tab[i]) {
+                if (Action.SHOWS.action == tab[indice]) {
                     hand = readCards(line)
                 }
 
@@ -526,7 +525,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         var line = currentLine
         if (line.startsWith(phase)) {
 
-            var player: Player?
+
             while (iterator.hasNext()) {
                 // Total pot 180 | No rake
                 if (line.startsWith("Total pot ")) {
@@ -547,7 +546,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                 }
 
                 if (line.startsWith(SEAT)) {
-                    player = parsePlayerSummary(line)
+                    var player = parsePlayerSummary(line)
                     if (player.cards != null) {
                         //  hand.getMapPlayerCards().put(player!!.name, player!!.cards)
                     }
@@ -585,10 +584,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
             currentLine = getNextUseFulLine(lineIterator)
             currentLine = parseSeatLine(currentLine, lineIterator, SEAT, arrayOf(HOLE_CARDS), hand)
 
-            // Renommer cette methode
             currentLine = parseDealer(currentLine, lineIterator, HOLE_CARDS, arrayOf(FLOP, SUMMARY), hand)
 
-            // Lecture des actions du coup
             currentLine = readPreflop(currentLine, lineIterator, hand)
 
             currentLine = readFlop(currentLine, lineIterator, hand)
