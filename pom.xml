@@ -3,8 +3,6 @@
     <modelVersion>4.0.0</modelVersion>
     <url>..</url>
 
-
-      
     <groupId>org.ablx.cardroom</groupId>
     <artifactId>cardroom-pokerstars</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -15,6 +13,7 @@
     <properties>
         <kotlin.version>1.1.51</kotlin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.jar.version>3.0.2</maven.jar.version>
     </properties>
 
     <dependencies>
@@ -62,7 +61,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>2.6</version>
+                <version>${maven.jar.version}</version>
                 <configuration>
                     <archive>
                         <manifest>
