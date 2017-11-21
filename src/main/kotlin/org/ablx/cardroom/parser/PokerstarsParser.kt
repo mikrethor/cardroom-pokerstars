@@ -61,13 +61,11 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         return map
     }
 
-    override fun getGameTypeFromFilename(fileName: String): GameType {
-        if (fileName.contains(" $DASH ")) {
-            return GameType.CASH
-        } else {
-            return GameType.TOURNAMENT
-        }
-    }
+    override fun getGameTypeFromFilename(fileName: String): GameType =
+            when(fileName.contains(" $DASH ")) {
+                true -> GameType.CASH
+                false -> GameType.TOURNAMENT
+            }
 
     override fun isHandFile(filePath: String): Boolean {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
@@ -99,9 +97,8 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         return mapHands
     }
 
-    override fun parseAntesAndBlinds(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand): String {
-        return ""
-    }
+    override fun parseAntesAndBlinds(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand) = ""
+
 
     override fun parseBigBlind(line: String): Double {
         val startPosition = line.indexOf(SLASH) + 1
@@ -119,13 +116,12 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     override fun parseBuyIn(line: String): Double {
         val tab = line.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         val buyIn = tab[5]
-        val startPosition: Int
         val endPosition = buyIn.indexOf(PLUS)
-        if (buyIn.contains(money.symbol)) {
-            startPosition = buyIn.indexOf(money.symbol) + 1
-        } else {
-            startPosition = 0
-        }
+        val startPosition =
+                when (buyIn.contains(money.symbol)) {
+                    true -> buyIn.indexOf(money.symbol) + 1
+                    false -> 0
+                }
 
         if (FREEROLL == buyIn) {
             return 0.0
@@ -187,14 +183,13 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     override fun parseFee(line: String): Double {
         val tab = line.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         val buyIn = tab[5]
-        val startPosition: Int
         val endPosition = buyIn.indexOf(PLUS)
 
-        if (buyIn.contains(money.symbol)) {
-            startPosition = buyIn.indexOf(money.symbol) + 1
-        } else {
-            startPosition = 0
-        }
+        val startPosition=
+                when (buyIn.contains(money.symbol)) {
+                    true -> buyIn.indexOf(money.symbol) + 1
+                    false -> 0
+                }
         if (FREEROLL == buyIn) {
             return 0.0
         }
@@ -207,10 +202,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     }
 
     override fun parseGameIdCardroom(fileName: String): String {
-
-
         val matcher = PATTERN_FILE.matcher(fileName)
-
         var temp: String = fileName
 
         if (matcher.find()) {
@@ -246,20 +238,17 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     override fun parseLevel(line: String): Int {
         val tab = line.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         // Case heads-up with rebuy
-        if ("Round" == tab[12]) {
-            return RomanNumeralUtils.toInt(tab[15])
-        } else {
-            return RomanNumeralUtils.toInt(tab[12])
+        when("Round" == tab[12]) {
+            true -> return RomanNumeralUtils.toInt(tab[15])
+            false -> return RomanNumeralUtils.toInt(tab[12])
         }
-
-
     }
 
     override fun parseNewHandLine(line: String, phase: String, nextPhases: Array<String>, hand: Hand): String {
-        hand.actions = ArrayList<HandAction>()
-        hand.players = HashMap<Int, Player>()
-        hand.playersSeatByName = HashMap<String, Int>()
-        hand.preflopActions = ArrayList<HandAction>()
+        hand.actions = ArrayList()
+        hand.players = HashMap()
+        hand.playersSeatByName = HashMap()
+        hand.preflopActions = ArrayList()
         if (line.startsWith(phase)) {
 
             val tab = line.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
@@ -483,7 +472,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
                             hand.river = readCards(currentLine)!![0]
                         }
                         SHOW_DOWN -> round = Round.SHOWDOWN
-                        else -> round = null
+                        else -> error("error parsing phase $phase")
                     }
                     val action = this.readAction(curLine, hand.playersByName)
 
@@ -507,9 +496,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         return String(encoded, Charsets.UTF_8)
     }
 
-    override fun readPreflop(currentLine: String, iterator: Iterator<String>, hand: Hand): String {
-        return currentLine
-    }
+    override fun readPreflop(currentLine: String, iterator: Iterator<String>, hand: Hand)= currentLine
 
     override fun readRiver(currentLine: String, iterator: Iterator<String>, hand: Hand): String {
         hand.riverActions = ArrayList<HandAction>()
@@ -562,7 +549,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     }
 
     override fun readTurn(currentLine: String, iterator: Iterator<String>, hand: Hand): String {
-        hand.turnActions = ArrayList<HandAction>()
+        hand.turnActions = ArrayList()
         return readActionsByPhase(currentLine, iterator, hand, TURN, arrayOf(RIVER, SUMMARY), hand.turnActions)
     }
 
@@ -571,7 +558,7 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         var currentLine: String
 
         val lineIterator = text.lines().asIterable().iterator()
-        var hand: Hand = Hand("")
+        var hand = Hand("")
 
         while (lineIterator.hasNext()) {
             currentLine = getNextUseFulLine(lineIterator)

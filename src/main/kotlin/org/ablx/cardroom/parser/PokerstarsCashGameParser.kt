@@ -11,13 +11,9 @@ class PokerstarsCashGameParser(override val cardroom: Cardroom, override val fil
         return line.substring(startPosition, endPosition)
     }
 
-    override fun parseBuyIn(line: String): Double {
-        return 0.0
-    }
+    override fun parseBuyIn(line: String) = 0.0
 
-    override fun parseFee(line: String): Double {
-        return 0.0
-    }
+    override fun parseFee(line: String)= 0.0
 
     override fun parseSmallBlind(line: String): Double {
         val startPosition = line.indexOf(money.symbol) + 1
