@@ -135,14 +135,14 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
         return buyIn.toDouble()
     }
 
-    override fun parseCurrency(line: String): Currency {
-        try {
-            return Arrays.stream(Currency.values()).filter { currency -> line.indexOf(currency.symbol) > 0 }.findFirst()
-                    .get()
-        } catch (e: NoSuchElementException) {
-            return Currency.PLAY_MONEY
-        }
-    }
+    override fun parseCurrency(line: String): Currency =
+            try {
+                Arrays.stream(Currency.values()).filter { currency -> line.indexOf(currency.symbol) > 0 }.findFirst()
+                        .get()
+            } catch (e: NoSuchElementException) {
+                Currency.PLAY_MONEY
+            }
+
 
     override fun parseDealer(currentLine: String, iterator: Iterator<String>, phase: String, nextPhases: Array<String>, hand: Hand): String {
         var nextLine = currentLine
