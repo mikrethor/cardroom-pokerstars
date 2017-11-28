@@ -238,9 +238,9 @@ open class PokerstarsParser(override val cardroom: Cardroom, override val filePa
     override fun parseLevel(line: String): Int {
         val tab = line.split(SPACE.toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         // Case heads-up with rebuy
-        when("Round" == tab[12]) {
-            true -> return RomanNumeralUtils.toInt(tab[15])
-            false -> return RomanNumeralUtils.toInt(tab[12])
+        return when("Round" == tab[12]) {
+            true ->  RomanNumeralUtils.toInt(tab[15])
+            false -> RomanNumeralUtils.toInt(tab[12])
         }
     }
 
